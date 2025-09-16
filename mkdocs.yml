@@ -1,0 +1,10 @@
+site_name: GRC Alignment Doc
+site_description: 'GRC Alignment Doc'
+site_author: 'tankerkiller125'
+docs_dir: .
+repo_name: 'tankerkiller125/graphgrc'
+repo_url: 'https://github.com/tankerkiller125/graphgrc'
+nav:
+  - Home: sfc/index.md
+theme:
+  name: 'material'
