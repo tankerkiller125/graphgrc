@@ -8,9 +8,10 @@ Mechanisms exist to develop applications based on secure coding principles.
 - [A.8.28](../iso27002/a-8.md#a828)
 - [A.8.30](../iso27002/a-8.md#a830)
   
-### NIST 800-53
-- [SA-15](../nist80053/sa-15.md)
-- [SA-1](../nist80053/sa-1.md)
+### ISO 27701
+- [6.11.2.1](../iso27701/61121.md)
+- [6.11.2.5](../iso27701/61125.md)
+- [6.11.2](../iso27701/6112.md)
   
 ### SOC 2
 - [PI1.1](../soc2/pi11.md)

@@ -2,10 +2,7 @@
 Mechanisms exist to establish, maintain and disseminate cybersecurity & data protection policies, standards and procedures.
 ## Mapped framework controls
 ### GDPR
-- [Art 32.1](../gdpr/art32.md#Article-321)
-- [Art 32.2](../gdpr/art32.md#Article-322)
-- [Art 32.3](../gdpr/art32.md#Article-323)
-- [Art 32.4](../gdpr/art32.md#Article-324)
+- [24.2](../gdpr/24.md#242)
   
 ### ISO 27001
 - [5.1.a](../iso27001/5.md#51a)
@@ -37,8 +34,10 @@ Mechanisms exist to establish, maintain and disseminate cybersecurity & data pro
 - [A.5.1](../iso27002/a-5.md#a51)
 - [A.5.37](../iso27002/a-5.md#a537)
   
-### SOC 2
-- [CC5.3](../soc2/cc53.md)
+### ISO 27701
+- [6.2.1.1](../iso27701/6211.md)
+- [6.2.1](../iso27701/621.md)
+- [6.2](../iso27701/62.md)
   
 ## Control questions
 Does the organization establish, maintain and disseminate cybersecurity & data protection policies, standards and procedures?

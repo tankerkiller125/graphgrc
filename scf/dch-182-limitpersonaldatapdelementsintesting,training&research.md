@@ -11,6 +11,9 @@ Mechanisms exist to minimize the use of Personal Data (PD) for research, testing
 - [Art 35.9](../gdpr/art35.md#Article-359)
 - [Art 5.1](../gdpr/art5.md#Article-51)
   
+### ISO 27701
+- [7.4.4](../iso27701/744.md)
+  
 ## Control questions
 Does the organization minimize the use of Personal Data (PD) for research, testing, or training, in accordance with the Data Protection Impact Assessment (DPIA)?
   

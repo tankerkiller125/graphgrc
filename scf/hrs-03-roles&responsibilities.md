@@ -1,6 +1,9 @@
 # SCF - HRS-03 - Roles & Responsibilities
 Mechanisms exist to define cybersecurity responsibilities for all personnel. 
 ## Mapped framework controls
+### HIPAA
+- [164.308(a)(2)](../hipaa/164308a2.md)
+  
 ### ISO 27001
 - [7.3.b](../iso27001/7.md#73b)
 - [7.3](../iso27001/7.md#73)
@@ -8,8 +11,11 @@ Mechanisms exist to define cybersecurity responsibilities for all personnel.
 ### ISO 27002
 - [A.5.2](../iso27002/a-5.md#a52)
   
-### NIST 800-53
-- [PS-9](../nist80053/ps-9.md)
+### ISO 27701
+- [6.3.1.1](../iso27701/6311.md)
+- [6.3.1](../iso27701/631.md)
+- [6.3](../iso27701/63.md)
+- [6.4.2](../iso27701/642.md)
   
 ### SOC 2
 - [CC1.2](../soc2/cc12.md)

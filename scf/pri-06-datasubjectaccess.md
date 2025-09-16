@@ -13,6 +13,23 @@ Mechanisms exist to provide data subjects the ability to access their Personal D
 - [Art 16](../gdpr/art16.md)
 - [Art 26.3](../gdpr/art26.md#Article-263)
   
+### HIPAA
+- [164.522(a)(1)](../hipaa/164522a1.md)
+- [164.522(a)(2)](../hipaa/164522a2.md)
+- [164.522(a)(3)](../hipaa/164522a3.md)
+- [164.522(a)](../hipaa/164522a.md)
+- [164.522](../hipaa/164522.md)
+- [164.524(a)](../hipaa/164524a.md)
+- [164.524(b)](../hipaa/164524b.md)
+- [164.524(c)](../hipaa/164524c.md)
+- [164.524(d)](../hipaa/164524d.md)
+- [164.524(e)](../hipaa/164524e.md)
+- [164.524](../hipaa/164524.md)
+  
+### ISO 27701
+- [7.3.6](../iso27701/736.md)
+- [8.2.5](../iso27701/825.md)
+  
 ### SOC 2
 - [P5.0](../soc2/p50.md)
 - [P5.1](../soc2/p51.md)

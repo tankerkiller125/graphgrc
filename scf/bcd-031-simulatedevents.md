@@ -1,6 +1,9 @@
 # SCF - BCD-03.1 - Simulated Events
 Mechanisms exist to incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations.
 ## Mapped framework controls
+### HIPAA
+- [164.308(a)(7)(ii)(D)](../hipaa/164308a7iid.md)
+  
 ### SOC 2
 - [A1.3](../soc2/a13.md)
   

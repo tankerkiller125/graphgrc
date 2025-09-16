@@ -64,9 +64,7 @@ var SupportedFrameworks = map[Framework]ControlHeader{
 	"GDPR":      "EMEA EU GDPR",
 	"ISO 27001": "ISO 27001 v2022",
 	"ISO 27002": "ISO 27002 v2022",
-	// "ISO 27701":   "ISO 27701  v2019",
-	"NIST 800-53": "NIST 800-53B rev5 (moderate)",
-	// "HIPAA":       "US HIPAA",
+	"ISO 27701": "ISO 27701  v2019",
 }
 
 var SCFControlFamilyMapping = map[string]string{
@@ -130,7 +128,7 @@ func ReturnSCFControls(url string, getFile bool) (SCFControls, error) {
 			log.Println(err)
 		}
 	}()
-	rows, err := f.GetRows("SCF 2023.4")
+	rows, err := f.GetRows("SCF 2025.2.2")
 	if err != nil {
 		return nil, err
 	}
@@ -228,18 +226,18 @@ func GenerateSCFMarkdown(scfControl Control, scfControlID SCFControlID, controlM
 	doc.H2("Control questions").
 		PlainText(string(scfControl[SCFColumnMapping[ControlQuestions]])).
 		LF()
-		// H2("Control maturity").
-		// Table(md.TableSet{
-		// 	Header: []string{"Maturity level", "Description"},
-		// 	Rows: [][]string{
-		// 		{"Not performed", fixControlQuestions(string(scfControl[SCFColumnMapping[NotPerformed]]))},
-		// 		{"Performed internally", fixControlQuestions(string(scfControl[SCFColumnMapping[PerformedInternally]]))},
-		// 		{"Planned and tracked", fixControlQuestions(string(scfControl[SCFColumnMapping[PlannedAndTracked]]))},
-		// 		{"Well defined", fixControlQuestions(string(scfControl[SCFColumnMapping[WellDefined]]))},
-		// 		{"Quantitatively controllled", fixControlQuestions(string(scfControl[SCFColumnMapping[QuantitativelyControlled]]))},
-		// 		{"Continuously improving", fixControlQuestions(string(scfControl[SCFColumnMapping[ContinuouslyImproving]]))},
-		// 	},
-		// })
+	// H2("Control maturity").
+	// Table(md.TableSet{
+	// 	Header: []string{"Maturity level", "Description"},
+	// 	Rows: [][]string{
+	// 		{"Not performed", fixControlQuestions(string(scfControl[SCFColumnMapping[NotPerformed]]))},
+	// 		{"Performed internally", fixControlQuestions(string(scfControl[SCFColumnMapping[PerformedInternally]]))},
+	// 		{"Planned and tracked", fixControlQuestions(string(scfControl[SCFColumnMapping[PlannedAndTracked]]))},
+	// 		{"Well defined", fixControlQuestions(string(scfControl[SCFColumnMapping[WellDefined]]))},
+	// 		{"Quantitatively controllled", fixControlQuestions(string(scfControl[SCFColumnMapping[QuantitativelyControlled]]))},
+	// 		{"Continuously improving", fixControlQuestions(string(scfControl[SCFColumnMapping[ContinuouslyImproving]]))},
+	// 	},
+	// })
 	doc.Build()
 	return nil
 }

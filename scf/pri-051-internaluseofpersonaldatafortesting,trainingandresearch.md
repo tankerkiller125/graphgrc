@@ -12,6 +12,9 @@ Mechanisms exist to address the use of Personal Data (PD) for internal testing, 
 ### ISO 27002
 - [A.5.33](../iso27002/a-5.md#a533)
   
+### ISO 27701
+- [7.4.2](../iso27701/742.md)
+  
 ### SOC 2
 - [P4.1](../soc2/p41.md)
   

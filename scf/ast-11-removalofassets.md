@@ -4,6 +4,9 @@ Mechanisms exist to authorize, control and track technology assets entering and 
 ### ISO 27002
 - [A.7.10](../iso27002/a-7.md#a710)
   
+### ISO 27701
+- [6.8.2.5](../iso27701/6825.md)
+  
 ## Control questions
 Does the organization authorize, control and track technology assets entering and exiting organizational facilities? 
   

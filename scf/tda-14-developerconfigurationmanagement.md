@@ -5,8 +5,8 @@ Mechanisms exist to require system developers and integrators to perform configu
 - [A.8.30](../iso27002/a-8.md#a830)
 - [A.8.32](../iso27002/a-8.md#a832)
   
-### NIST 800-53
-- [SA-10](../nist80053/sa-10.md)
+### ISO 27701
+- [6.11.2.4](../iso27701/61124.md)
   
 ## Control questions
 Does the organization require system developers and integrators to perform configuration management during system design, development, implementation and operation?

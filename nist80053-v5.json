@@ -98106,12 +98106,7 @@
        "select": {
         "how-many": "",
         "choice": null
-       },
-       "constraints": [
-        {
-         "description": "administrator or defined security personnel near-realtime"
-        }
-       ]
+       }
       },
       {
        "id": "si-03_odp.06",
@@ -98124,7 +98119,12 @@
        "select": {
         "how-many": "",
         "choice": null
-       }
+       },
+       "constraints": [
+        {
+         "description": "administrator or defined security personnel near-realtime"
+        }
+       ]
       }
      ],
      "props": [

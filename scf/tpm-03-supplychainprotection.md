@@ -17,9 +17,8 @@ Mechanisms exist to evaluate security risks associated with the services and pro
 - [A.5.22](../iso27002/a-5.md#a522)
 - [A.8.30](../iso27002/a-8.md#a830)
   
-### NIST 800-53
-- [SR-2(1)](../nist80053/sr-2-1.md)
-- [SR-2](../nist80053/sr-2.md)
+### ISO 27701
+- [6.12.1.3](../iso27701/61213.md)
   
 ### SOC 2
 - [CC9.1](../soc2/cc91.md)

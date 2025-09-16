@@ -12,11 +12,9 @@ Mechanisms exist to require all employees and contractors to apply cybersecurity
 - [A.5.4](../iso27002/a-5.md#a54)
 - [A.6.2](../iso27002/a-6.md#a62)
   
-### NIST 800-53
-- [PL-4](../nist80053/pl-4.md)
-  
-### SOC 2
-- [CC1.1](../soc2/cc11.md)
+### ISO 27701
+- [6.4.1.2](../iso27701/6412.md)
+- [6.4.2.1](../iso27701/6421.md)
   
 ## Control questions
 Does the organization require all employees and contractors to apply cybersecurity & data privacy principles in their daily work?

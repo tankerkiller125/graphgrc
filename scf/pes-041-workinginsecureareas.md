@@ -5,8 +5,11 @@ Physical security mechanisms exist to allow only authorized personnel access to 
 - [A.5.15](../iso27002/a-5.md#a515)
 - [A.7.2](../iso27002/a-7.md#a72)
 - [A.7.3](../iso27002/a-7.md#a73)
-- [A.7.5](../iso27002/a-7.md#a75)
 - [A.7.6](../iso27002/a-7.md#a76)
+  
+### ISO 27701
+- [6.8.1.2](../iso27701/6812.md)
+- [6.8.1.5](../iso27701/6815.md)
   
 ## Control questions
 Does the organization allow only authorized personnel access to secure areas? 

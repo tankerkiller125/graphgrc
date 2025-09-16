@@ -8,9 +8,9 @@ import (
 
 func main() {
 	// todo initialize flags
-	latestScfLink := "https://github.com/securecontrolsframework/securecontrolsframework/raw/main/Secure%20Controls%20Framework%20(SCF)%20-%202023.4.xlsx"
-	getFile := false
-	scfControls, err := internal.ReturnSCFControls(latestScfLink, getFile)
+	latestScfLink := "https://github.com/securecontrolsframework/securecontrolsframework/raw/refs/heads/main/Secure%20Controls%20Framework%20(SCF)%20-%202025.2.2.xlsx"
+	//getFile := false
+	scfControls, err := internal.ReturnSCFControls(latestScfLink, true)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -21,7 +21,7 @@ func main() {
 	internal.GenerateSCFIndex(scfControlMappings, scfControls)
 
 	soc2Link := "https://raw.githubusercontent.com/prowler-cloud/prowler/main/prowler/compliance/aws/soc2_aws.json"
-	soc2Framework, err := internal.GetSOC2Controls(soc2Link, getFile)
+	soc2Framework, err := internal.GetSOC2Controls(soc2Link, false)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -53,7 +53,7 @@ func main() {
 	iso27002 := internal.Framework("ISO 27002")
 
 	iso27001Link := "https://raw.githubusercontent.com/JupiterOne/security-policy-templates/main/templates/standards/iso-iec-27001-2022.json"
-	iso27001Framework, err := internal.GetISOControls(iso27001, iso27001Link, getFile)
+	iso27001Framework, err := internal.GetISOControls(iso27001, iso27001Link, true)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -66,7 +66,7 @@ func main() {
 	internal.GenerateISOIndex(iso27001, iso27001Framework)
 
 	iso27002Link := "https://raw.githubusercontent.com/JupiterOne/security-policy-templates/main/templates/standards/iso-27002-2022.json"
-	iso27002Framework, err := internal.GetISOControls(iso27002, iso27002Link, getFile)
+	iso27002Framework, err := internal.GetISOControls(iso27002, iso27002Link, true)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -79,7 +79,7 @@ func main() {
 	internal.GenerateISOIndex(iso27002, iso27002Framework)
 
 	nist80053Link := "https://raw.githubusercontent.com/GSA/fedramp-automation/master/dist/content/rev5/baselines/json/FedRAMP_rev5_MODERATE-baseline-resolved-profile_catalog.json"
-	nist80053Framework, err := internal.GetNIST80053Controls(nist80053Link, getFile)
+	nist80053Framework, err := internal.GetNIST80053Controls(nist80053Link, true)
 	if err != nil {
 		log.Fatal(err)
 	}

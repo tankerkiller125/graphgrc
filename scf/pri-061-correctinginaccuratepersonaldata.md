@@ -10,6 +10,18 @@ Mechanisms exist to establish and implement a process for:
 - [Art 18.1](../gdpr/art18.md#Article-181)
 - [Art 26.3](../gdpr/art26.md#Article-263)
   
+### HIPAA
+- [164.526(a)](../hipaa/164526a.md)
+- [164.526(b)](../hipaa/164526b.md)
+- [164.526(c)](../hipaa/164526c.md)
+- [164.526(d)](../hipaa/164526d.md)
+- [164.526(e)](../hipaa/164526e.md)
+- [164.526(f)](../hipaa/164526f.md)
+- [164.526](../hipaa/164526.md)
+  
+### ISO 27701
+- [7.3.6](../iso27701/736.md)
+  
 ### SOC 2
 - [P5.1](../soc2/p51.md)
 - [P5.2](../soc2/p52.md)

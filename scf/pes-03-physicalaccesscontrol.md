@@ -7,11 +7,10 @@ Physical access control mechanisms exist to enforce physical access authorizatio
 - [A.7.1](../iso27002/a-7.md#a71)
 - [A.7.4](../iso27002/a-7.md#a74)
   
-### NIST 800-53
-- [PE-3](../nist80053/pe-3.md)
-  
-### SOC 2
-- [CC6.4](../soc2/cc64.md)
+### ISO 27701
+- [6.6.1.1](../iso27701/6611.md)
+- [6.6.1](../iso27701/661.md)
+- [6.6](../iso27701/66.md)
   
 ## Control questions
 Does the organization enforce physical access authorizations for all physical access points (including designated entry/exit points) to facilities (excluding those areas within the facility officially designated as publicly accessible)?

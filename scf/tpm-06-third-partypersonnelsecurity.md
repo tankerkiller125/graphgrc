@@ -6,9 +6,6 @@ Mechanisms exist to control personnel security requirements including security r
 - [A.5.2](../iso27002/a-5.md#a52)
 - [A.8.30](../iso27002/a-8.md#a830)
   
-### SOC 2
-- [CC9.1](../soc2/cc91.md)
-  
 ## Control questions
 Does the organization control personnel security requirements including security roles and responsibilities for third-party providers?
   

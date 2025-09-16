@@ -5,6 +5,9 @@ Mechanisms exist to identify custodians throughout the transport of digital or n
 - [A.5.10](../iso27002/a-5.md#a510)
 - [A.5.14](../iso27002/a-5.md#a514)
   
+### ISO 27701
+- [6.5.2.3](../iso27701/6523.md)
+  
 ## Control questions
 Does the organization identify custodians throughout the transport of digital or non-digital media? 
   

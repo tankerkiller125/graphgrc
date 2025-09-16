@@ -1,20 +1,12 @@
 # SCF - PRI-06.4 - User Feedback Management
-Mechanisms exist to implement a process for receiving and responding to complaints, concerns or questions from data subjects about the organizational data privacy practices.
+Mechanisms exist to maintain a process to efficiently and effectively respond to complaints, concerns or questions from authenticated data subjects about how the organization collects, receives, processes, stores, transmits, shares, updates and/or disposes of their Personal Data (PD).
 ## Mapped framework controls
 ### GDPR
-- [Art 18.1](../gdpr/art18.md#Article-181)
-- [Art 18.2](../gdpr/art18.md#Article-182)
-- [Art 18.3](../gdpr/art18.md#Article-183)
-- [Art 19](../gdpr/art19.md)
-- [Art 21.1](../gdpr/art21.md#Article-211)
-- [Art 21.6](../gdpr/art21.md#Article-216)
-- [Art 22](../gdpr/art22.md)
-- [Art 26.3](../gdpr/art26.md#Article-263)
+- [12.4](../gdpr/12.md#124)
   
-### SOC 2
-- [P5.2](../soc2/p52.md)
-- [P8.1](../soc2/p81.md)
+### ISO 27701
+- [7.3.9](../iso27701/739.md)
   
 ## Control questions
-Does the organization implement a process for receiving and responding to complaints, concerns or questions from data subjects about the organizational data privacy practices?
+Does the organization maintain a process to efficiently and effectively respond to complaints, concerns or questions from authenticated data subjects about how it collects, receives, processes, stores, transmits, shares, updates and/or disposes of their Personal Data (PD)?
   

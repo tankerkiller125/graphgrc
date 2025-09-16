@@ -9,10 +9,8 @@ Mechanisms exist to identify and document risks, both internal and external.
 ### ISO 27002
 - [A.5.8](../iso27002/a-5.md#a58)
   
-### SOC 2
-- [A1.2](../soc2/a12.md)
-- [CC3.2](../soc2/cc32.md)
-- [CC7.2](../soc2/cc72.md)
+### ISO 27701
+- [5.4.1.2](../iso27701/5412.md)
   
 ## Control questions
 Does the organization identify and document risks, both internal and external? 

@@ -4,6 +4,9 @@ Mechanisms exist to ensure asset ownership responsibilities are assigned, tracke
 ### ISO 27002
 - [A.5.9](../iso27002/a-5.md#a59)
   
+### ISO 27701
+- [6.5.1.2](../iso27701/6512.md)
+  
 ## Control questions
 Does the organization ensure asset ownership responsibilities are assigned, tracked and managed at a team, individual, or responsible organization level to establish a common understanding of requirements for asset protection?
   

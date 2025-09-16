@@ -1,5 +1,11 @@
 # SCF - IRO-02 - Incident Handling
-Mechanisms exist to cover the preparation, automated detection or intake of incident reporting, analysis, containment, eradication and recovery.
+Mechanisms exist to cover:
+(1) Preparation;
+(2) Automated event detection or manual incident report intake;
+(3) Analysis;
+(4) Containment;
+(5) Eradication; and
+(6) Recovery.
 ## Mapped framework controls
 ### ISO 27002
 - [A.5.24](../iso27002/a-5.md#a524)
@@ -7,13 +13,15 @@ Mechanisms exist to cover the preparation, automated detection or intake of inci
 - [A.5.26](../iso27002/a-5.md#a526)
 - [A.6.8](../iso27002/a-6.md#a68)
   
-### NIST 800-53
-- [IR-4](../nist80053/ir-4.md)
-  
-### SOC 2
-- [CC7.3](../soc2/cc73.md)
-- [CC7.4](../soc2/cc74.md)
+### ISO 27701
+- [6.13.1.4](../iso27701/61314.md)
   
 ## Control questions
-Does the organization cover the preparation, automated detection or intake of incident reporting, analysis, containment, eradication and recovery?
+Does the organization cover:
+ (1) Preparation;
+ (2) Automated event detection or manual incident report intake;
+ (3) Analysis;
+ (4) Containment;
+ (5) Eradication; and
+ (6) Recovery?
   

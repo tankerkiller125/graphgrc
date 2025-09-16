@@ -6,12 +6,8 @@ Mechanisms exist to ensure changes to systems within the Secure Development Life
 - [A.8.25](../iso27002/a-8.md#a825)
 - [A.8.32](../iso27002/a-8.md#a832)
   
-### NIST 800-53
-- [SA-3](../nist80053/sa-3.md)
-  
-### SOC 2
-- [CC5.2](../soc2/cc52.md)
-- [CC8.1](../soc2/cc81.md)
+### ISO 27701
+- [6.11.2.2](../iso27701/61122.md)
   
 ## Control questions
 Does the organization ensure changes to systems within the Secure Development Life Cycle (SDLC) are controlled through formal change control procedures? 

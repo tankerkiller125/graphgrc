@@ -1,8 +1,8 @@
 # SCF - BCD-09.2 - Accessibility
 Mechanisms exist to identify and mitigate potential accessibility problems to the alternate processing site and possible mitigation actions, in the event of an area-wide disruption or disaster.
 ## Mapped framework controls
-### NIST 800-53
-- [CP-7(2)](../nist80053/cp-7-2.md)
+### HIPAA
+- [164.310(a)(2)(i)](../hipaa/164310a2i.md)
   
 ### SOC 2
 - [A1.2](../soc2/a12.md)

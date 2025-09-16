@@ -1,9 +1,8 @@
 # SCF - RSK-01 - Risk Management Program
-Mechanisms exist to facilitate the implementation of risk management controls.
+Mechanisms exist to facilitate the implementation of strategic, operational and tactical risk management controls.
 ## Mapped framework controls
 ### GDPR
-- [Art 32.1](../gdpr/art32.md#Article-321)
-- [Art 32.2](../gdpr/art32.md#Article-322)
+- [32.2](../gdpr/32.md#322)
   
 ### ISO 27001
 - [6.1.1.a](../iso27001/6.md#611a)
@@ -34,15 +33,9 @@ Mechanisms exist to facilitate the implementation of risk management controls.
 ### ISO 27002
 - [A.7.5](../iso27002/a-7.md#a75)
   
-### NIST 800-53
-- [RA-1](../nist80053/ra-1.md)
-  
-### SOC 2
-- [CC1.3](../soc2/cc13.md)
-- [CC3.1](../soc2/cc31.md)
-- [CC4.1](../soc2/cc41.md)
-- [CC5.1](../soc2/cc51.md)
+### ISO 27701
+- [6.8.1.4](../iso27701/6814.md)
   
 ## Control questions
-Does the organization facilitate the implementation of risk management controls?
+Does the organization facilitate the implementation of strategic, operational and tactical risk management controls?
   
