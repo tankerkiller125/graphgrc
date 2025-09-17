@@ -159,7 +159,7 @@ func GenerateGDPRMarkdown(gdprArticle GDPRArticle, scfControlMapping SCFControlM
 }
 
 func GenerateGDPRIndex(gdprFramework GDPRFramework) error {
-	f, err := os.Create("gdpr/index.md")
+	f, err := os.Create("docs/gdpr/index.md")
 	if err != nil {
 		return err
 	}
