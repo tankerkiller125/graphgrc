@@ -10,6 +10,12 @@ Mechanisms exist to develop, report and monitor cybersecurity & data privacy pro
 - [9.1.f](../iso27001/9.md#91f)
 - [9.1](../iso27001/9.md#91)
   
+### SOC 2
+- [CC1.2](../soc2/cc12.md)
+- [CC1.5](../soc2/cc15.md)
+- [CC2.2](../soc2/cc22.md)
+- [CC4.1](../soc2/cc41.md)
+  
 ## Control questions
 Does the organization develop, report and monitor cybersecurity & data privacy program measures of performance?
   

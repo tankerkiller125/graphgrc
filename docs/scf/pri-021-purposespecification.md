@@ -1,9 +1,10 @@
 # SCF - PRI-02.1 - Purpose Specification
-Mechanisms exist to ensure the data privacy notice identifies the purpose(s) for which Personal Data (PD) is collected, received, processed, stored, transmitted, shared.
+Mechanisms exist to identify and document the purpose(s) for which Personal Data (PD) is collected, used, maintained and shared in its data privacy notices.
 ## Mapped framework controls
 ### GDPR
-- [13.1(c)](../gdpr/13.md#131%28c%29)
-- [14.1(c)](../gdpr/14.md#141%28c%29)
+- [Art 13.1](../gdpr/art13.md#Article-131)
+- [Art 14.1](../gdpr/art14.md#Article-141)
+- [Art 14.2](../gdpr/art14.md#Article-142)
   
 ### ISO 27002
 - [A.5.34](../iso27002/a-5.md#a534)
@@ -15,5 +16,5 @@ Mechanisms exist to ensure the data privacy notice identifies the purpose(s) for
 - [8.5.1](../iso27701/851.md)
   
 ## Control questions
-Does the organization ensure the data privacy notice identifies the purpose(s) for which Personal Data (PD) is collected, received, processed, stored, transmitted, shared?
+Does the organization identify and document the purpose(s) for which Personal Data (PD) is collected, used, maintained and shared in its data privacy notices?
   

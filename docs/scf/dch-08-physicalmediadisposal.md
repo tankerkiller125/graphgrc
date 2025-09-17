@@ -9,6 +9,9 @@ Mechanisms exist to securely dispose of media when it is no longer required, usi
 - [6.5.3.2](../iso27701/6532.md)
 - [7.4.8](../iso27701/748.md)
   
+### SOC 2
+- [CC6.5](../soc2/cc65.md)
+  
 ## Control questions
 Does the organization securely dispose of media when it is no longer required, using formal procedures? 
   

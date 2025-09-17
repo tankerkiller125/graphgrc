@@ -8,6 +8,10 @@ Mechanisms exist to govern the technical configuration change control processes.
 ### ISO 27701
 - [6.11.2.2](../iso27701/61122.md)
   
+### SOC 2
+- [CC3.4](../soc2/cc34.md)
+- [CC8.1](../soc2/cc81.md)
+  
 ## Control questions
 Does the organization govern the technical configuration change control processes?
   

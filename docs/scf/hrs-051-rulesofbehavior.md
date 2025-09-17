@@ -17,6 +17,9 @@ Mechanisms exist to define acceptable and unacceptable rules of behavior for the
 - [6.4.2.1](../iso27701/6421.md)
 - [6.5.1.3](../iso27701/6513.md)
   
+### SOC 2
+- [CC1.1](../soc2/cc11.md)
+  
 ## Control questions
 Does the organization define acceptable and unacceptable rules of behavior for the use of technologies, including consequences for unacceptable behavior?
   

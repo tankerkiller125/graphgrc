@@ -11,6 +11,9 @@ Mechanisms exist to utilize a formal user registration and de-registration proce
 - [6.6.2](../iso27701/662.md)
 - [6.6](../iso27701/66.md)
   
+### SOC 2
+- [CC6.2](../soc2/cc62.md)
+  
 ## Control questions
 Does the organization utilize a formal user registration and de-registration process that governs the assignment of access rights? 
   

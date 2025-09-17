@@ -2,7 +2,8 @@
 Mechanisms exist to facilitate the implementation of contingency planning controls to help ensure resilient assets and services (e.g., Continuity of Operations Plan (COOP) or Business Continuity & Disaster Recovery (BC/DR) playbooks).
 ## Mapped framework controls
 ### GDPR
-- [32.1(c)](../gdpr/32.md#321%28c%29)
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
   
 ### ISO 27002
 - [A.5.29](../iso27002/a-5.md#a529)
@@ -11,6 +12,10 @@ Mechanisms exist to facilitate the implementation of contingency planning contro
 ### ISO 27701
 - [6.14.1.2](../iso27701/61412.md)
   
+### SOC 2
+- [CC7.5](../soc2/cc75.md)
+- [CC9.1](../soc2/cc91.md)
+  
 ## Control questions
-Does the organization facilitate the implementation of contingency planning controls to help ensure resilient assets and services (e.g., Continuity of Operations Plan (COOP) or Business Continuity & Disaster Recovery (BC/DR) playbooks)?
+Does the organization facilitate the implementation of contingency planning controls to help ensure resilient assets and services (e?g?, Continuity of Operations Plan (COOP) or Business Continuity & Disaster Recovery (BC/DR) playbooks)?
   

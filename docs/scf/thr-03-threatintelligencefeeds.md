@@ -1,5 +1,5 @@
 # SCF - THR-03 - Threat Intelligence Feeds
-Mechanisms exist to maintain situational awareness of vulnerabilities and evolving threats by leveraging the knowledge of attacker tactics, techniques and procedures to facilitate the implementation of preventative and compensating controls.
+Mechanisms exist to maintain situational awareness of evolving threats by leveraging the knowledge of attacker tactics, techniques and procedures to facilitate the implementation of preventative and compensating controls.
 ## Mapped framework controls
 ### ISO 27001
 - [7.4.a](../iso27001/7.md#74a)
@@ -12,5 +12,5 @@ Mechanisms exist to maintain situational awareness of vulnerabilities and evolvi
 - [A.5.7](../iso27002/a-5.md#a57)
   
 ## Control questions
-Does the organization maintain situational awareness of vulnerabilities and evolving threats by leveraging the knowledge of attacker tactics, techniques and procedures to facilitate the implementation of preventative and compensating controls?
+Does the organization maintain situational awareness of evolving threats by leveraging the knowledge of attacker tactics, techniques and procedures to facilitate the implementation of preventative and compensating controls?
   

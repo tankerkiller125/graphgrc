@@ -12,6 +12,9 @@ Physical access control mechanisms exist to enforce physical access authorizatio
 - [6.6.1](../iso27701/661.md)
 - [6.6](../iso27701/66.md)
   
+### SOC 2
+- [CC6.4](../soc2/cc64.md)
+  
 ## Control questions
 Does the organization enforce physical access authorizations for all physical access points (including designated entry/exit points) to facilities (excluding those areas within the facility officially designated as publicly accessible)?
   

@@ -9,5 +9,5 @@ Mechanisms exist to compel users to follow accepted practices in the use of auth
 - [6.6.3](../iso27701/663.md)
   
 ## Control questions
-Does the organization compel users to follow accepted practices in the use of authentication mechanisms (e.g., passwords, passphrases, physical or logical security tokens, smart cards, certificates, etc.)? 
+Does the organization compel users to follow accepted practices in the use of authentication mechanisms (e?g?, passwords, passphrases, physical or logical security tokens, smart cards, certificates, etc?)? 
   

@@ -1,6 +1,12 @@
 # SCF - GOV-03 - Periodic Review & Update of Cybersecurity & Data Protection Program
-Mechanisms exist to review the cybersecurity & data protection program, including policies, standards and procedures, at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness. 
+Mechanisms exist to review the cybersecurity & data privacy program, including policies, standards and procedures, at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness. 
 ## Mapped framework controls
+### GDPR
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
+- [Art 32.3](../gdpr/art32.md#Article-323)
+- [Art 32.4](../gdpr/art32.md#Article-324)
+  
 ### ISO 27001
 - [7.5.2.a](../iso27001/7.md#752a)
 - [7.5.2.b](../iso27001/7.md#752b)
@@ -14,6 +20,10 @@ Mechanisms exist to review the cybersecurity & data protection program, includin
 ### ISO 27701
 - [6.2.1.2](../iso27701/6212.md)
   
+### SOC 2
+- [CC5.3](../soc2/cc53.md)
+- [](../soc2/.md)
+  
 ## Control questions
-Does the organization review the cybersecurity & data protection program, including policies, standards and procedures, at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness?
+Does the organization review the cybersecurity & data privacy program, including policies, standards and procedures, at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness? 
   

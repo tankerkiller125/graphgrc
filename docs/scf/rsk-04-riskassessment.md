@@ -1,6 +1,15 @@
 # SCF - RSK-04 - Risk Assessment
 Mechanisms exist to conduct recurring assessments of risk that includes the likelihood and magnitude of harm, from unauthorized access, use, disclosure, disruption, modification or destruction of the organization's systems and data.
 ## Mapped framework controls
+### GDPR
+- [Art 35.11](../gdpr/art35.md#Article-3511)
+- [Art 35.1](../gdpr/art35.md#Article-351)
+- [Art 35.2](../gdpr/art35.md#Article-352)
+- [Art 35.3](../gdpr/art35.md#Article-353)
+- [Art 35.7](../gdpr/art35.md#Article-357)
+- [Art 35.8](../gdpr/art35.md#Article-358)
+- [Art 35.9](../gdpr/art35.md#Article-359)
+  
 ### ISO 27001
 - [6.1.2.d.1](../iso27001/6.md#612d1)
 - [6.1.2.d.2](../iso27001/6.md#612d2)
@@ -19,6 +28,11 @@ Mechanisms exist to conduct recurring assessments of risk that includes the like
 - [5.4.1.2](../iso27701/5412.md)
 - [6.8.1.2](../iso27701/6812.md)
   
+### SOC 2
+- [A1.2](../soc2/a12.md)
+- [CC3.2](../soc2/cc32.md)
+- [CC7.3](../soc2/cc73.md)
+  
 ## Control questions
-Does the organization conduct recurring assessments of risk that includes the likelihood and magnitude of harm, from unauthorized access, use, disclosure, disruption, modification or destruction of its systems and data?
+Does the organization conduct recurring assessments of risk that includes the likelihood and magnitude of harm, from unauthorized access, use, disclosure, disruption, modification or destruction of the organization's systems and data?
   

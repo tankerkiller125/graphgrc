@@ -7,6 +7,9 @@ Facility security mechanisms exist to utilize automatic voltage controls for cri
 ### ISO 27701
 - [6.8.2.2](../iso27701/6822.md)
   
+### SOC 2
+- [A1.2](../soc2/a12.md)
+  
 ## Control questions
 Does the organization utilize automatic voltage controls for critical system components? 
   

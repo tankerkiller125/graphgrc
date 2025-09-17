@@ -8,6 +8,9 @@ Mechanisms exist to configure firewall and router configurations to deny network
 ### ISO 27701
 - [6.10.2.1](../iso27701/61021.md)
   
+### SOC 2
+- [CC6.6](../soc2/cc66.md)
+  
 ## Control questions
-Does the organization configure firewall and router configurations to deny network traffic by default and allow network traffic by exception (e.g., deny all, permit by exception)? 
+Does the organization configure firewall and router configurations to deny network traffic by default and allow network traffic by exception (e?g?, deny all, permit by exception)? 
   

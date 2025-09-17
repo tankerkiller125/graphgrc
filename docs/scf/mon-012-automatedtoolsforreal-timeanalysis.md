@@ -4,6 +4,9 @@ Mechanisms exist to utilize a Security Incident Event Manager (SIEM), or similar
 ### ISO 27002
 - [A.8.16](../iso27002/a-8.md#a816)
   
+### SOC 2
+- [CC7.2](../soc2/cc72.md)
+  
 ## Control questions
 Does the organization utilize a Security Incident Event Manager (SIEM), or similar automated tool, to support near real-time analysis and incident escalation? 
   

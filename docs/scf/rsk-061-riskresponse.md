@@ -14,6 +14,10 @@ Mechanisms exist to respond to findings from cybersecurity & data privacy assess
 ### ISO 27002
 - [A.5.8](../iso27002/a-5.md#a58)
   
+### SOC 2
+- [CC3.2](../soc2/cc32.md)
+- [CC3.3](../soc2/cc33.md)
+  
 ## Control questions
 Does the organization respond to findings from cybersecurity & data privacy assessments, incidents and audits to ensure proper remediation has been performed?
   

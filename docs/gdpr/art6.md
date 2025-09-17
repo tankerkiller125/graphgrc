@@ -12,6 +12,15 @@ Processing shall be lawful only if and to the extent that at least one of the fo
 (f) processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child.
 Point (f)  of the first subparagraph shall not apply to processing carried out by public authorities in the performance of their tasks.
   
+### Mapped SCF controls
+- [CPL-01 - Statutory, Regulatory & Contractual Compliance](../scf/cpl-01-statutory,regulatory&contractualcompliance.md)
+- [DCH-24 - Information Location](../scf/dch-24-informationlocation.md)
+- [PRI-03 - Choice & Consent](../scf/pri-03-choice&consent.md)
+- [PRI-07 - Information Sharing With Third Parties](../scf/pri-07-informationsharingwiththirdparties.md)
+- [PRI-07.1 - Data Privacy Requirements for Contractors & Service Providers](../scf/pri-071-dataprivacyrequirementsforcontractors&serviceproviders.md)
+- [SEA-15 - Distributed Processing & Storage](../scf/sea-15-distributedprocessing&storage.md)
+- [TPM-04.4 - Third-Party Processing, Storage and Service Locations](../scf/tpm-044-third-partyprocessing,storageandservicelocations.md)
+  
 ## Article 6.2
 Member States may maintain or introduce more specific provisions to adapt the application of the rules of this Regulation with regard to processing for compliance with points (c)  and (e)  of paragraph 1 by determining more precisely specific requirements for the processing and other measures to ensure lawful and fair processing including for other specific processing situations as provided for in Chapter IX.
   
@@ -28,4 +37,9 @@ Where the processing for a purpose other than that for which the personal data h
 (c) the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;
 (d) the possible consequences of the intended further processing for data subjects;
 (e) the existence of appropriate safeguards, which may include encryption or pseudonymisation.
+  
+### Mapped SCF controls
+- [PRI-07 - Information Sharing With Third Parties](../scf/pri-07-informationsharingwiththirdparties.md)
+- [PRI-07.1 - Data Privacy Requirements for Contractors & Service Providers](../scf/pri-071-dataprivacyrequirementsforcontractors&serviceproviders.md)
+- [TPM-04.4 - Third-Party Processing, Storage and Service Locations](../scf/tpm-044-third-partyprocessing,storageandservicelocations.md)
   

@@ -1,9 +1,9 @@
 # SCF - RSK-01.1 - Risk Framing
 Mechanisms exist to identify:
-(1) Assumptions affecting risk assessments, risk response and risk monitoring;
-(2) Constraints affecting risk assessments, risk response and risk monitoring;
-(3) The organizational risk tolerance; and
-(4) Priorities, benefits and trade-offs considered by the organization for managing risk.
+ - Assumptions affecting risk assessments, risk response and risk monitoring;
+ - Constraints affecting risk assessments, risk response and risk monitoring;
+ - The organizational risk tolerance; and
+ - Priorities and trade-offs considered by the organization for managing risk.
 ## Mapped framework controls
 ### ISO 27001
 - [6.1.2.a.1](../iso27001/6.md#612a1)
@@ -25,10 +25,13 @@ Mechanisms exist to identify:
 ### ISO 27002
 - [A.5.8](../iso27002/a-5.md#a58)
   
+### SOC 2
+- [CC3.2](../soc2/cc32.md)
+  
 ## Control questions
 Does the organization identify:
- (1) Assumptions affecting risk assessments, risk response and risk monitoring;
- (2) Constraints affecting risk assessments, risk response and risk monitoring;
- (3) The organizational risk tolerance; and
- (4) Priorities, benefits and trade-offs considered by the organization for managing risk?
+ - Assumptions affecting risk assessments, risk response and risk monitoring;
+ - Constraints affecting risk assessments, risk response and risk monitoring;
+ - The organizational risk tolerance; and
+ - Priorities and trade-offs considered by the organization for managing risk?
   

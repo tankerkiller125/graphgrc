@@ -16,6 +16,9 @@ Mechanisms exist to require all employees and contractors to apply cybersecurity
 - [6.4.1.2](../iso27701/6412.md)
 - [6.4.2.1](../iso27701/6421.md)
   
+### SOC 2
+- [CC1.1](../soc2/cc11.md)
+  
 ## Control questions
 Does the organization require all employees and contractors to apply cybersecurity & data privacy principles in their daily work?
   

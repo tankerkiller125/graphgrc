@@ -7,6 +7,9 @@ Mechanisms exist to communicate with users about their roles and responsibilitie
 - [7.3.c](../iso27001/7.md#73c)
 - [7.3](../iso27001/7.md#73)
   
+### SOC 2
+- [CC1.4](../soc2/cc14.md)
+  
 ## Control questions
 Does the organization communicate with users about their roles and responsibilities to maintain a safe and secure working environment?
   

@@ -2,7 +2,7 @@
 Mechanisms exist to provide a cybersecurity & data protection controls oversight function that reports to the organization's executive leadership.
 ## Mapped framework controls
 ### GDPR
-- [32.1(d)](../gdpr/32.md#321%28d%29)
+- [Art 5.2](../gdpr/art5.md#Article-52)
   
 ### ISO 27001
 - [10.1](../iso27001/10.md#101)
@@ -15,6 +15,11 @@ Mechanisms exist to provide a cybersecurity & data protection controls oversight
 - [A.8.34](../iso27002/a-8.md#a834)
 - [A.8.8](../iso27002/a-8.md#a88)
   
+### SOC 2
+- [CC1.1](../soc2/cc11.md)
+- [CC2.2](../soc2/cc22.md)
+- [CC2.3](../soc2/cc23.md)
+  
 ## Control questions
-Does the organization provide a cybersecurity & data protection controls oversight function that reports to its executive leadership?
+Does the organization provide a cybersecurity & data protection controls oversight function that reports to the organization's executive leadership?
   

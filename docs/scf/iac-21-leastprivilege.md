@@ -10,6 +10,9 @@ Mechanisms exist to utilize the concept of least privilege, allowing only author
 ### ISO 27701
 - [6.6.1.2](../iso27701/6612.md)
   
+### SOC 2
+- [CC6.1](../soc2/cc61.md)
+  
 ## Control questions
 Does the organization utilize the concept of least privilege, allowing only authorized access to processes necessary to accomplish assigned tasks in accordance with organizational business functions? 
   

@@ -7,6 +7,9 @@ Mechanisms exist to sanction personnel failing to comply with established securi
 ### ISO 27701
 - [6.4.2.3](../iso27701/6423.md)
   
+### SOC 2
+- [CC1.5](../soc2/cc15.md)
+  
 ## Control questions
 Does the organization sanction personnel failing to comply with established security policies, standards and procedures? 
   

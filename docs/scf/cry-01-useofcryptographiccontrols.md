@@ -2,7 +2,9 @@
 Mechanisms exist to facilitate the implementation of cryptographic protections controls using known public standards and trusted cryptographic technologies.
 ## Mapped framework controls
 ### GDPR
-- [32.1(a)](../gdpr/32.md#321%28a%29)
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
+- [Art 5.1](../gdpr/art5.md#Article-51)
   
 ### ISO 27002
 - [A.8.24](../iso27002/a-8.md#a824)
@@ -12,6 +14,9 @@ Mechanisms exist to facilitate the implementation of cryptographic protections c
 - [6.7.1.1](../iso27701/6711.md)
 - [6.7.1](../iso27701/671.md)
 - [6.7](../iso27701/67.md)
+  
+### SOC 2
+- [CC6.1](../soc2/cc61.md)
   
 ## Control questions
 Does the organization facilitate the implementation of cryptographic protections controls using known public standards and trusted cryptographic technologies?

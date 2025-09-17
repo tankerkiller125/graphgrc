@@ -7,6 +7,9 @@ Mechanisms exist to sanitize system media with the strength and integrity commen
 ### ISO 27701
 - [7.4.8](../iso27701/748.md)
   
+### SOC 2
+- [CC6.5](../soc2/cc65.md)
+  
 ## Control questions
 Does the organization sanitize system media with the strength and integrity commensurate with the classification or sensitivity of the information prior to disposal, release out of organizational control or release for reuse?
   

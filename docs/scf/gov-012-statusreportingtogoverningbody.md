@@ -1,5 +1,5 @@
 # SCF - GOV-01.2 - Status Reporting To Governing Body
-Mechanisms exist to provide governance oversight reporting and recommendations to those entrusted to make executive decisions about matters considered material to the organization's cybersecurity & data protection program.
+Mechanisms exist to provide governance oversight reporting and recommendations to those entrusted to make executive decisions about matters considered material to the organization’s cybersecurity & data protection program.
 ## Mapped framework controls
 ### ISO 27001
 - [7.4.a](../iso27001/7.md#74a)
@@ -30,5 +30,5 @@ Mechanisms exist to provide governance oversight reporting and recommendations t
 - [9.3](../iso27001/9.md#93)
   
 ## Control questions
-Does the organization provide governance oversight reporting and recommendations to those entrusted to make executive decisions about matters considered material to its cybersecurity & data protection program?
+Does the organization provide governance oversight reporting and recommendations to those entrusted to make executive decisions about matters considered material to the organization’s cybersecurity & data protection program?
   

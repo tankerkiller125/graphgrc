@@ -4,6 +4,9 @@ Mechanisms exist to uniquely identify and centrally Authenticate, Authorize and 
 ### ISO 27002
 - [A.5.15](../iso27002/a-5.md#a515)
   
+### SOC 2
+- [CC6.1](../soc2/cc61.md)
+  
 ## Control questions
 Does the organization uniquely identify and centrally Authenticate, Authorize and Audit (AAA) organizational users and processes acting on behalf of organizational users? 
   

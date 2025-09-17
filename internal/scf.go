@@ -128,7 +128,7 @@ func ReturnSCFControls(url string, getFile bool) (SCFControls, error) {
 			log.Println(err)
 		}
 	}()
-	rows, err := f.GetRows("SCF 2025.2.2")
+	rows, err := f.GetRows("SCF 2023.4")
 	if err != nil {
 		return nil, err
 	}

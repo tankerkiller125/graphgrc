@@ -9,6 +9,9 @@ Mechanisms exist to restrict and control privileged access rights for users and 
 ### ISO 27701
 - [6.6.2.3](../iso27701/6623.md)
   
+### SOC 2
+- [CC6.1](../soc2/cc61.md)
+  
 ## Control questions
 Does the organization restrict and control privileged access rights for users and services?
   

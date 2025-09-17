@@ -1,13 +1,13 @@
 # SCF - DCH-06 - Media Storage
 Mechanisms exist to: 
-(1) Physically control and securely store digital and non-digital media within controlled areas using organization-defined security measures; and
-(2) Protect system media until the media are destroyed or sanitized using approved equipment, techniques and procedures.
+ - Physically control and securely store digital and non-digital media within controlled areas using organization-defined security measures; and
+ - Protect system media until the media are destroyed or sanitized using approved equipment, techniques and procedures.
 ## Mapped framework controls
 ### ISO 27002
 - [A.7.10](../iso27002/a-7.md#a710)
   
 ## Control questions
 Does the organization: 
- (1) Physically control and securely store digital and non-digital media within controlled areas using organization-defined security measures; and
- (2) Protect system media until the media are destroyed or sanitized using approved equipment, techniques and procedures?
+ - Physically control and securely store digital and non-digital media within controlled areas using organization-defined security measures; and
+ - Protect system media until the media are destroyed or sanitized using approved equipment, techniques and procedures?
   

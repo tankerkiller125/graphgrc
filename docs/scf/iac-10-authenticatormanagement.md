@@ -1,7 +1,5 @@
 # SCF - IAC-10 - Authenticator Management
-Mechanisms exist to:
-(1) Securely manage authenticators for users and devices; and
-(2) Ensure the strength of authentication is appropriate to the classification of the data being accessed.
+Mechanisms exist to securely manage authenticators for users and devices.
 ## Mapped framework controls
 ### ISO 27002
 - [A.5.17](../iso27002/a-5.md#a517)
@@ -12,8 +10,9 @@ Mechanisms exist to:
 - [6.6.2.4](../iso27701/6624.md)
 - [6.6.4.3](../iso27701/6643.md)
   
+### SOC 2
+- [CC6.1](../soc2/cc61.md)
+  
 ## Control questions
-Does the organization:
-(1) Securely manage authenticators for users and devices; and
-(2) Ensure the strength of authentication is appropriate to the classification of the data being accessed?
+Does the organization securely manage authenticators for users and devices?
   

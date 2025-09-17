@@ -17,5 +17,5 @@ Mechanisms exist to implement an internal audit function that is capable of prov
 - [A.8.34](../iso27002/a-8.md#a834)
   
 ## Control questions
-Does the organization implement an internal audit function that is capable of providing senior organization management with insights into the appropriateness of its technology and information governance processes?
+Does the organization implement an internal audit function that is capable of providing senior organization management with insights into the appropriateness of the organization's technology and information governance processes?
   

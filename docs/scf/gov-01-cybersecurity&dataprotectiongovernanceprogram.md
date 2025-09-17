@@ -1,6 +1,12 @@
 # SCF - GOV-01 - Cybersecurity & Data Protection Governance Program
 Mechanisms exist to facilitate the implementation of cybersecurity & data protection governance controls.
 ## Mapped framework controls
+### GDPR
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
+- [Art 32.3](../gdpr/art32.md#Article-323)
+- [Art 32.4](../gdpr/art32.md#Article-324)
+  
 ### ISO 27001
 - [10.1](../iso27001/10.md#101)
 - [4.4](../iso27001/4.md#44)
@@ -20,6 +26,7 @@ Mechanisms exist to facilitate the implementation of cybersecurity & data protec
 - [6.1.1.e.1](../iso27001/6.md#611e1)
 - [6.1.1.e.2](../iso27001/6.md#611e2)
 - [6.1.1](../iso27001/6.md#611)
+- [6.1](../iso27001/6.md#61)
 - [8.1](../iso27001/8.md#81)
   
 ### ISO 27002
@@ -57,6 +64,9 @@ Mechanisms exist to facilitate the implementation of cybersecurity & data protec
 - [6.2.1](../iso27701/621.md)
 - [6.2](../iso27701/62.md)
 - [6.5](../iso27701/65.md)
+  
+### SOC 2
+- [CC1.2](../soc2/cc12.md)
   
 ## Control questions
 Does the organization facilitate the implementation of cybersecurity & data protection governance controls?

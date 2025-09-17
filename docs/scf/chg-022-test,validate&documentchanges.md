@@ -8,6 +8,10 @@ Mechanisms exist to appropriately test and document proposed changes in a non-pr
 ### ISO 27701
 - [6.11.2.3](../iso27701/61123.md)
   
+### SOC 2
+- [CC3.4](../soc2/cc34.md)
+- [CC8.1](../soc2/cc81.md)
+  
 ## Control questions
 Does the organization appropriately test and document proposed changes in a non-production environment before changes are implemented in a production environment?
   

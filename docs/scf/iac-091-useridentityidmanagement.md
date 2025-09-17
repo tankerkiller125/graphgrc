@@ -9,6 +9,9 @@ Mechanisms exist to ensure proper user identification management for non-consume
 - [6.6.2](../iso27701/662.md)
 - [6.6](../iso27701/66.md)
   
+### SOC 2
+- [CC6.1](../soc2/cc61.md)
+  
 ## Control questions
 Does the organization ensure proper user identification management for non-consumer users and administrators? 
   

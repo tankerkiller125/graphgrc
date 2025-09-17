@@ -1,10 +1,11 @@
 # SCF - PRI-01 - Data Privacy Program
-Mechanisms exist to facilitate the implementation and operation of data protection controls throughout the data lifecycle to ensure all forms of Personal Data (PD) are processed lawfully, fairly and transparently.
+Mechanisms exist to facilitate the implementation and operation of data privacy controls. 
 ## Mapped framework controls
 ### GDPR
-- [12.2](../gdpr/12.md#122)
-- [5.1(a)](../gdpr/5.md#51%28a%29)
-- [9.1](../gdpr/9.md#91)
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
+- [Art 32.3](../gdpr/art32.md#Article-323)
+- [Art 32.4](../gdpr/art32.md#Article-324)
   
 ### ISO 27002
 - [A.5.1](../iso27002/a-5.md#a51)
@@ -18,6 +19,9 @@ Mechanisms exist to facilitate the implementation and operation of data protecti
 - [8.4](../iso27701/84.md)
 - [8.5.1](../iso27701/851.md)
   
+### SOC 2
+- [P1.0](../soc2/p10.md)
+  
 ## Control questions
-Does the organization facilitate the implementation and operation of data protection controls throughout the data lifecycle to ensure all forms of Personal Data (PD) are processed lawfully, fairly and transparently?
+Does the organization facilitate the implementation and operation of data privacy controls? 
   

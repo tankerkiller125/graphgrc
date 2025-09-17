@@ -11,6 +11,9 @@ Physical access control mechanisms exist to maintain a current list of personnel
 - [6.8.1](../iso27701/681.md)
 - [6.8](../iso27701/68.md)
   
+### SOC 2
+- [CC6.4](../soc2/cc64.md)
+  
 ## Control questions
 Does the organization maintain a current list of personnel with authorized access to organizational facilities (except for those areas within the facility officially designated as publicly accessible)?
   

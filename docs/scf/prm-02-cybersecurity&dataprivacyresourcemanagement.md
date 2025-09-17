@@ -8,6 +8,9 @@ Mechanisms exist to address all capital planning and investment requests, includ
 ### ISO 27002
 - [A.5.4](../iso27002/a-5.md#a54)
   
+### SOC 2
+- [CC1.4](../soc2/cc14.md)
+  
 ## Control questions
 Does the organization address all capital planning and investment requests, including the resources needed to implement the cybersecurity & data privacy programs and document all exceptions to this requirement? 
   

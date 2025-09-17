@@ -4,6 +4,9 @@ Facility security mechanisms exist to supply alternate power, capable of maintai
 ### ISO 27002
 - [A.7.11](../iso27002/a-7.md#a711)
   
+### SOC 2
+- [A1.2](../soc2/a12.md)
+  
 ## Control questions
 Does the organization supply alternate power, capable of maintaining minimally-required operational capability, in the event of an extended loss of the primary power source?
   

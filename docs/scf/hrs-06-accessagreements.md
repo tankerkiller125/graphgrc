@@ -8,6 +8,9 @@ Mechanisms exist to require internal and third-party users to sign appropriate a
 ### ISO 27701
 - [6.10.2.2](../iso27701/61022.md)
   
+### SOC 2
+- [CC1.5](../soc2/cc15.md)
+  
 ## Control questions
 Does the organization require internal and third-party users to sign appropriate access agreements prior to being granted access? 
   

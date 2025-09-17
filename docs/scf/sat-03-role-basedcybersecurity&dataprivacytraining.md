@@ -1,8 +1,8 @@
 # SCF - SAT-03 - Role-Based Cybersecurity & Data Privacy Training
 Mechanisms exist to provide role-based cybersecurity & data privacy-related training: 
-(1) Before authorizing access to the system or performing assigned duties; 
-(2) When required by system changes; and 
-(3) Annually thereafter.
+ - Before authorizing access to the system or performing assigned duties; 
+ - When required by system changes; and 
+ - Annually thereafter.
 ## Mapped framework controls
 ### ISO 27002
 - [A.5.4](../iso27002/a-5.md#a54)
@@ -10,7 +10,7 @@ Mechanisms exist to provide role-based cybersecurity & data privacy-related trai
   
 ## Control questions
 Does the organization provide role-based cybersecurity & data privacy-related training: 
- (1) Before authorizing access to the system or performing assigned duties; 
- (2) When required by system changes; and 
- (3) Annually thereafter?
+ - Before authorizing access to the system or performing assigned duties; 
+ - When required by system changes; and 
+ - Annually thereafter?
   

@@ -13,6 +13,9 @@ Physical security mechanisms exist to locate system components within the facili
 - [6.8.2.3](../iso27701/6823.md)
 - [6.8.2](../iso27701/682.md)
   
+### SOC 2
+- [A1.2](../soc2/a12.md)
+  
 ## Control questions
 Does the organization locate system components within the facility to minimize potential damage from physical and environmental hazards and to minimize the opportunity for unauthorized access? 
   

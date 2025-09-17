@@ -1,5 +1,5 @@
 # SCF - CPL-03.2 - Functional Review Of Cybersecurity & Data Protection Controls
-Mechanisms exist to regularly review technology assets for adherence to the organization's cybersecurity & data protection policies and standards. 
+Mechanisms exist to regularly review technology assets for adherence to the organization’s cybersecurity & data protection policies and standards. 
 ## Mapped framework controls
 ### ISO 27002
 - [A.5.35](../iso27002/a-5.md#a535)
@@ -9,6 +9,9 @@ Mechanisms exist to regularly review technology assets for adherence to the orga
 ### ISO 27701
 - [6.15.2.3](../iso27701/61523.md)
   
+### SOC 2
+- [CC4.1](../soc2/cc41.md)
+  
 ## Control questions
-Does the organization regularly review technology assets for adherence to its cybersecurity & data protection policies and standards? 
+Does the organization regularly review technology assets for adherence to the organization’s cybersecurity & data protection policies and standards? 
   

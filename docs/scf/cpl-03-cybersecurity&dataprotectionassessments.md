@@ -1,6 +1,10 @@
 # SCF - CPL-03 - Cybersecurity & Data Protection Assessments
-Mechanisms exist to regularly review processes and documented procedures to ensure conformity with the organization's cybersecurity & data protection policies, standards and other applicable requirements.
+Mechanisms exist to ensure managers regularly review the processes and documented procedures within their area of responsibility to adhere to appropriate cybersecurity & data protection policies, standards and other applicable requirements.
 ## Mapped framework controls
+### GDPR
+- [Art 32.3](../gdpr/art32.md#Article-323)
+- [Art 5.2](../gdpr/art5.md#Article-52)
+  
 ### ISO 27001
 - [8.1](../iso27001/8.md#81)
 - [9.1.a](../iso27001/9.md#91a)
@@ -19,6 +23,9 @@ Mechanisms exist to regularly review processes and documented procedures to ensu
 ### ISO 27701
 - [6.15.2.2](../iso27701/61522.md)
   
+### SOC 2
+- [CC4.1](../soc2/cc41.md)
+  
 ## Control questions
-Does the organization regularly review processes and documented procedures to ensure conformity with the organization's cybersecurity & data protection policies, standards and other applicable requirements?
+Does the organization ensure managers regularly review the processes and documented procedures within their area of responsibility to adhere to appropriate cybersecurity & data protection policies, standards and other applicable requirements?
   

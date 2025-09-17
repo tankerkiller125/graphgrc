@@ -7,6 +7,9 @@ Mechanisms exist to revoke user access rights following changes in personnel rol
 ### ISO 27701
 - [6.6.2.5](../iso27701/6625.md)
   
+### SOC 2
+- [CC6.2](../soc2/cc62.md)
+  
 ## Control questions
 Does the organization revoke user access rights following changes in personnel roles and duties, if no longer necessary or permitted? 
   

@@ -9,6 +9,9 @@ Mechanisms exist to establish an alternate processing site that provides securit
 - [6.14.1](../iso27701/6141.md)
 - [6.14](../iso27701/614.md)
   
+### SOC 2
+- [A1.2](../soc2/a12.md)
+  
 ## Control questions
 Does the organization establish an alternate processing site that provides security measures equivalent to that of the primary site?
   

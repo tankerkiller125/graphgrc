@@ -1,6 +1,11 @@
 # SCF - SAT-01 - Cybersecurity & Data Privacy-Minded Workforce
 Mechanisms exist to facilitate the implementation of security workforce development and awareness controls. 
 ## Mapped framework controls
+### GDPR
+- [Art 32.1](../gdpr/art32.md#Article-321)
+- [Art 32.2](../gdpr/art32.md#Article-322)
+- [Art 32.4](../gdpr/art32.md#Article-324)
+  
 ### ISO 27001
 - [7.4.a](../iso27001/7.md#74a)
 - [7.4.b](../iso27001/7.md#74b)
@@ -13,6 +18,9 @@ Mechanisms exist to facilitate the implementation of security workforce developm
   
 ### ISO 27701
 - [6.4.2.2](../iso27701/6422.md)
+  
+### SOC 2
+- [CC1.4](../soc2/cc14.md)
   
 ## Control questions
 Does the organization facilitate the implementation of security workforce development and awareness controls? 

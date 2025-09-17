@@ -9,6 +9,9 @@ Mechanisms exist to securely dispose of, destroy or repurpose system components 
 - [6.8.2.7](../iso27701/6827.md)
 - [7.4.8](../iso27701/748.md)
   
+### SOC 2
+- [CC6.5](../soc2/cc65.md)
+  
 ## Control questions
 Does the organization securely dispose of, destroy or repurpose system components using organization-defined techniques and methods to prevent information being recovered from these components?
   

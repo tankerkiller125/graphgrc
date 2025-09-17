@@ -4,6 +4,7 @@ Mechanisms exist to protect Intellectual Property (IP) rights with software lice
 ## Mapped framework controls
 ### ISO 27002
 - [A.5.32](../iso27002/a-5.md#a532)
+- [A.6.2](../iso27002/a-6.md#a62)
   
 ### ISO 27701
 - [6.15.1.2](../iso27701/61512.md)

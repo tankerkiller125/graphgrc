@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// todo initialize flags
-	latestScfLink := "https://github.com/securecontrolsframework/securecontrolsframework/raw/refs/heads/main/Secure%20Controls%20Framework%20(SCF)%20-%202025.2.2.xlsx"
+	latestScfLink := "https://github.com/securecontrolsframework/securecontrolsframework/raw/refs/heads/main/Archived%20Versions/SCF-2023/Secure%20Controls%20Framework%20(SCF)%20-%202023.4.xlsx"
 	//getFile := false
 	scfControls, err := internal.ReturnSCFControls(latestScfLink, true)
 	if err != nil {
@@ -20,8 +20,8 @@ func main() {
 	}
 	internal.GenerateSCFIndex(scfControlMappings, scfControls)
 
-	soc2Link := "https://raw.githubusercontent.com/prowler-cloud/prowler/main/prowler/compliance/aws/soc2_aws.json"
-	soc2Framework, err := internal.GetSOC2Controls(soc2Link, false)
+	soc2Link := "https://raw.githubusercontent.com/prowler-cloud/prowler/refs/heads/master/prowler/compliance/aws/soc2_aws.json"
+	soc2Framework, err := internal.GetSOC2Controls(soc2Link, true)
 	if err != nil {
 		log.Fatal(err)
 	}

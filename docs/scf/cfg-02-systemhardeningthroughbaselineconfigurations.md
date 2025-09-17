@@ -14,6 +14,10 @@ Mechanisms exist to develop, document and maintain secure baseline configuration
 - [6.11.1](../iso27701/6111.md)
 - [6.11](../iso27701/611.md)
   
+### SOC 2
+- [CC7.1](../soc2/cc71.md)
+- [CC8.1](../soc2/cc81.md)
+  
 ## Control questions
 Does the organization develop, document and maintain secure baseline configurations for technology platforms that are consistent with industry-accepted system hardening standards? 
   

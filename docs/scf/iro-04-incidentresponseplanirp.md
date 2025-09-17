@@ -8,6 +8,10 @@ Mechanisms exist to maintain and make available a current and viable Incident Re
 ### ISO 27701
 - [6.13.1.5](../iso27701/61315.md)
   
+### SOC 2
+- [CC7.3](../soc2/cc73.md)
+- [CC7.4](../soc2/cc74.md)
+  
 ## Control questions
 Does the organization maintain and make available a current and viable Incident Response Plan (IRP) to all stakeholders?
   
