@@ -1,0 +1,948 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="GRC Alignment Doc">
+      
+      
+        <meta name="author" content="tankerkiller125">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>NIST 800-53 v5 Controls - GRC Alignment Doc</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#nist-800-53-v5-controls" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="GRC Alignment Doc" class="md-header__button md-logo" aria-label="GRC Alignment Doc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GRC Alignment Doc
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NIST 800-53 v5 Controls
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/tankerkiller125/graphgrc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tankerkiller125/graphgrc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="GRC Alignment Doc" class="md-nav__button md-logo" aria-label="GRC Alignment Doc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    GRC Alignment Doc
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/tankerkiller125/graphgrc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tankerkiller125/graphgrc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scf/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SCF
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iso27001/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ISO 27001
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iso27002/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ISO 27002
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../soc2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SOC 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gdpr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GDPR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ac-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      AC - Access Control
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#at-awareness-and-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      AT - Awareness and Training
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#au-audit-and-accountability" class="md-nav__link">
+    <span class="md-ellipsis">
+      AU - Audit and Accountability
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ca-assessment-authorization-and-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      CA - Assessment, Authorization, and Monitoring
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cm-configuration-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      CM - Configuration Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cp-contingency-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      CP - Contingency Planning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ia-identification-and-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      IA - Identification and Authentication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ir-incident-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      IR - Incident Response
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ma-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      MA - Maintenance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mp-media-protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      MP - Media Protection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pe-physical-and-environmental-protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      PE - Physical and Environmental Protection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pl-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      PL - Planning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ps-personnel-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      PS - Personnel Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ra-risk-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      RA - Risk Assessment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sa-system-and-services-acquisition" class="md-nav__link">
+    <span class="md-ellipsis">
+      SA - System and Services Acquisition
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sc-system-and-communications-protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      SC - System and Communications Protection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#si-system-and-information-integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      SI - System and Information Integrity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sr-supply-chain-risk-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      SR - Supply Chain Risk Management
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="nist-800-53-v5-controls">NIST 800-53 v5 Controls</h1>
+<h2 id="ac-access-control">AC - Access Control</h2>
+<ul>
+<li><a href="ac-1/">AC-1 - Policy and Procedures</a></li>
+<li><a href="ac-2/">AC-2 - Account Management</a></li>
+<li><a href="ac-2-1/">AC-2.1 - Automated System Account Management</a></li>
+<li><a href="ac-2-2/">AC-2.2 - Automated Temporary and Emergency Account Management</a></li>
+<li><a href="ac-2-3/">AC-2.3 - Disable Accounts</a></li>
+<li><a href="ac-2-4/">AC-2.4 - Automated Audit Actions</a></li>
+<li><a href="ac-2-5/">AC-2.5 - Inactivity Logout</a></li>
+<li><a href="ac-2-7/">AC-2.7 - Privileged User Accounts</a></li>
+<li><a href="ac-2-9/">AC-2.9 - Restrictions on Use of Shared and Group Accounts</a></li>
+<li><a href="ac-2-12/">AC-2.12 - Account Monitoring for Atypical Usage</a></li>
+<li><a href="ac-2-13/">AC-2.13 - Disable Accounts for High-risk Individuals</a></li>
+<li><a href="ac-3/">AC-3 - Access Enforcement</a></li>
+<li><a href="ac-4/">AC-4 - Information Flow Enforcement</a></li>
+<li><a href="ac-4-21/">AC-4.21 - Physical or Logical Separation of Information Flows</a></li>
+<li><a href="ac-5/">AC-5 - Separation of Duties</a></li>
+<li><a href="ac-6/">AC-6 - Least Privilege</a></li>
+<li><a href="ac-6-1/">AC-6.1 - Authorize Access to Security Functions</a></li>
+<li><a href="ac-6-2/">AC-6.2 - Non-privileged Access for Nonsecurity Functions</a></li>
+<li><a href="ac-6-5/">AC-6.5 - Privileged Accounts</a></li>
+<li><a href="ac-6-7/">AC-6.7 - Review of User Privileges</a></li>
+<li><a href="ac-6-9/">AC-6.9 - Log Use of Privileged Functions</a></li>
+<li><a href="ac-6-10/">AC-6.10 - Prohibit Non-privileged Users from Executing Privileged Functions</a></li>
+<li><a href="ac-7/">AC-7 - Unsuccessful Logon Attempts</a></li>
+<li><a href="ac-8/">AC-8 - System Use Notification</a></li>
+<li><a href="ac-11/">AC-11 - Device Lock</a></li>
+<li><a href="ac-11-1/">AC-11.1 - Pattern-hiding Displays</a></li>
+<li><a href="ac-12/">AC-12 - Session Termination</a></li>
+<li><a href="ac-14/">AC-14 - Permitted Actions Without Identification or Authentication</a></li>
+<li><a href="ac-17/">AC-17 - Remote Access</a></li>
+<li><a href="ac-17-1/">AC-17.1 - Monitoring and Control</a></li>
+<li><a href="ac-17-2/">AC-17.2 - Protection of Confidentiality and Integrity Using Encryption</a></li>
+<li><a href="ac-17-3/">AC-17.3 - Managed Access Control Points</a></li>
+<li><a href="ac-17-4/">AC-17.4 - Privileged Commands and Access</a></li>
+<li><a href="ac-18/">AC-18 - Wireless Access</a></li>
+<li><a href="ac-18-1/">AC-18.1 - Authentication and Encryption</a></li>
+<li><a href="ac-18-3/">AC-18.3 - Disable Wireless Networking</a></li>
+<li><a href="ac-19/">AC-19 - Access Control for Mobile Devices</a></li>
+<li><a href="ac-19-5/">AC-19.5 - Full Device or Container-based Encryption</a></li>
+<li><a href="ac-20/">AC-20 - Use of External Systems</a></li>
+<li><a href="ac-20-1/">AC-20.1 - Limits on Authorized Use</a></li>
+<li><a href="ac-20-2/">AC-20.2 - Portable Storage Devices — Restricted Use</a></li>
+<li><a href="ac-21/">AC-21 - Information Sharing</a></li>
+<li><a href="ac-22/">AC-22 - Publicly Accessible Content</a></li>
+</ul>
+<h2 id="at-awareness-and-training">AT - Awareness and Training</h2>
+<ul>
+<li><a href="at-1/">AT-1 - Policy and Procedures</a></li>
+<li><a href="at-2/">AT-2 - Literacy Training and Awareness</a></li>
+<li><a href="at-2-2/">AT-2.2 - Insider Threat</a></li>
+<li><a href="at-2-3/">AT-2.3 - Social Engineering and Mining</a></li>
+<li><a href="at-3/">AT-3 - Role-based Training</a></li>
+<li><a href="at-4/">AT-4 - Training Records</a></li>
+</ul>
+<h2 id="au-audit-and-accountability">AU - Audit and Accountability</h2>
+<ul>
+<li><a href="au-1/">AU-1 - Policy and Procedures</a></li>
+<li><a href="au-2/">AU-2 - Event Logging</a></li>
+<li><a href="au-3/">AU-3 - Content of Audit Records</a></li>
+<li><a href="au-3-1/">AU-3.1 - Additional Audit Information</a></li>
+<li><a href="au-4/">AU-4 - Audit Log Storage Capacity</a></li>
+<li><a href="au-5/">AU-5 - Response to Audit Logging Process Failures</a></li>
+<li><a href="au-6/">AU-6 - Audit Record Review, Analysis, and Reporting</a></li>
+<li><a href="au-6-1/">AU-6.1 - Automated Process Integration</a></li>
+<li><a href="au-6-3/">AU-6.3 - Correlate Audit Record Repositories</a></li>
+<li><a href="au-7/">AU-7 - Audit Record Reduction and Report Generation</a></li>
+<li><a href="au-7-1/">AU-7.1 - Automatic Processing</a></li>
+<li><a href="au-8/">AU-8 - Time Stamps</a></li>
+<li><a href="au-9/">AU-9 - Protection of Audit Information</a></li>
+<li><a href="au-9-4/">AU-9.4 - Access by Subset of Privileged Users</a></li>
+<li><a href="au-11/">AU-11 - Audit Record Retention</a></li>
+<li><a href="au-12/">AU-12 - Audit Record Generation</a></li>
+</ul>
+<h2 id="ca-assessment-authorization-and-monitoring">CA - Assessment, Authorization, and Monitoring</h2>
+<ul>
+<li><a href="ca-1/">CA-1 - Policy and Procedures</a></li>
+<li><a href="ca-2/">CA-2 - Control Assessments</a></li>
+<li><a href="ca-2-1/">CA-2.1 - Independent Assessors</a></li>
+<li><a href="ca-2-3/">CA-2.3 - Leveraging Results from External Organizations</a></li>
+<li><a href="ca-3/">CA-3 - Information Exchange</a></li>
+<li><a href="ca-5/">CA-5 - Plan of Action and Milestones</a></li>
+<li><a href="ca-6/">CA-6 - Authorization</a></li>
+<li><a href="ca-7/">CA-7 - Continuous Monitoring</a></li>
+<li><a href="ca-7-1/">CA-7.1 - Independent Assessment</a></li>
+<li><a href="ca-7-4/">CA-7.4 - Risk Monitoring</a></li>
+<li><a href="ca-8/">CA-8 - Penetration Testing</a></li>
+<li><a href="ca-8-1/">CA-8.1 - Independent Penetration Testing Agent or Team</a></li>
+<li><a href="ca-8-2/">CA-8.2 - Red Team Exercises</a></li>
+<li><a href="ca-9/">CA-9 - Internal System Connections</a></li>
+</ul>
+<h2 id="cm-configuration-management">CM - Configuration Management</h2>
+<ul>
+<li><a href="cm-1/">CM-1 - Policy and Procedures</a></li>
+<li><a href="cm-2/">CM-2 - Baseline Configuration</a></li>
+<li><a href="cm-2-2/">CM-2.2 - Automation Support for Accuracy and Currency</a></li>
+<li><a href="cm-2-3/">CM-2.3 - Retention of Previous Configurations</a></li>
+<li><a href="cm-2-7/">CM-2.7 - Configure Systems and Components for High-risk Areas</a></li>
+<li><a href="cm-3/">CM-3 - Configuration Change Control</a></li>
+<li><a href="cm-3-2/">CM-3.2 - Testing, Validation, and Documentation of Changes</a></li>
+<li><a href="cm-3-4/">CM-3.4 - Security and Privacy Representatives</a></li>
+<li><a href="cm-4/">CM-4 - Impact Analyses</a></li>
+<li><a href="cm-4-2/">CM-4.2 - Verification of Controls</a></li>
+<li><a href="cm-5/">CM-5 - Access Restrictions for Change</a></li>
+<li><a href="cm-5-1/">CM-5.1 - Automated Access Enforcement and Audit Records</a></li>
+<li><a href="cm-5-5/">CM-5.5 - Privilege Limitation for Production and Operation</a></li>
+<li><a href="cm-6/">CM-6 - Configuration Settings</a></li>
+<li><a href="cm-6-1/">CM-6.1 - Automated Management, Application, and Verification</a></li>
+<li><a href="cm-7/">CM-7 - Least Functionality</a></li>
+<li><a href="cm-7-1/">CM-7.1 - Periodic Review</a></li>
+<li><a href="cm-7-2/">CM-7.2 - Prevent Program Execution</a></li>
+<li><a href="cm-7-5/">CM-7.5 - Authorized Software — Allow-by-exception</a></li>
+<li><a href="cm-8/">CM-8 - System Component Inventory</a></li>
+<li><a href="cm-8-1/">CM-8.1 - Updates During Installation and Removal</a></li>
+<li><a href="cm-8-3/">CM-8.3 - Automated Unauthorized Component Detection</a></li>
+<li><a href="cm-9/">CM-9 - Configuration Management Plan</a></li>
+<li><a href="cm-10/">CM-10 - Software Usage Restrictions</a></li>
+<li><a href="cm-11/">CM-11 - User-installed Software</a></li>
+<li><a href="cm-12/">CM-12 - Information Location</a></li>
+<li><a href="cm-12-1/">CM-12.1 - Automated Tools to Support Information Location</a></li>
+</ul>
+<h2 id="cp-contingency-planning">CP - Contingency Planning</h2>
+<ul>
+<li><a href="cp-1/">CP-1 - Policy and Procedures</a></li>
+<li><a href="cp-2/">CP-2 - Contingency Plan</a></li>
+<li><a href="cp-2-1/">CP-2.1 - Coordinate with Related Plans</a></li>
+<li><a href="cp-2-3/">CP-2.3 - Resume Mission and Business Functions</a></li>
+<li><a href="cp-2-8/">CP-2.8 - Identify Critical Assets</a></li>
+<li><a href="cp-3/">CP-3 - Contingency Training</a></li>
+<li><a href="cp-4/">CP-4 - Contingency Plan Testing</a></li>
+<li><a href="cp-4-1/">CP-4.1 - Coordinate with Related Plans</a></li>
+<li><a href="cp-6/">CP-6 - Alternate Storage Site</a></li>
+<li><a href="cp-6-1/">CP-6.1 - Separation from Primary Site</a></li>
+<li><a href="cp-6-3/">CP-6.3 - Accessibility</a></li>
+<li><a href="cp-7/">CP-7 - Alternate Processing Site</a></li>
+<li><a href="cp-7-1/">CP-7.1 - Separation from Primary Site</a></li>
+<li><a href="cp-7-2/">CP-7.2 - Accessibility</a></li>
+<li><a href="cp-7-3/">CP-7.3 - Priority of Service</a></li>
+<li><a href="cp-8/">CP-8 - Telecommunications Services</a></li>
+<li><a href="cp-8-1/">CP-8.1 - Priority of Service Provisions</a></li>
+<li><a href="cp-8-2/">CP-8.2 - Single Points of Failure</a></li>
+<li><a href="cp-9/">CP-9 - System Backup</a></li>
+<li><a href="cp-9-1/">CP-9.1 - Testing for Reliability and Integrity</a></li>
+<li><a href="cp-9-8/">CP-9.8 - Cryptographic Protection</a></li>
+<li><a href="cp-10/">CP-10 - System Recovery and Reconstitution</a></li>
+<li><a href="cp-10-2/">CP-10.2 - Transaction Recovery</a></li>
+</ul>
+<h2 id="ia-identification-and-authentication">IA - Identification and Authentication</h2>
+<ul>
+<li><a href="ia-1/">IA-1 - Policy and Procedures</a></li>
+<li><a href="ia-2/">IA-2 - Identification and Authentication (Organizational Users)</a></li>
+<li><a href="ia-2-1/">IA-2.1 - Multi-factor Authentication to Privileged Accounts</a></li>
+<li><a href="ia-2-2/">IA-2.2 - Multi-factor Authentication to Non-privileged Accounts</a></li>
+<li><a href="ia-2-5/">IA-2.5 - Individual Authentication with Group Authentication</a></li>
+<li><a href="ia-2-6/">IA-2.6 - Access to Accounts —separate Device</a></li>
+<li><a href="ia-2-8/">IA-2.8 - Access to Accounts — Replay Resistant</a></li>
+<li><a href="ia-2-12/">IA-2.12 - Acceptance of PIV Credentials</a></li>
+<li><a href="ia-3/">IA-3 - Device Identification and Authentication</a></li>
+<li><a href="ia-4/">IA-4 - Identifier Management</a></li>
+<li><a href="ia-4-4/">IA-4.4 - Identify User Status</a></li>
+<li><a href="ia-5/">IA-5 - Authenticator Management</a></li>
+<li><a href="ia-5-1/">IA-5.1 - Password-based Authentication</a></li>
+<li><a href="ia-5-2/">IA-5.2 - Public Key-based Authentication</a></li>
+<li><a href="ia-5-6/">IA-5.6 - Protection of Authenticators</a></li>
+<li><a href="ia-5-7/">IA-5.7 - No Embedded Unencrypted Static Authenticators</a></li>
+<li><a href="ia-6/">IA-6 - Authentication Feedback</a></li>
+<li><a href="ia-7/">IA-7 - Cryptographic Module Authentication</a></li>
+<li><a href="ia-8/">IA-8 - Identification and Authentication (Non-organizational Users)</a></li>
+<li><a href="ia-8-1/">IA-8.1 - Acceptance of PIV Credentials from Other Agencies</a></li>
+<li><a href="ia-8-2/">IA-8.2 - Acceptance of External Authenticators</a></li>
+<li><a href="ia-8-4/">IA-8.4 - Use of Defined Profiles</a></li>
+<li><a href="ia-11/">IA-11 - Re-authentication</a></li>
+<li><a href="ia-12/">IA-12 - Identity Proofing</a></li>
+<li><a href="ia-12-2/">IA-12.2 - Identity Evidence</a></li>
+<li><a href="ia-12-3/">IA-12.3 - Identity Evidence Validation and Verification</a></li>
+<li><a href="ia-12-5/">IA-12.5 - Address Confirmation</a></li>
+</ul>
+<h2 id="ir-incident-response">IR - Incident Response</h2>
+<ul>
+<li><a href="ir-1/">IR-1 - Policy and Procedures</a></li>
+<li><a href="ir-2/">IR-2 - Incident Response Training</a></li>
+<li><a href="ir-3/">IR-3 - Incident Response Testing</a></li>
+<li><a href="ir-3-2/">IR-3.2 - Coordination with Related Plans</a></li>
+<li><a href="ir-4/">IR-4 - Incident Handling</a></li>
+<li><a href="ir-4-1/">IR-4.1 - Automated Incident Handling Processes</a></li>
+<li><a href="ir-5/">IR-5 - Incident Monitoring</a></li>
+<li><a href="ir-6/">IR-6 - Incident Reporting</a></li>
+<li><a href="ir-6-1/">IR-6.1 - Automated Reporting</a></li>
+<li><a href="ir-6-3/">IR-6.3 - Supply Chain Coordination</a></li>
+<li><a href="ir-7/">IR-7 - Incident Response Assistance</a></li>
+<li><a href="ir-7-1/">IR-7.1 - Automation Support for Availability of Information and Support</a></li>
+<li><a href="ir-8/">IR-8 - Incident Response Plan</a></li>
+<li><a href="ir-9/">IR-9 - Information Spillage Response</a></li>
+<li><a href="ir-9-2/">IR-9.2 - Training</a></li>
+<li><a href="ir-9-3/">IR-9.3 - Post-spill Operations</a></li>
+<li><a href="ir-9-4/">IR-9.4 - Exposure to Unauthorized Personnel</a></li>
+</ul>
+<h2 id="ma-maintenance">MA - Maintenance</h2>
+<ul>
+<li><a href="ma-1/">MA-1 - Policy and Procedures</a></li>
+<li><a href="ma-2/">MA-2 - Controlled Maintenance</a></li>
+<li><a href="ma-3/">MA-3 - Maintenance Tools</a></li>
+<li><a href="ma-3-1/">MA-3.1 - Inspect Tools</a></li>
+<li><a href="ma-3-2/">MA-3.2 - Inspect Media</a></li>
+<li><a href="ma-3-3/">MA-3.3 - Prevent Unauthorized Removal</a></li>
+<li><a href="ma-4/">MA-4 - Nonlocal Maintenance</a></li>
+<li><a href="ma-5/">MA-5 - Maintenance Personnel</a></li>
+<li><a href="ma-5-1/">MA-5.1 - Individuals Without Appropriate Access</a></li>
+<li><a href="ma-6/">MA-6 - Timely Maintenance</a></li>
+</ul>
+<h2 id="mp-media-protection">MP - Media Protection</h2>
+<ul>
+<li><a href="mp-1/">MP-1 - Policy and Procedures</a></li>
+<li><a href="mp-2/">MP-2 - Media Access</a></li>
+<li><a href="mp-3/">MP-3 - Media Marking</a></li>
+<li><a href="mp-4/">MP-4 - Media Storage</a></li>
+<li><a href="mp-5/">MP-5 - Media Transport</a></li>
+<li><a href="mp-6/">MP-6 - Media Sanitization</a></li>
+<li><a href="mp-7/">MP-7 - Media Use</a></li>
+</ul>
+<h2 id="pe-physical-and-environmental-protection">PE - Physical and Environmental Protection</h2>
+<ul>
+<li><a href="pe-1/">PE-1 - Policy and Procedures</a></li>
+<li><a href="pe-2/">PE-2 - Physical Access Authorizations</a></li>
+<li><a href="pe-3/">PE-3 - Physical Access Control</a></li>
+<li><a href="pe-4/">PE-4 - Access Control for Transmission</a></li>
+<li><a href="pe-5/">PE-5 - Access Control for Output Devices</a></li>
+<li><a href="pe-6/">PE-6 - Monitoring Physical Access</a></li>
+<li><a href="pe-6-1/">PE-6.1 - Intrusion Alarms and Surveillance Equipment</a></li>
+<li><a href="pe-8/">PE-8 - Visitor Access Records</a></li>
+<li><a href="pe-9/">PE-9 - Power Equipment and Cabling</a></li>
+<li><a href="pe-10/">PE-10 - Emergency Shutoff</a></li>
+<li><a href="pe-11/">PE-11 - Emergency Power</a></li>
+<li><a href="pe-12/">PE-12 - Emergency Lighting</a></li>
+<li><a href="pe-13/">PE-13 - Fire Protection</a></li>
+<li><a href="pe-13-1/">PE-13.1 - Detection Systems — Automatic Activation and Notification</a></li>
+<li><a href="pe-13-2/">PE-13.2 - Suppression Systems — Automatic Activation and Notification</a></li>
+<li><a href="pe-14/">PE-14 - Environmental Controls</a></li>
+<li><a href="pe-15/">PE-15 - Water Damage Protection</a></li>
+<li><a href="pe-16/">PE-16 - Delivery and Removal</a></li>
+<li><a href="pe-17/">PE-17 - Alternate Work Site</a></li>
+</ul>
+<h2 id="pl-planning">PL - Planning</h2>
+<ul>
+<li><a href="pl-1/">PL-1 - Policy and Procedures</a></li>
+<li><a href="pl-2/">PL-2 - System Security and Privacy Plans</a></li>
+<li><a href="pl-4/">PL-4 - Rules of Behavior</a></li>
+<li><a href="pl-4-1/">PL-4.1 - Social Media and External Site/Application Usage Restrictions</a></li>
+<li><a href="pl-8/">PL-8 - Security and Privacy Architectures</a></li>
+<li><a href="pl-10/">PL-10 - Baseline Selection</a></li>
+<li><a href="pl-11/">PL-11 - Baseline Tailoring</a></li>
+</ul>
+<h2 id="ps-personnel-security">PS - Personnel Security</h2>
+<ul>
+<li><a href="ps-1/">PS-1 - Policy and Procedures</a></li>
+<li><a href="ps-2/">PS-2 - Position Risk Designation</a></li>
+<li><a href="ps-3/">PS-3 - Personnel Screening</a></li>
+<li><a href="ps-3-3/">PS-3.3 - Information Requiring Special Protective Measures</a></li>
+<li><a href="ps-4/">PS-4 - Personnel Termination</a></li>
+<li><a href="ps-5/">PS-5 - Personnel Transfer</a></li>
+<li><a href="ps-6/">PS-6 - Access Agreements</a></li>
+<li><a href="ps-7/">PS-7 - External Personnel Security</a></li>
+<li><a href="ps-8/">PS-8 - Personnel Sanctions</a></li>
+<li><a href="ps-9/">PS-9 - Position Descriptions</a></li>
+</ul>
+<h2 id="ra-risk-assessment">RA - Risk Assessment</h2>
+<ul>
+<li><a href="ra-1/">RA-1 - Policy and Procedures</a></li>
+<li><a href="ra-2/">RA-2 - Security Categorization</a></li>
+<li><a href="ra-3/">RA-3 - Risk Assessment</a></li>
+<li><a href="ra-3-1/">RA-3.1 - Supply Chain Risk Assessment</a></li>
+<li><a href="ra-5/">RA-5 - Vulnerability Monitoring and Scanning</a></li>
+<li><a href="ra-5-2/">RA-5.2 - Update Vulnerabilities to Be Scanned</a></li>
+<li><a href="ra-5-3/">RA-5.3 - Breadth and Depth of Coverage</a></li>
+<li><a href="ra-5-5/">RA-5.5 - Privileged Access</a></li>
+<li><a href="ra-5-11/">RA-5.11 - Public Disclosure Program</a></li>
+<li><a href="ra-7/">RA-7 - Risk Response</a></li>
+<li><a href="ra-9/">RA-9 - Criticality Analysis</a></li>
+</ul>
+<h2 id="sa-system-and-services-acquisition">SA - System and Services Acquisition</h2>
+<ul>
+<li><a href="sa-1/">SA-1 - Policy and Procedures</a></li>
+<li><a href="sa-2/">SA-2 - Allocation of Resources</a></li>
+<li><a href="sa-3/">SA-3 - System Development Life Cycle</a></li>
+<li><a href="sa-4/">SA-4 - Acquisition Process</a></li>
+<li><a href="sa-4-1/">SA-4.1 - Functional Properties of Controls</a></li>
+<li><a href="sa-4-2/">SA-4.2 - Design and Implementation Information for Controls</a></li>
+<li><a href="sa-4-9/">SA-4.9 - Functions, Ports, Protocols, and Services in Use</a></li>
+<li><a href="sa-4-10/">SA-4.10 - Use of Approved PIV Products</a></li>
+<li><a href="sa-5/">SA-5 - System Documentation</a></li>
+<li><a href="sa-8/">SA-8 - Security and Privacy Engineering Principles</a></li>
+<li><a href="sa-9/">SA-9 - External System Services</a></li>
+<li><a href="sa-9-1/">SA-9.1 - Risk Assessments and Organizational Approvals</a></li>
+<li><a href="sa-9-2/">SA-9.2 - Identification of Functions, Ports, Protocols, and Services</a></li>
+<li><a href="sa-9-5/">SA-9.5 - Processing, Storage, and Service Location</a></li>
+<li><a href="sa-10/">SA-10 - Developer Configuration Management</a></li>
+<li><a href="sa-11/">SA-11 - Developer Testing and Evaluation</a></li>
+<li><a href="sa-11-1/">SA-11.1 - Static Code Analysis</a></li>
+<li><a href="sa-11-2/">SA-11.2 - Threat Modeling and Vulnerability Analyses</a></li>
+<li><a href="sa-15/">SA-15 - Development Process, Standards, and Tools</a></li>
+<li><a href="sa-15-3/">SA-15.3 - Criticality Analysis</a></li>
+<li><a href="sa-22/">SA-22 - Unsupported System Components</a></li>
+</ul>
+<h2 id="sc-system-and-communications-protection">SC - System and Communications Protection</h2>
+<ul>
+<li><a href="sc-1/">SC-1 - Policy and Procedures</a></li>
+<li><a href="sc-2/">SC-2 - Separation of System and User Functionality</a></li>
+<li><a href="sc-4/">SC-4 - Information in Shared System Resources</a></li>
+<li><a href="sc-5/">SC-5 - Denial-of-service Protection</a></li>
+<li><a href="sc-7/">SC-7 - Boundary Protection</a></li>
+<li><a href="sc-7-3/">SC-7.3 - Access Points</a></li>
+<li><a href="sc-7-4/">SC-7.4 - External Telecommunications Services</a></li>
+<li><a href="sc-7-5/">SC-7.5 - Deny by Default — Allow by Exception</a></li>
+<li><a href="sc-7-7/">SC-7.7 - Split Tunneling for Remote Devices</a></li>
+<li><a href="sc-7-8/">SC-7.8 - Route Traffic to Authenticated Proxy Servers</a></li>
+<li><a href="sc-7-12/">SC-7.12 - Host-based Protection</a></li>
+<li><a href="sc-7-18/">SC-7.18 - Fail Secure</a></li>
+<li><a href="sc-8/">SC-8 - Transmission Confidentiality and Integrity</a></li>
+<li><a href="sc-8-1/">SC-8.1 - Cryptographic Protection</a></li>
+<li><a href="sc-10/">SC-10 - Network Disconnect</a></li>
+<li><a href="sc-12/">SC-12 - Cryptographic Key Establishment and Management</a></li>
+<li><a href="sc-13/">SC-13 - Cryptographic Protection</a></li>
+<li><a href="sc-15/">SC-15 - Collaborative Computing Devices and Applications</a></li>
+<li><a href="sc-17/">SC-17 - Public Key Infrastructure Certificates</a></li>
+<li><a href="sc-18/">SC-18 - Mobile Code</a></li>
+<li><a href="sc-20/">SC-20 - Secure Name/Address Resolution Service (Authoritative Source)</a></li>
+<li><a href="sc-21/">SC-21 - Secure Name/Address Resolution Service (Recursive or Caching Resolver)</a></li>
+<li><a href="sc-22/">SC-22 - Architecture and Provisioning for Name/Address Resolution Service</a></li>
+<li><a href="sc-23/">SC-23 - Session Authenticity</a></li>
+<li><a href="sc-28/">SC-28 - Protection of Information at Rest</a></li>
+<li><a href="sc-28-1/">SC-28.1 - Cryptographic Protection</a></li>
+<li><a href="sc-39/">SC-39 - Process Isolation</a></li>
+<li><a href="sc-45/">SC-45 - System Time Synchronization</a></li>
+<li><a href="sc-45-1/">SC-45.1 - Synchronization with Authoritative Time Source</a></li>
+</ul>
+<h2 id="si-system-and-information-integrity">SI - System and Information Integrity</h2>
+<ul>
+<li><a href="si-1/">SI-1 - Policy and Procedures</a></li>
+<li><a href="si-2/">SI-2 - Flaw Remediation</a></li>
+<li><a href="si-2-2/">SI-2.2 - Automated Flaw Remediation Status</a></li>
+<li><a href="si-2-3/">SI-2.3 - Time to Remediate Flaws and Benchmarks for Corrective Actions</a></li>
+<li><a href="si-3/">SI-3 - Malicious Code Protection</a></li>
+<li><a href="si-4/">SI-4 - System Monitoring</a></li>
+<li><a href="si-4-1/">SI-4.1 - System-wide Intrusion Detection System</a></li>
+<li><a href="si-4-2/">SI-4.2 - Automated Tools and Mechanisms for Real-time Analysis</a></li>
+<li><a href="si-4-4/">SI-4.4 - Inbound and Outbound Communications Traffic</a></li>
+<li><a href="si-4-5/">SI-4.5 - System-generated Alerts</a></li>
+<li><a href="si-4-16/">SI-4.16 - Correlate Monitoring Information</a></li>
+<li><a href="si-4-18/">SI-4.18 - Analyze Traffic and Covert Exfiltration</a></li>
+<li><a href="si-4-23/">SI-4.23 - Host-based Devices</a></li>
+<li><a href="si-5/">SI-5 - Security Alerts, Advisories, and Directives</a></li>
+<li><a href="si-6/">SI-6 - Security and Privacy Function Verification</a></li>
+<li><a href="si-7/">SI-7 - Software, Firmware, and Information Integrity</a></li>
+<li><a href="si-7-1/">SI-7.1 - Integrity Checks</a></li>
+<li><a href="si-7-7/">SI-7.7 - Integration of Detection and Response</a></li>
+<li><a href="si-8/">SI-8 - Spam Protection</a></li>
+<li><a href="si-8-2/">SI-8.2 - Automatic Updates</a></li>
+<li><a href="si-10/">SI-10 - Information Input Validation</a></li>
+<li><a href="si-11/">SI-11 - Error Handling</a></li>
+<li><a href="si-12/">SI-12 - Information Management and Retention</a></li>
+<li><a href="si-16/">SI-16 - Memory Protection</a></li>
+</ul>
+<h2 id="sr-supply-chain-risk-management">SR - Supply Chain Risk Management</h2>
+<ul>
+<li><a href="sr-1/">SR-1 - Policy and Procedures</a></li>
+<li><a href="sr-2/">SR-2 - Supply Chain Risk Management Plan</a></li>
+<li><a href="sr-2-1/">SR-2.1 - Establish SCRM Team</a></li>
+<li><a href="sr-3/">SR-3 - Supply Chain Controls and Processes</a></li>
+<li><a href="sr-5/">SR-5 - Acquisition Strategies, Tools, and Methods</a></li>
+<li><a href="sr-6/">SR-6 - Supplier Assessments and Reviews</a></li>
+<li><a href="sr-8/">SR-8 - Notification Agreements</a></li>
+<li><a href="sr-10/">SR-10 - Inspection of Systems or Components</a></li>
+<li><a href="sr-11/">SR-11 - Component Authenticity</a></li>
+<li><a href="sr-11-1/">SR-11.1 - Anti-counterfeit Training</a></li>
+<li><a href="sr-11-2/">SR-11.2 - Configuration Control for Component Service and Repair</a></li>
+<li><a href="sr-12/">SR-12 - Component Disposal</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
