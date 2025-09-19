@@ -7,10 +7,6 @@ Mechanisms exist to monitor, regularly review and audit External Service Provide
 - [A.5.22](../iso27002/a-5.md#a522)
 - [A.8.21](../iso27002/a-8.md#a821)
   
-### ISO 27701
-- [6.12.2.1](../iso27701/61221.md)
-- [6.12.2](../iso27701/6122.md)
-  
 ### SOC 2
 - [CC3.4](../soc2/cc34.md)
 - [CC9.1](../soc2/cc91.md)

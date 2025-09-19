@@ -5,10 +5,6 @@ Mechanisms exist to thoughtfully plan audits by including input from operational
 - [A.5.35](../iso27002/a-5.md#a535)
 - [A.8.34](../iso27002/a-8.md#a834)
   
-### ISO 27701
-- [6.9.7.1](../iso27701/6971.md)
-- [6.9.7](../iso27701/697.md)
-  
 ### SOC 2
 - [CC4.1](../soc2/cc41.md)
   

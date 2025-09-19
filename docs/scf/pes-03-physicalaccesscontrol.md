@@ -7,11 +7,6 @@ Physical access control mechanisms exist to enforce physical access authorizatio
 - [A.7.1](../iso27002/a-7.md#a71)
 - [A.7.4](../iso27002/a-7.md#a74)
   
-### ISO 27701
-- [6.6.1.1](../iso27701/6611.md)
-- [6.6.1](../iso27701/661.md)
-- [6.6](../iso27701/66.md)
-  
 ### SOC 2
 - [CC6.4](../soc2/cc64.md)
   

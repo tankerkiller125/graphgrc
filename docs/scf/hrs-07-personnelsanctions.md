@@ -4,9 +4,6 @@ Mechanisms exist to sanction personnel failing to comply with established securi
 ### ISO 27002
 - [A.6.4](../iso27002/a-6.md#a64)
   
-### ISO 27701
-- [6.4.2.3](../iso27701/6423.md)
-  
 ### SOC 2
 - [CC1.5](../soc2/cc15.md)
   

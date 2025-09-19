@@ -4,9 +4,6 @@ Mechanisms exist to develop processes to identify and record the method under wh
 ### GDPR
 - [Art 5.1](../gdpr/art5.md#Article-51)
   
-### ISO 27701
-- [7.4.3](../iso27701/743.md)
-  
 ### SOC 2
 - [P5.2](../soc2/p52.md)
   

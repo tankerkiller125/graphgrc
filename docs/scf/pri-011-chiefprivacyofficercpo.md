@@ -7,9 +7,6 @@ Mechanisms exist to appoints a Chief Privacy Officer (CPO) or similar role, with
 - [Art 39.1](../gdpr/art39.md#Article-391)
 - [Art 39.2](../gdpr/art39.md#Article-392)
   
-### ISO 27701
-- [6.15.1.4](../iso27701/61514.md)
-  
 ## Control questions
 Does the organization appoints a Chief Privacy Officer (CPO) or similar role, with the authority, mission, accountability and resources to coordinate, develop and implement, applicable data privacy requirements and manage data privacy risks through the organization-wide data privacy program?
   

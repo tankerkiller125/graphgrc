@@ -8,11 +8,6 @@ Mechanisms exist to implement and govern processes and documentation to facilita
 ### ISO 27002
 - [A.5.24](../iso27002/a-5.md#a524)
   
-### ISO 27701
-- [6.13.1.1](../iso27701/61311.md)
-- [6.13.1](../iso27701/6131.md)
-- [6.13](../iso27701/613.md)
-  
 ### SOC 2
 - [CC7.3](../soc2/cc73.md)
 - [CC7.4](../soc2/cc74.md)

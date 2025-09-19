@@ -8,9 +8,6 @@ Mechanisms exist to utilize technical controls to correct Personal Data (PD) tha
 - [Art 18.1](../gdpr/art18.md#Article-181)
 - [Art 26.3](../gdpr/art26.md#Article-263)
   
-### ISO 27701
-- [7.3.6](../iso27701/736.md)
-  
 ### SOC 2
 - [P5.1](../soc2/p51.md)
 - [P5.2](../soc2/p52.md)

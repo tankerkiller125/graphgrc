@@ -4,9 +4,6 @@ Mechanisms exist to issue guidelines ensuring and maximizing the quality, utilit
 ### GDPR
 - [Art 5.1](../gdpr/art5.md#Article-51)
   
-### ISO 27701
-- [7.4.3](../iso27701/743.md)
-  
 ### SOC 2
 - [P7.0](../soc2/p70.md)
 - [P7.1](../soc2/p71.md)

@@ -9,9 +9,6 @@ Mechanisms exist to facilitate the implementation of contingency planning contro
 - [A.5.29](../iso27002/a-5.md#a529)
 - [A.5.30](../iso27002/a-5.md#a530)
   
-### ISO 27701
-- [6.14.1.2](../iso27701/61412.md)
-  
 ### SOC 2
 - [CC7.5](../soc2/cc75.md)
 - [CC9.1](../soc2/cc91.md)

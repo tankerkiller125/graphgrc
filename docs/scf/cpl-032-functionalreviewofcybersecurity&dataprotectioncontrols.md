@@ -6,9 +6,6 @@ Mechanisms exist to regularly review technology assets for adherence to the orga
 - [A.5.36](../iso27002/a-5.md#a536)
 - [A.8.8](../iso27002/a-8.md#a88)
   
-### ISO 27701
-- [6.15.2.3](../iso27701/61523.md)
-  
 ### SOC 2
 - [CC4.1](../soc2/cc41.md)
   

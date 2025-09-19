@@ -8,13 +8,6 @@ Mechanisms exist to identify systems, equipment and respective operating environ
 - [A.7.5](../iso27002/a-7.md#a75)
 - [A.7.7](../iso27002/a-7.md#a77)
   
-### ISO 27701
-- [6.8.1.1](../iso27701/6811.md)
-- [6.8.1.3](../iso27701/6813.md)
-- [6.8.1](../iso27701/681.md)
-- [6.8.2.9](../iso27701/6829.md)
-- [6.8](../iso27701/68.md)
-  
 ## Control questions
 Does the organization identify systems, equipment and respective operating environments that require limited physical access so that appropriate physical access controls are designed and implemented for offices, rooms and facilities? 
   

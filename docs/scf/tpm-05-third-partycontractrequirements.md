@@ -21,10 +21,6 @@ Mechanisms exist to identify, regularly review and document third-party confiden
 - [A.8.21](../iso27002/a-8.md#a821)
 - [A.8.30](../iso27002/a-8.md#a830)
   
-### ISO 27701
-- [6.10.2.4](../iso27701/61024.md)
-- [6.12.1.2](../iso27701/61212.md)
-  
 ### SOC 2
 - [CC9.1](../soc2/cc91.md)
   

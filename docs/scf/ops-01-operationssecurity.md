@@ -11,11 +11,6 @@ Mechanisms exist to facilitate the implementation of operational security contro
 ### ISO 27002
 - [A.5.37](../iso27002/a-5.md#a537)
   
-### ISO 27701
-- [6.9.1.1](../iso27701/6911.md)
-- [6.9.1](../iso27701/691.md)
-- [6.9](../iso27701/69.md)
-  
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
   

@@ -4,9 +4,6 @@ Mechanisms exist to facilitate cryptographic key management controls to protect 
 ### ISO 27002
 - [A.8.24](../iso27002/a-8.md#a824)
   
-### ISO 27701
-- [6.7.1.2](../iso27701/6712.md)
-  
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
   

@@ -8,11 +8,6 @@ Mechanisms exist to develop and maintain an accounting of disclosures of Persona
 - [Art 30.4](../gdpr/art30.md#Article-304)
 - [Art 30.5](../gdpr/art30.md#Article-305)
   
-### ISO 27701
-- [7.2.8](../iso27701/728.md)
-- [7.5.3](../iso27701/753.md)
-- [7.5.4](../iso27701/754.md)
-  
 ### SOC 2
 - [P6.2](../soc2/p62.md)
 - [P6.3](../soc2/p63.md)

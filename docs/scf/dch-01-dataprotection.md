@@ -14,10 +14,6 @@ Mechanisms exist to facilitate the implementation of data protection controls.
 - [A.7.10](../iso27002/a-7.md#a710)
 - [A.8.12](../iso27002/a-8.md#a812)
   
-### ISO 27701
-- [6.5.2](../iso27701/652.md)
-- [6.5.3.3](../iso27701/6533.md)
-  
 ### SOC 2
 - [C1.1](../soc2/c11.md)
 - [CC2.1](../soc2/cc21.md)

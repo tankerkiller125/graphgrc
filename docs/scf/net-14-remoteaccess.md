@@ -4,9 +4,6 @@ Mechanisms exist to define, control and review organization-approved, secure rem
 ### ISO 27002
 - [A.6.7](../iso27002/a-6.md#a67)
   
-### ISO 27701
-- [6.3.2.2](../iso27701/6322.md)
-  
 ### SOC 2
 - [CC6.6](../soc2/cc66.md)
   

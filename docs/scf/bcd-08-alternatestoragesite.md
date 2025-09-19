@@ -4,11 +4,6 @@ Mechanisms exist to establish an alternate storage site that includes both the a
 ### ISO 27002
 - [A.8.14](../iso27002/a-8.md#a814)
   
-### ISO 27701
-- [6.14.1.3](../iso27701/61413.md)
-- [6.14.2.1](../iso27701/61421.md)
-- [6.14.2](../iso27701/6142.md)
-  
 ### SOC 2
 - [A1.2](../soc2/a12.md)
   

@@ -10,10 +10,6 @@ Mechanisms exist to limit Personal Data (PD) being processed in the information 
 - [Art 35.8](../gdpr/art35.md#Article-358)
 - [Art 35.9](../gdpr/art35.md#Article-359)
   
-### ISO 27701
-- [7.4.2](../iso27701/742.md)
-- [7.4.4](../iso27701/744.md)
-  
 ## Control questions
 Does the organization limit Personal Data (PD) being processed in the information lifecycle to elements identified in the Data Protection Impact Assessment (DPIA)?
   

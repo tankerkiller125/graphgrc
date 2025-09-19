@@ -18,11 +18,6 @@ Mechanisms exist to facilitate the implementation of industry-recognized cyberse
 - [A.8.26](../iso27002/a-8.md#a826)
 - [A.8.27](../iso27002/a-8.md#a827)
   
-### ISO 27701
-- [6.11.2.5](../iso27701/61125.md)
-- [7.4](../iso27701/74.md)
-- [8.4](../iso27701/84.md)
-  
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 - [CC3.2](../soc2/cc32.md)

@@ -6,11 +6,6 @@ Physical access control mechanisms exist to maintain a current list of personnel
 - [A.5.18](../iso27002/a-5.md#a518)
 - [A.7.1](../iso27002/a-7.md#a71)
   
-### ISO 27701
-- [6.8.1.1](../iso27701/6811.md)
-- [6.8.1](../iso27701/681.md)
-- [6.8](../iso27701/68.md)
-  
 ### SOC 2
 - [CC6.4](../soc2/cc64.md)
   

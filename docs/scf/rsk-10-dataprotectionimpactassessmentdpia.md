@@ -16,9 +16,6 @@ Mechanisms exist to conduct a Data Protection Impact Assessment (DPIA) on system
 ### ISO 27002
 - [A.5.33](../iso27002/a-5.md#a533)
   
-### ISO 27701
-- [7.2.5](../iso27701/725.md)
-  
 ### SOC 2
 - [CC3.2](../soc2/cc32.md)
 - [CC5.2](../soc2/cc52.md)

@@ -7,13 +7,6 @@ Mechanisms exist to utilize a process to assist users in making information shar
 ### ISO 27002
 - [A.5.14](../iso27002/a-5.md#a514)
   
-### ISO 27701
-- [6.10.2.1](../iso27701/61021.md)
-- [6.10.2.2](../iso27701/61022.md)
-- [6.10.2](../iso27701/6102.md)
-- [7.4.9](../iso27701/749.md)
-- [8.4.3](../iso27701/843.md)
-  
 ### SOC 2
 - [CC6.7](../soc2/cc67.md)
   

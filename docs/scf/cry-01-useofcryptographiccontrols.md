@@ -10,11 +10,6 @@ Mechanisms exist to facilitate the implementation of cryptographic protections c
 - [A.8.24](../iso27002/a-8.md#a824)
 - [A.8.26](../iso27002/a-8.md#a826)
   
-### ISO 27701
-- [6.7.1.1](../iso27701/6711.md)
-- [6.7.1](../iso27701/671.md)
-- [6.7](../iso27701/67.md)
-  
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
   

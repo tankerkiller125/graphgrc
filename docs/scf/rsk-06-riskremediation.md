@@ -14,9 +14,6 @@ Mechanisms exist to remediate risks to an acceptable level.
 ### ISO 27002
 - [A.5.8](../iso27002/a-5.md#a58)
   
-### ISO 27701
-- [5.4.1.3](../iso27701/5413.md)
-  
 ### SOC 2
 - [CC3.2](../soc2/cc32.md)
 - [CC4.2](../soc2/cc42.md)

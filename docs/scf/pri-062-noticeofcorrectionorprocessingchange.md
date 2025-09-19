@@ -7,9 +7,6 @@ Mechanisms exist to notify affected data subjects if their Personal Data (PD) ha
 - [Art 19](../gdpr/art19.md)
 - [Art 26.3](../gdpr/art26.md#Article-263)
   
-### ISO 27701
-- [8.5.8](../iso27701/858.md)
-  
 ### SOC 2
 - [P5.2](../soc2/p52.md)
   

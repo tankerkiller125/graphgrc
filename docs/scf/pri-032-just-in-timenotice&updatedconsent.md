@@ -17,9 +17,6 @@ Mechanisms exist to present authorizations to process Personal Data (PD) in conj
 - [Art 8.1](../gdpr/art8.md#Article-81)
 - [Art 8.2](../gdpr/art8.md#Article-82)
   
-### ISO 27701
-- [7.3.4](../iso27701/734.md)
-  
 ### SOC 2
 - [P2.1](../soc2/p21.md)
 - [P3.2](../soc2/p32.md)

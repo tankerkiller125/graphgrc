@@ -25,13 +25,6 @@ Mechanisms exist to disclose Personal Data (PD) to third-parties only for the pu
 ### ISO 27002
 - [A.5.33](../iso27002/a-5.md#a533)
   
-### ISO 27701
-- [7.4.9](../iso27701/749.md)
-- [7.5](../iso27701/75.md)
-- [8.4.3](../iso27701/843.md)
-- [8.5.1](../iso27701/851.md)
-- [8.5.7](../iso27701/857.md)
-  
 ### SOC 2
 - [P6.1](../soc2/p61.md)
   

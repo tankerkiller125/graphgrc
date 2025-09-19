@@ -6,10 +6,6 @@ Mechanisms exist to identify critical system components and functions by perform
 - [A.5.9](../iso27002/a-5.md#a59)
 - [A.8.26](../iso27002/a-8.md#a826)
   
-### ISO 27701
-- [6.11.1](../iso27701/6111.md)
-- [6.11](../iso27701/611.md)
-  
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 - [CC4.1](../soc2/cc41.md)

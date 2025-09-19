@@ -4,9 +4,6 @@ Mechanisms exist to confirm the accuracy and relevance of Personal Data (PD) thr
 ### GDPR
 - [Art 5.1](../gdpr/art5.md#Article-51)
   
-### ISO 27701
-- [7.4.3](../iso27701/743.md)
-  
 ## Control questions
 Does the organization confirm the accuracy and relevance of Personal Data (PD) throughout the information lifecycle?
   

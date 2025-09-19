@@ -9,9 +9,6 @@ Cryptographic mechanisms exist to protect the confidentiality of data being tran
 - [A.8.24](../iso27002/a-8.md#a824)
 - [A.8.26](../iso27002/a-8.md#a826)
   
-### ISO 27701
-- [6.10.2.3](../iso27701/61023.md)
-  
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
 - [CC6.7](../soc2/cc67.md)

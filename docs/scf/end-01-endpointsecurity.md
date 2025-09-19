@@ -10,9 +10,6 @@ Mechanisms exist to facilitate the implementation of endpoint security controls.
 - [A.8.1](../iso27002/a-8.md#a81)
 - [A.8.5](../iso27002/a-8.md#a85)
   
-### ISO 27701
-- [6.8.2.9](../iso27701/6829.md)
-  
 ## Control questions
 Does the organization facilitate the implementation of endpoint security controls?
   

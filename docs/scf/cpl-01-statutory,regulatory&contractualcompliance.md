@@ -45,11 +45,6 @@ Mechanisms exist to facilitate the identification and implementation of relevant
 - [A.5.31](../iso27002/a-5.md#a531)
 - [A.8.34](../iso27002/a-8.md#a834)
   
-### ISO 27701
-- [6.15.1.1](../iso27701/61511.md)
-- [6.15.1](../iso27701/6151.md)
-- [6.15](../iso27701/615.md)
-  
 ### SOC 2
 - [CC2.2](../soc2/cc22.md)
 - [CC2.3](../soc2/cc23.md)

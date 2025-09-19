@@ -6,10 +6,6 @@ Mechanisms exist to provide additional formal notice to individuals from whom th
  - The intended disclosures or routine uses of the information; and 
  - The consequences of not providing all or some portion of the information requested.
 ## Mapped framework controls
-### ISO 27701
-- [8.5.1](../iso27701/851.md)
-- [8.5.2](../iso27701/852.md)
-  
 ### SOC 2
 - [P1.1](../soc2/p11.md)
   

@@ -14,9 +14,6 @@ Mechanisms exist to allow data subjects to modify the use permissions to selecte
 - [Art 7.3](../gdpr/art7.md#Article-73)
 - [Art 7.4](../gdpr/art7.md#Article-74)
   
-### ISO 27701
-- [7.3.4](../iso27701/734.md)
-  
 ## Control questions
 Does the organization allow data subjects to modify the use permissions to selected attributes of their Personal Data (PD)?
   

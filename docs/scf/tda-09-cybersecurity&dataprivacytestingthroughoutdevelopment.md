@@ -9,10 +9,6 @@ Mechanisms exist to require system developers/integrators consult with cybersecu
 - [A.8.29](../iso27002/a-8.md#a829)
 - [A.8.30](../iso27002/a-8.md#a830)
   
-### ISO 27701
-- [6.11.2.7](../iso27701/61127.md)
-- [6.11.2.8](../iso27701/61128.md)
-  
 ## Control questions
 Does the organization require system developers/integrators consult with cybersecurity & data privacy personnel to: 
  - Create and implement a Security Test and Evaluation (ST&E) plan;

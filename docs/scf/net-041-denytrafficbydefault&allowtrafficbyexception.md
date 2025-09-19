@@ -5,9 +5,6 @@ Mechanisms exist to configure firewall and router configurations to deny network
 - [A.5.14](../iso27002/a-5.md#a514)
 - [A.8.20](../iso27002/a-8.md#a820)
   
-### ISO 27701
-- [6.10.2.1](../iso27701/61021.md)
-  
 ### SOC 2
 - [CC6.6](../soc2/cc66.md)
   

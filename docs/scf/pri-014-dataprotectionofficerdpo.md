@@ -21,9 +21,6 @@ Mechanisms exist to appoint a Data Protection Officer (DPO):
 - [Art 39.1](../gdpr/art39.md#Article-391)
 - [Art 39.2](../gdpr/art39.md#Article-392)
   
-### ISO 27701
-- [8.5](../iso27701/85.md)
-  
 ## Control questions
 Does the organization appoint a Data Protection Officer (DPO):
  - Based on the basis of professional qualities; and

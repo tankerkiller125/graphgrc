@@ -4,9 +4,6 @@ Mechanisms exist to restrict removable media in accordance with data handling an
 ### ISO 27002
 - [A.7.10](../iso27002/a-7.md#a710)
   
-### ISO 27701
-- [6.5.3.1](../iso27701/6531.md)
-  
 ### SOC 2
 - [CC6.7](../soc2/cc67.md)
   

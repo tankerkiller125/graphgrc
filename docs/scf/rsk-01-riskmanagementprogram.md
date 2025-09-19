@@ -34,9 +34,6 @@ Mechanisms exist to facilitate the implementation of risk management controls.
 ### ISO 27002
 - [A.7.5](../iso27002/a-7.md#a75)
   
-### ISO 27701
-- [6.8.1.4](../iso27701/6814.md)
-  
 ### SOC 2
 - [CC1.3](../soc2/cc13.md)
 - [CC3.1](../soc2/cc31.md)

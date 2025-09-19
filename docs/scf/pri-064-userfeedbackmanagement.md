@@ -11,9 +11,6 @@ Mechanisms exist to implement a process for receiving and responding to complain
 - [Art 22](../gdpr/art22.md)
 - [Art 26.3](../gdpr/art26.md#Article-263)
   
-### ISO 27701
-- [7.3.9](../iso27701/739.md)
-  
 ### SOC 2
 - [P5.2](../soc2/p52.md)
 - [P8.1](../soc2/p81.md)

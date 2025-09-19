@@ -4,10 +4,6 @@ Mechanisms exist to conduct software patching for all deployed operating systems
 ### ISO 27002
 - [A.8.8](../iso27002/a-8.md#a88)
   
-### ISO 27701
-- [6.9.6.1](../iso27701/6961.md)
-- [6.9.6](../iso27701/696.md)
-  
 ## Control questions
 Does the organization conduct software patching for all deployed operating systems, applications and firmware?
   

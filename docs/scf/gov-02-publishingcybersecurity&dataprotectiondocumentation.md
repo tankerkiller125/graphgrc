@@ -37,11 +37,6 @@ Mechanisms exist to establish, maintain and disseminate cybersecurity & data pro
 - [A.5.1](../iso27002/a-5.md#a51)
 - [A.5.37](../iso27002/a-5.md#a537)
   
-### ISO 27701
-- [6.2.1.1](../iso27701/6211.md)
-- [6.2.1](../iso27701/621.md)
-- [6.2](../iso27701/62.md)
-  
 ### SOC 2
 - [CC5.3](../soc2/cc53.md)
   

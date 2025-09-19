@@ -11,9 +11,6 @@ Mechanisms exist to provide all employees and contractors appropriate awareness 
 ### ISO 27002
 - [A.6.3](../iso27002/a-6.md#a63)
   
-### ISO 27701
-- [6.4.2.2](../iso27701/6422.md)
-  
 ## Control questions
 Does the organization provide all employees and contractors appropriate awareness education and training that is relevant for their job function? 
   

@@ -4,9 +4,6 @@ Mechanisms exist to revoke user access rights following changes in personnel rol
 ### ISO 27002
 - [A.5.18](../iso27002/a-5.md#a518)
   
-### ISO 27701
-- [6.6.2.5](../iso27701/6625.md)
-  
 ### SOC 2
 - [CC6.2](../soc2/cc62.md)
   

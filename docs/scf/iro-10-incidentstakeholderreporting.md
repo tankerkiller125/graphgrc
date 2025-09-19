@@ -18,10 +18,6 @@ Mechanisms exist to timely-report incidents to applicable:
 ### ISO 27002
 - [A.6.8](../iso27002/a-6.md#a68)
   
-### ISO 27701
-- [6.13.1.2](../iso27701/61312.md)
-- [6.13.1.3](../iso27701/61313.md)
-  
 ### SOC 2
 - [CC2.3](../soc2/cc23.md)
 - [CC7.4](../soc2/cc74.md)

@@ -16,9 +16,6 @@ Mechanisms exist to facilitate the implementation of security workforce developm
 ### ISO 27002
 - [A.6.3](../iso27002/a-6.md#a63)
   
-### ISO 27701
-- [6.4.2.2](../iso27701/6422.md)
-  
 ### SOC 2
 - [CC1.4](../soc2/cc14.md)
   

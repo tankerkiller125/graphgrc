@@ -9,11 +9,6 @@ Mechanisms exist to perform inventories of technology assets that:
 ### ISO 27002
 - [A.5.9](../iso27002/a-5.md#a59)
   
-### ISO 27701
-- [6.5.1.1](../iso27701/6511.md)
-- [6.5.1](../iso27701/651.md)
-- [6.5](../iso27701/65.md)
-  
 ## Control questions
 Does the organization perform inventories of technology assets that:
  - Accurately reflects the current systems, applications and services in use; 

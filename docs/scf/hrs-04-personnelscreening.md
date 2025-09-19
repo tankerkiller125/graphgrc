@@ -13,11 +13,6 @@ Mechanisms exist to manage personnel security risk by screening individuals prio
 ### ISO 27002
 - [A.6.1](../iso27002/a-6.md#a61)
   
-### ISO 27701
-- [6.4.1.1](../iso27701/6411.md)
-- [6.4.1](../iso27701/641.md)
-- [6.4](../iso27701/64.md)
-  
 ### SOC 2
 - [CC1.4](../soc2/cc14.md)
   

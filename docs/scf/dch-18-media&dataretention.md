@@ -8,11 +8,6 @@ Mechanisms exist to retain media and data in accordance with applicable statutor
 - [A.5.33](../iso27002/a-5.md#a533)
 - [A.8.10](../iso27002/a-8.md#a810)
   
-### ISO 27701
-- [6.15.1.3](../iso27701/61513.md)
-- [6.5.3](../iso27701/653.md)
-- [7.4.7](../iso27701/747.md)
-  
 ### SOC 2
 - [PI1.5](../soc2/pi15.md)
   

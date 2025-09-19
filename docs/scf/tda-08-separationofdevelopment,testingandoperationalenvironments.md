@@ -5,9 +5,6 @@ Mechanisms exist to manage separate development, testing and operational environ
 - [A.8.25](../iso27002/a-8.md#a825)
 - [A.8.31](../iso27002/a-8.md#a831)
   
-### ISO 27701
-- [6.9.1.4](../iso27701/6914.md)
-  
 ## Control questions
 Does the organization manage separate development, testing and operational environments to reduce the risks of unauthorized access or changes to the operational environment and to ensure no impact to production systems?
   

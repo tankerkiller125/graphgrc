@@ -4,9 +4,6 @@ Mechanisms exist to assess cybersecurity & data privacy controls in system proje
 ### ISO 27002
 - [A.5.8](../iso27002/a-5.md#a58)
   
-### ISO 27701
-- [6.3.1.5](../iso27701/6315.md)
-  
 ### SOC 2
 - [CC3.1](../soc2/cc31.md)
 - [CC4.1](../soc2/cc41.md)

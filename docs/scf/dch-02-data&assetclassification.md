@@ -5,9 +5,6 @@ Mechanisms exist to ensure data and assets are categorized in accordance with ap
 - [A.5.12](../iso27002/a-5.md#a512)
 - [A.5.9](../iso27002/a-5.md#a59)
   
-### ISO 27701
-- [6.5.2.1](../iso27701/6521.md)
-  
 ### SOC 2
 - [C1.1](../soc2/c11.md)
 - [CC2.1](../soc2/cc21.md)

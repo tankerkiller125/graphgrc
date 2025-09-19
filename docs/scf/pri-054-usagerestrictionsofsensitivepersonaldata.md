@@ -13,11 +13,6 @@ Mechanisms exist to restrict the use of Personal Data (PD) to only the authorize
 ### ISO 27002
 - [A.5.33](../iso27002/a-5.md#a533)
   
-### ISO 27701
-- [7.4.2](../iso27701/742.md)
-- [7.4.4](../iso27701/744.md)
-- [8.2.3](../iso27701/823.md)
-  
 ### SOC 2
 - [P4.0](../soc2/p40.md)
 - [P4.1](../soc2/p41.md)

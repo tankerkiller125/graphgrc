@@ -10,12 +10,6 @@ Mechanisms exist to develop, govern & update procedures to facilitate the implem
 - [A.8.20](../iso27002/a-8.md#a820)
 - [A.8.21](../iso27002/a-8.md#a821)
   
-### ISO 27701
-- [6.10.1.1](../iso27701/61011.md)
-- [6.10.1.2](../iso27701/61012.md)
-- [6.10.1](../iso27701/6101.md)
-- [6.10](../iso27701/610.md)
-  
 ### SOC 2
 - [CC6.1](../soc2/cc61.md)
 - [CC6.6](../soc2/cc66.md)

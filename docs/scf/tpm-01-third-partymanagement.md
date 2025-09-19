@@ -18,11 +18,6 @@ Mechanisms exist to facilitate the implementation of third-party management cont
 - [A.5.20](../iso27002/a-5.md#a520)
 - [A.8.30](../iso27002/a-8.md#a830)
   
-### ISO 27701
-- [6.12.1.1](../iso27701/61211.md)
-- [6.12.1](../iso27701/6121.md)
-- [6.12](../iso27701/612.md)
-  
 ### SOC 2
 - [CC3.3](../soc2/cc33.md)
 - [CC9.1](../soc2/cc91.md)

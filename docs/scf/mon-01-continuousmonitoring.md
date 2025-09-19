@@ -9,10 +9,6 @@ Mechanisms exist to facilitate the implementation of enterprise-wide monitoring 
 - [A.8.15](../iso27002/a-8.md#a815)
 - [A.8.16](../iso27002/a-8.md#a816)
   
-### ISO 27701
-- [6.9.4.1](../iso27701/6941.md)
-- [6.9.4](../iso27701/694.md)
-  
 ### SOC 2
 - [CC7.2](../soc2/cc72.md)
   

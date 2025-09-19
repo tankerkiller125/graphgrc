@@ -5,9 +5,6 @@ Mechanisms exist to define secure telecommuting practices and govern remote acce
 - [A.6.7](../iso27002/a-6.md#a67)
 - [A.7.9](../iso27002/a-7.md#a79)
   
-### ISO 27701
-- [6.3.2.2](../iso27701/6322.md)
-  
 ## Control questions
 Does the organization define secure telecommuting practices and govern remote access to systems and data for remote workers? 
   

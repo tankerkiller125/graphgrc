@@ -4,9 +4,6 @@ Mechanisms exist to sanitize system media with the strength and integrity commen
 ### ISO 27002
 - [A.8.10](../iso27002/a-8.md#a810)
   
-### ISO 27701
-- [7.4.8](../iso27701/748.md)
-  
 ### SOC 2
 - [CC6.5](../soc2/cc65.md)
   

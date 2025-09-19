@@ -8,9 +8,6 @@ Mechanisms exist to facilitate the implementation of capacity management control
 ### ISO 27002
 - [A.8.6](../iso27002/a-8.md#a86)
   
-### ISO 27701
-- [6.9.1.3](../iso27701/6913.md)
-  
 ### SOC 2
 - [A1.1](../soc2/a11.md)
   

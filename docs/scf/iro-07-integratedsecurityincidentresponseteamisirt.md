@@ -11,9 +11,6 @@ Mechanisms exist to establish an integrated team of cybersecurity, IT and busine
 - [A.5.25](../iso27002/a-5.md#a525)
 - [A.5.26](../iso27002/a-5.md#a526)
   
-### ISO 27701
-- [6.13.1.4](../iso27701/61314.md)
-  
 ### SOC 2
 - [CC7.4](../soc2/cc74.md)
   

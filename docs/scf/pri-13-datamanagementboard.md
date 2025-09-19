@@ -9,9 +9,6 @@ Mechanisms exist to establish a written charter for a Data Management Board (DMB
 - [Art 30.5](../gdpr/art30.md#Article-305)
 - [Art 5.1](../gdpr/art5.md#Article-51)
   
-### ISO 27701
-- [7.4.3](../iso27701/743.md)
-  
 ## Control questions
 Does the organization establish a written charter for a Data Management Board (DMB) and assigned organization-defined roles to the DMB?
   

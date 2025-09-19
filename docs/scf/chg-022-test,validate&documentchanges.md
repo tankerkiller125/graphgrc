@@ -5,9 +5,6 @@ Mechanisms exist to appropriately test and document proposed changes in a non-pr
 - [A.8.19](../iso27002/a-8.md#a819)
 - [A.8.32](../iso27002/a-8.md#a832)
   
-### ISO 27701
-- [6.11.2.3](../iso27701/61123.md)
-  
 ### SOC 2
 - [CC3.4](../soc2/cc34.md)
 - [CC8.1](../soc2/cc81.md)

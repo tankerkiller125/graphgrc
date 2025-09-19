@@ -6,9 +6,6 @@ Mechanisms exist to ensure changes to systems within the Secure Development Life
 - [A.8.25](../iso27002/a-8.md#a825)
 - [A.8.32](../iso27002/a-8.md#a832)
   
-### ISO 27701
-- [6.11.2.2](../iso27701/61122.md)
-  
 ### SOC 2
 - [CC5.2](../soc2/cc52.md)
 - [CC8.1](../soc2/cc81.md)

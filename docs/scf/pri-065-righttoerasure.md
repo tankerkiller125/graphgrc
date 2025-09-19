@@ -6,9 +6,6 @@ Mechanisms exist to erase personal data of a data subject, without delay.
 - [Art 17.2](../gdpr/art17.md#Article-172)
 - [Art 17.3](../gdpr/art17.md#Article-173)
   
-### ISO 27701
-- [7.3.6](../iso27701/736.md)
-  
 ## Control questions
 Does the organization erase personal data of a data subject, without delay?
   

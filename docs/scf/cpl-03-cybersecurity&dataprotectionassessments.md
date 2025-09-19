@@ -20,9 +20,6 @@ Mechanisms exist to ensure managers regularly review the processes and documente
 - [A.5.36](../iso27002/a-5.md#a536)
 - [A.8.34](../iso27002/a-8.md#a834)
   
-### ISO 27701
-- [6.15.2.2](../iso27701/61522.md)
-  
 ### SOC 2
 - [CC4.1](../soc2/cc41.md)
   

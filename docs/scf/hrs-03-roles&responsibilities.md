@@ -8,12 +8,6 @@ Mechanisms exist to define cybersecurity responsibilities for all personnel.
 ### ISO 27002
 - [A.5.2](../iso27002/a-5.md#a52)
   
-### ISO 27701
-- [6.3.1.1](../iso27701/6311.md)
-- [6.3.1](../iso27701/631.md)
-- [6.3](../iso27701/63.md)
-- [6.4.2](../iso27701/642.md)
-  
 ### SOC 2
 - [CC1.2](../soc2/cc12.md)
 - [CC1.3](../soc2/cc13.md)

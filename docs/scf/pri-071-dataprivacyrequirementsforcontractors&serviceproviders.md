@@ -21,11 +21,6 @@ Mechanisms exist to include data privacy requirements in contracts and other acq
 - [A.5.31](../iso27002/a-5.md#a531)
 - [A.5.33](../iso27002/a-5.md#a533)
   
-### ISO 27701
-- [7.2.6](../iso27701/726.md)
-- [8.2.5](../iso27701/825.md)
-- [8.5.8](../iso27701/858.md)
-  
 ### SOC 2
 - [P6.4](../soc2/p64.md)
   

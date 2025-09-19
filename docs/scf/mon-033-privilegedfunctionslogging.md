@@ -4,9 +4,6 @@ Mechanisms exist to log and review the actions of users and/or services with ele
 ### ISO 27002
 - [A.8.15](../iso27002/a-8.md#a815)
   
-### ISO 27701
-- [6.9.4.3](../iso27701/6943.md)
-  
 ## Control questions
 Does the organization log and review the actions of users and/or services with elevated privileges?
   

@@ -4,9 +4,6 @@ Mechanisms exist to remove, mask, encrypt, hash or replace direct identifiers in
 ### ISO 27002
 - [A.8.11](../iso27002/a-8.md#a811)
   
-### ISO 27701
-- [7.4.5](../iso27701/745.md)
-  
 ## Control questions
 Does the organization remove, mask, encrypt, hash or replace direct identifiers in a dataset?
   

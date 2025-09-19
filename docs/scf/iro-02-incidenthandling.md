@@ -7,9 +7,6 @@ Mechanisms exist to cover the preparation, automated detection or intake of inci
 - [A.5.26](../iso27002/a-5.md#a526)
 - [A.6.8](../iso27002/a-6.md#a68)
   
-### ISO 27701
-- [6.13.1.4](../iso27701/61314.md)
-  
 ### SOC 2
 - [CC7.3](../soc2/cc73.md)
 - [CC7.4](../soc2/cc74.md)

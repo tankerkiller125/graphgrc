@@ -24,10 +24,6 @@ Mechanisms exist to conduct recurring assessments of risk that includes the like
 - [A.5.8](../iso27002/a-5.md#a58)
 - [A.7.5](../iso27002/a-7.md#a75)
   
-### ISO 27701
-- [5.4.1.2](../iso27701/5412.md)
-- [6.8.1.2](../iso27701/6812.md)
-  
 ### SOC 2
 - [A1.2](../soc2/a12.md)
 - [CC3.2](../soc2/cc32.md)

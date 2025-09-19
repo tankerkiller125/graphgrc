@@ -12,10 +12,6 @@ Mechanisms exist to facilitate the operation of physical and environmental prote
 - [A.7.1](../iso27002/a-7.md#a71)
 - [A.7.5](../iso27002/a-7.md#a75)
   
-### ISO 27701
-- [6.15.1.4](../iso27701/61514.md)
-- [6.8.1.4](../iso27701/6814.md)
-  
 ### SOC 2
 - [A1.2](../soc2/a12.md)
 - [CC6.4](../soc2/cc64.md)

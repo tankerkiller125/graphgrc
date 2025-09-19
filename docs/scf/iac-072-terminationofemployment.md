@@ -4,9 +4,6 @@ Mechanisms exist to revoke user access rights in a timely manner, upon terminati
 ### ISO 27002
 - [A.5.18](../iso27002/a-5.md#a518)
   
-### ISO 27701
-- [6.6.2.5](../iso27701/6625.md)
-  
 ## Control questions
 Does the organization revoke user access rights in a timely manner, upon termination of employment or contract?
   

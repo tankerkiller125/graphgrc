@@ -5,9 +5,6 @@ Mechanisms exist to perform digital forensics and maintain the integrity of the 
 - [A.5.26](../iso27002/a-5.md#a526)
 - [A.5.28](../iso27002/a-5.md#a528)
   
-### ISO 27701
-- [6.13.1.7](../iso27701/61317.md)
-  
 ## Control questions
 Does the organization perform digital forensics and maintain the integrity of the chain of custody, in accordance with applicable laws, regulations and industry-recognized secure practices?
   

@@ -6,9 +6,6 @@ Mechanisms exist to formally assess the cybersecurity & data privacy controls in
 - [A.5.23](../iso27002/a-5.md#a523)
 - [A.8.29](../iso27002/a-8.md#a829)
   
-### ISO 27701
-- [6.11.2.8](../iso27701/61128.md)
-  
 ### SOC 2
 - [CC4.1](../soc2/cc41.md)
   

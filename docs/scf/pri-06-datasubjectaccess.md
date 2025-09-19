@@ -13,10 +13,6 @@ Mechanisms exist to provide data subjects the ability to access their Personal D
 - [Art 16](../gdpr/art16.md)
 - [Art 26.3](../gdpr/art26.md#Article-263)
   
-### ISO 27701
-- [7.3.6](../iso27701/736.md)
-- [8.2.5](../iso27701/825.md)
-  
 ### SOC 2
 - [P5.0](../soc2/p50.md)
 - [P5.1](../soc2/p51.md)

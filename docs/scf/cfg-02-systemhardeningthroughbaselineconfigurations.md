@@ -9,11 +9,6 @@ Mechanisms exist to develop, document and maintain secure baseline configuration
 - [A.8.5](../iso27002/a-8.md#a85)
 - [A.8.9](../iso27002/a-8.md#a89)
   
-### ISO 27701
-- [6.11.1.1](../iso27701/61111.md)
-- [6.11.1](../iso27701/6111.md)
-- [6.11](../iso27701/611.md)
-  
 ### SOC 2
 - [CC7.1](../soc2/cc71.md)
 - [CC8.1](../soc2/cc81.md)

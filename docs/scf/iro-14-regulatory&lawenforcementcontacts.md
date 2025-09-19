@@ -4,9 +4,6 @@ Mechanisms exist to maintain incident response contacts with applicable regulato
 ### GDPR
 - [Art 31](../gdpr/art31.md)
   
-### ISO 27701
-- [6.3.1.3](../iso27701/6313.md)
-  
 ### SOC 2
 - [CC2.3](../soc2/cc23.md)
 - [CC7.4](../soc2/cc74.md)

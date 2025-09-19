@@ -8,9 +8,6 @@ Automated mechanisms exist to adjust data that is able to be collected, created,
 - [Art 22.3](../gdpr/art22.md#Article-223)
 - [Art 22.4](../gdpr/art22.md#Article-224)
   
-### ISO 27701
-- [7.3.10](../iso27701/7310.md)
-  
 ## Control questions
 Does the organization use automated mechanisms to adjust data that is able to be collected, created, used, disseminated, maintained, retained and/or disclosed, based on updated data subject authorization(s)?
   
