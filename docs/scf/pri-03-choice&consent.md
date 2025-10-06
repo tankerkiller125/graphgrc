@@ -19,7 +19,6 @@ Mechanisms exist to authorize the processing of their Personal Data (PD) prior t
 - [A.5.33](../iso27002/a-5.md#a533)
   
 ### SOC 2
-- [P2.0](../soc2/p20.md)
 - [P2.1](../soc2/p21.md)
 - [P3.2](../soc2/p32.md)
   

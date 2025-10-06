@@ -12,7 +12,7 @@ Mechanisms exist to conduct cybersecurity & data privacy testing, training and m
   
 ### SOC 2
 - [P6.5](../soc2/p65.md)
-- [P8.0](../soc2/p80.md)
+- [P8.1](../soc2/p81.md)
   
 ## Control questions
 Does the organization conduct cybersecurity & data privacy testing, training and monitoring activities

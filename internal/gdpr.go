@@ -176,3 +176,45 @@ func GenerateGDPRIndex(gdprFramework GDPRFramework) error {
 	doc.Build()
 	return nil
 }
+
+func GenerateGDPRProboImportJson(gdprFramework GDPRFramework) error {
+	type ProboControl struct {
+		ID   string `json:"id"`
+		Name string `json:"name"`
+	}
+	type ProboImport struct {
+		Name     string         `json:"name"`
+		ID       string         `json:"id"`
+		Controls []ProboControl `json:"controls"`
+	}
+
+	var controls []ProboControl
+	for _, article := range gdprFramework {
+		// Add main article as a control
+		if article.Title != "" {
+			controls = append(controls, ProboControl{
+				ID:   article.ID,
+				Name: article.Title,
+			})
+		}
+		// Add subarticles as controls
+		for _, sub := range article.Subarticles {
+			controls = append(controls, ProboControl{
+				ID:   sub.ID,
+				Name: sub.Body,
+			})
+		}
+	}
+
+	proboImport := ProboImport{
+		Name:     "GDPR",
+		ID:       "GDPR",
+		Controls: controls,
+	}
+
+	data, err := json.MarshalIndent(proboImport, "", "  ")
+	if err != nil {
+		return err
+	}
+	return os.WriteFile("docs/gdpr/probo-import.json", data, 0644)
+}

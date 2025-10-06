@@ -1,0 +1,1782 @@
+{
+ "name": "Secure Controls Framework (SCF) 2023.4",
+ "id": "SCF",
+ "controls": [
+  {
+   "id": "TPM-05.4 - Responsible, Accountable, Supportive, Consulted \u0026 Informed (RASCI) Matrix",
+   "name": "Responsible, Accountable, Supportive, Consulted \u0026 Informed (RASCI) Matrix"
+  },
+  {
+   "id": "PES-11 - Alternate Work Site",
+   "name": "Alternate Work Site"
+  },
+  {
+   "id": "CRY-01 - Use of Cryptographic Controls",
+   "name": "Use of Cryptographic Controls"
+  },
+  {
+   "id": "AST-03.1 - Accountability Information",
+   "name": "Accountability Information"
+  },
+  {
+   "id": "VPM-01.1 - Attack Surface Scope",
+   "name": "Attack Surface Scope"
+  },
+  {
+   "id": "PRI-02.1 - Purpose Specification",
+   "name": "Purpose Specification"
+  },
+  {
+   "id": "PRI-07.1 - Data Privacy Requirements for Contractors \u0026 Service Providers",
+   "name": "Data Privacy Requirements for Contractors \u0026 Service Providers"
+  },
+  {
+   "id": "RSK-09 - Supply Chain Risk Management (SCRM) Plan",
+   "name": "Supply Chain Risk Management (SCRM) Plan"
+  },
+  {
+   "id": "GOV-04 - Assigned Cybersecurity \u0026 Data Protection Responsibilities",
+   "name": "Assigned Cybersecurity \u0026 Data Protection Responsibilities"
+  },
+  {
+   "id": "IAC-15.5 - Restrictions on Shared Groups / Accounts",
+   "name": "Restrictions on Shared Groups / Accounts"
+  },
+  {
+   "id": "IAC-22 - Account Lockout",
+   "name": "Account Lockout"
+  },
+  {
+   "id": "DCH-03.2 - Masking Displayed Data",
+   "name": "Masking Displayed Data"
+  },
+  {
+   "id": "IAC-09 - Identifier Management (User Names)",
+   "name": "Identifier Management (User Names)"
+  },
+  {
+   "id": "PRI-02 - Data Privacy Notice",
+   "name": "Data Privacy Notice"
+  },
+  {
+   "id": "HRS-09.3 - Post-Employment Requirements",
+   "name": "Post-Employment Requirements"
+  },
+  {
+   "id": "OPS-03 - Service Delivery (Business Process Support)",
+   "name": "Service Delivery (Business Process Support)"
+  },
+  {
+   "id": "NET-06.1 - Security Management Subnets",
+   "name": "Security Management Subnets"
+  },
+  {
+   "id": "NET-03 - Boundary Protection",
+   "name": "Boundary Protection"
+  },
+  {
+   "id": "CPL-01.1 - Non-Compliance Oversight",
+   "name": "Non-Compliance Oversight"
+  },
+  {
+   "id": "CPL-01 - Statutory, Regulatory \u0026 Contractual Compliance",
+   "name": "Statutory, Regulatory \u0026 Contractual Compliance"
+  },
+  {
+   "id": "IAO-05 - Plan of Action \u0026 Milestones (POA\u0026M)",
+   "name": "Plan of Action \u0026 Milestones (POA\u0026M)"
+  },
+  {
+   "id": "CRY-09.3 - Cryptographic Key Loss or Change",
+   "name": "Cryptographic Key Loss or Change"
+  },
+  {
+   "id": "MON-02 - Centralized Collection of Security Event Logs",
+   "name": "Centralized Collection of Security Event Logs"
+  },
+  {
+   "id": "SEA-02.1 - Standardized Terminology",
+   "name": "Standardized Terminology"
+  },
+  {
+   "id": "PRI-07 - Information Sharing With Third Parties",
+   "name": "Information Sharing With Third Parties"
+  },
+  {
+   "id": "GOV-03 - Periodic Review \u0026 Update of Cybersecurity \u0026 Data Protection Program",
+   "name": "Periodic Review \u0026 Update of Cybersecurity \u0026 Data Protection Program"
+  },
+  {
+   "id": "GOV-05 - Measures of Performance",
+   "name": "Measures of Performance"
+  },
+  {
+   "id": "AST-04 - Network Diagrams \u0026 Data Flow Diagrams (DFDs)",
+   "name": "Network Diagrams \u0026 Data Flow Diagrams (DFDs)"
+  },
+  {
+   "id": "DCH-23.4 - Removal, Masking, Encryption, Hashing or Replacement of Direct Identifiers",
+   "name": "Removal, Masking, Encryption, Hashing or Replacement of Direct Identifiers"
+  },
+  {
+   "id": "SEA-15 - Distributed Processing \u0026 Storage",
+   "name": "Distributed Processing \u0026 Storage"
+  },
+  {
+   "id": "DCH-13.2 - Portable Storage Devices",
+   "name": "Portable Storage Devices"
+  },
+  {
+   "id": "GOV-01.2 - Status Reporting To Governing Body",
+   "name": "Status Reporting To Governing Body"
+  },
+  {
+   "id": "TDA-02 - Minimum Viable Product (MVP) Security Requirements",
+   "name": "Minimum Viable Product (MVP) Security Requirements"
+  },
+  {
+   "id": "SEA-17 - Secure Log-On Procedures",
+   "name": "Secure Log-On Procedures"
+  },
+  {
+   "id": "CHG-02 - Configuration Change Control",
+   "name": "Configuration Change Control"
+  },
+  {
+   "id": "TPM-04.3 - Conflict of Interests",
+   "name": "Conflict of Interests"
+  },
+  {
+   "id": "PRI-01.3 - Dissemination of Data Privacy Program Information",
+   "name": "Dissemination of Data Privacy Program Information"
+  },
+  {
+   "id": "CPL-03.2 - Functional Review Of Cybersecurity \u0026 Data Protection Controls",
+   "name": "Functional Review Of Cybersecurity \u0026 Data Protection Controls"
+  },
+  {
+   "id": "PES-07.2 - Emergency Shutoff",
+   "name": "Emergency Shutoff"
+  },
+  {
+   "id": "HRS-05.1 - Rules of Behavior",
+   "name": "Rules of Behavior"
+  },
+  {
+   "id": "DCH-18 - Media \u0026 Data Retention",
+   "name": "Media \u0026 Data Retention"
+  },
+  {
+   "id": "CPL-02.1 - Internal Audit Function",
+   "name": "Internal Audit Function"
+  },
+  {
+   "id": "BCD-09.1 - Separation from Primary Site",
+   "name": "Separation from Primary Site"
+  },
+  {
+   "id": "PES-08.1 - Fire Detection Devices",
+   "name": "Fire Detection Devices"
+  },
+  {
+   "id": "PRI-09 - Personal Data Lineage",
+   "name": "Personal Data Lineage"
+  },
+  {
+   "id": "MON-08 - Protection of Event Logs",
+   "name": "Protection of Event Logs"
+  },
+  {
+   "id": "IRO-13 - Root Cause Analysis (RCA) \u0026 Lessons Learned",
+   "name": "Root Cause Analysis (RCA) \u0026 Lessons Learned"
+  },
+  {
+   "id": "TDA-11.2 - Component Disposal",
+   "name": "Component Disposal"
+  },
+  {
+   "id": "IRO-10.3 - Vulnerabilities Related To Incidents",
+   "name": "Vulnerabilities Related To Incidents"
+  },
+  {
+   "id": "MON-01.1 - Intrusion Detection \u0026 Prevention Systems (IDS \u0026 IPS)",
+   "name": "Intrusion Detection \u0026 Prevention Systems (IDS \u0026 IPS)"
+  },
+  {
+   "id": "NET-12 - Safeguarding Data Over Open Networks",
+   "name": "Safeguarding Data Over Open Networks"
+  },
+  {
+   "id": "DCH-09 - System Media Sanitization",
+   "name": "System Media Sanitization"
+  },
+  {
+   "id": "BCD-01.2 - Coordinate With External Service Providers",
+   "name": "Coordinate With External Service Providers"
+  },
+  {
+   "id": "END-03 - Prohibit Installation Without Privileged Status",
+   "name": "Prohibit Installation Without Privileged Status"
+  },
+  {
+   "id": "PES-12.2 - Access Control for Output Devices",
+   "name": "Access Control for Output Devices"
+  },
+  {
+   "id": "CFG-01.1 - Assignment of Responsibility",
+   "name": "Assignment of Responsibility"
+  },
+  {
+   "id": "TPM-09 - Third-Party Deficiency Remediation",
+   "name": "Third-Party Deficiency Remediation"
+  },
+  {
+   "id": "NET-06 - Network Segmentation",
+   "name": "Network Segmentation"
+  },
+  {
+   "id": "THR-04 - Insider Threat Program",
+   "name": "Insider Threat Program"
+  },
+  {
+   "id": "DCH-22.1 - Updating \u0026 Correcting Personal Data (PD)",
+   "name": "Updating \u0026 Correcting Personal Data (PD)"
+  },
+  {
+   "id": "NET-13 - Electronic Messaging",
+   "name": "Electronic Messaging"
+  },
+  {
+   "id": "PRI-01.2 - Privacy Act Statements",
+   "name": "Privacy Act Statements"
+  },
+  {
+   "id": "PRM-07 - Secure Development Life Cycle (SDLC) Management",
+   "name": "Secure Development Life Cycle (SDLC) Management"
+  },
+  {
+   "id": "MNT-02 - Controlled Maintenance",
+   "name": "Controlled Maintenance"
+  },
+  {
+   "id": "PRI-03.2 - Just-In-Time Notice \u0026 Updated Consent",
+   "name": "Just-In-Time Notice \u0026 Updated Consent"
+  },
+  {
+   "id": "HRS-09.1 - Asset Collection",
+   "name": "Asset Collection"
+  },
+  {
+   "id": "NET-04 - Data Flow Enforcement – Access Control Lists (ACLs)",
+   "name": "Data Flow Enforcement – Access Control Lists (ACLs)"
+  },
+  {
+   "id": "BCD-08.1 - Separation from Primary Site",
+   "name": "Separation from Primary Site"
+  },
+  {
+   "id": "TPM-03 - Supply Chain Protection",
+   "name": "Supply Chain Protection"
+  },
+  {
+   "id": "BCD-11.1 - Testing for Reliability \u0026 Integrity",
+   "name": "Testing for Reliability \u0026 Integrity"
+  },
+  {
+   "id": "AST-02.8 - Data Action Mapping",
+   "name": "Data Action Mapping"
+  },
+  {
+   "id": "HRS-08 - Personnel Transfer",
+   "name": "Personnel Transfer"
+  },
+  {
+   "id": "CPL-04 - Audit Activities",
+   "name": "Audit Activities"
+  },
+  {
+   "id": "IAC-05 - Identification \u0026 Authentication for Third Party Systems \u0026 Services",
+   "name": "Identification \u0026 Authentication for Third Party Systems \u0026 Services"
+  },
+  {
+   "id": "DCH-10 - Media Use",
+   "name": "Media Use"
+  },
+  {
+   "id": "PES-03.1 - Controlled Ingress \u0026 Egress Points",
+   "name": "Controlled Ingress \u0026 Egress Points"
+  },
+  {
+   "id": "IAO-06 - Technical Verification",
+   "name": "Technical Verification"
+  },
+  {
+   "id": "IRO-10 - Incident Stakeholder Reporting",
+   "name": "Incident Stakeholder Reporting"
+  },
+  {
+   "id": "NET-02 - Layered Network Defenses",
+   "name": "Layered Network Defenses"
+  },
+  {
+   "id": "AST-05 - Security of Assets \u0026 Media",
+   "name": "Security of Assets \u0026 Media"
+  },
+  {
+   "id": "DCH-01.1 - Data Stewardship",
+   "name": "Data Stewardship"
+  },
+  {
+   "id": "VPM-02 - Vulnerability Remediation Process",
+   "name": "Vulnerability Remediation Process"
+  },
+  {
+   "id": "CHG-05 - Stakeholder Notification of Changes",
+   "name": "Stakeholder Notification of Changes"
+  },
+  {
+   "id": "AST-01 - Asset Governance",
+   "name": "Asset Governance"
+  },
+  {
+   "id": "BCD-03.1 - Simulated Events",
+   "name": "Simulated Events"
+  },
+  {
+   "id": "RSK-01 - Risk Management Program",
+   "name": "Risk Management Program"
+  },
+  {
+   "id": "IRO-05 - Incident Response Training",
+   "name": "Incident Response Training"
+  },
+  {
+   "id": "CAP-01 - Capacity \u0026 Performance Management",
+   "name": "Capacity \u0026 Performance Management"
+  },
+  {
+   "id": "CPL-02 - Cybersecurity \u0026 Data Protection Controls Oversight",
+   "name": "Cybersecurity \u0026 Data Protection Controls Oversight"
+  },
+  {
+   "id": "IAC-09.1 - User Identity (ID) Management",
+   "name": "User Identity (ID) Management"
+  },
+  {
+   "id": "CFG-01 - Configuration Management Program",
+   "name": "Configuration Management Program"
+  },
+  {
+   "id": "VPM-04 - Continuous Vulnerability Remediation Activities",
+   "name": "Continuous Vulnerability Remediation Activities"
+  },
+  {
+   "id": "TPM-01 - Third-Party Management",
+   "name": "Third-Party Management"
+  },
+  {
+   "id": "MNT-03 - Timely Maintenance",
+   "name": "Timely Maintenance"
+  },
+  {
+   "id": "AST-02.7 - Software Licensing Restrictions",
+   "name": "Software Licensing Restrictions"
+  },
+  {
+   "id": "END-13.3 - Collection Minimization",
+   "name": "Collection Minimization"
+  },
+  {
+   "id": "RSK-05 - Risk Ranking",
+   "name": "Risk Ranking"
+  },
+  {
+   "id": "PES-04.1 - Working in Secure Areas",
+   "name": "Working in Secure Areas"
+  },
+  {
+   "id": "PRI-01 - Data Privacy Program",
+   "name": "Data Privacy Program"
+  },
+  {
+   "id": "HRS-03.2 - Competency Requirements for Security-Related Positions",
+   "name": "Competency Requirements for Security-Related Positions"
+  },
+  {
+   "id": "PRI-05.3 - Data Masking",
+   "name": "Data Masking"
+  },
+  {
+   "id": "HRS-11 - Separation of Duties (SoD)",
+   "name": "Separation of Duties (SoD)"
+  },
+  {
+   "id": "IAC-10.5 - Protection of Authenticators",
+   "name": "Protection of Authenticators"
+  },
+  {
+   "id": "RSK-06.1 - Risk Response",
+   "name": "Risk Response"
+  },
+  {
+   "id": "PRI-03 - Choice \u0026 Consent",
+   "name": "Choice \u0026 Consent"
+  },
+  {
+   "id": "IAC-20 - Access Enforcement",
+   "name": "Access Enforcement"
+  },
+  {
+   "id": "AST-03.2 - Provenance",
+   "name": "Provenance"
+  },
+  {
+   "id": "NET-14 - Remote Access",
+   "name": "Remote Access"
+  },
+  {
+   "id": "IAO-03.1 - Plan / Coordinate with Other Organizational Entities",
+   "name": "Plan / Coordinate with Other Organizational Entities"
+  },
+  {
+   "id": "GOV-01 - Cybersecurity \u0026 Data Protection Governance Program",
+   "name": "Cybersecurity \u0026 Data Protection Governance Program"
+  },
+  {
+   "id": "OPS-01 - Operations Security",
+   "name": "Operations Security"
+  },
+  {
+   "id": "MON-01 - Continuous Monitoring",
+   "name": "Continuous Monitoring"
+  },
+  {
+   "id": "PRM-05 - Cybersecurity \u0026 Data Privacy Requirements Definition",
+   "name": "Cybersecurity \u0026 Data Privacy Requirements Definition"
+  },
+  {
+   "id": "HRS-06 - Access Agreements",
+   "name": "Access Agreements"
+  },
+  {
+   "id": "MON-02.1 - Correlate Monitoring Information",
+   "name": "Correlate Monitoring Information"
+  },
+  {
+   "id": "HRS-05.7 - Policy Familiarization \u0026 Acknowledgement",
+   "name": "Policy Familiarization \u0026 Acknowledgement"
+  },
+  {
+   "id": "PRI-15 - Register As A Data Controller and/or Data Processor",
+   "name": "Register As A Data Controller and/or Data Processor"
+  },
+  {
+   "id": "END-01 - Endpoint Security",
+   "name": "Endpoint Security"
+  },
+  {
+   "id": "DCH-13 - Use of External Information Systems",
+   "name": "Use of External Information Systems"
+  },
+  {
+   "id": "MNT-01 - Maintenance Operations",
+   "name": "Maintenance Operations"
+  },
+  {
+   "id": "DCH-10.1 - Limitations on Use",
+   "name": "Limitations on Use"
+  },
+  {
+   "id": "PRI-02.2 - Automated Data Management Processes",
+   "name": "Automated Data Management Processes"
+  },
+  {
+   "id": "PES-05.2 - Monitoring Physical Access To Information Systems",
+   "name": "Monitoring Physical Access To Information Systems"
+  },
+  {
+   "id": "BCD-10 - Telecommunications Services Availability",
+   "name": "Telecommunications Services Availability"
+  },
+  {
+   "id": "DCH-07 - Media Transportation",
+   "name": "Media Transportation"
+  },
+  {
+   "id": "SAT-01 - Cybersecurity \u0026 Data Privacy-Minded Workforce",
+   "name": "Cybersecurity \u0026 Data Privacy-Minded Workforce"
+  },
+  {
+   "id": "RSK-02 - Risk-Based Security Categorization",
+   "name": "Risk-Based Security Categorization"
+  },
+  {
+   "id": "CRY-09 - Cryptographic Key Management",
+   "name": "Cryptographic Key Management"
+  },
+  {
+   "id": "CRY-01.2 - Export-Controlled Technology",
+   "name": "Export-Controlled Technology"
+  },
+  {
+   "id": "PES-15 - Electromagnetic Pulse (EMP) Protection",
+   "name": "Electromagnetic Pulse (EMP) Protection"
+  },
+  {
+   "id": "DCH-12 - Removable Media Security",
+   "name": "Removable Media Security"
+  },
+  {
+   "id": "TDA-02.3 - Development Methods, Techniques \u0026 Processes",
+   "name": "Development Methods, Techniques \u0026 Processes"
+  },
+  {
+   "id": "TDA-05 - Developer Architecture \u0026 Design",
+   "name": "Developer Architecture \u0026 Design"
+  },
+  {
+   "id": "GOV-15.2 - Implement Controls",
+   "name": "Implement Controls"
+  },
+  {
+   "id": "CLD-01 - Cloud Services",
+   "name": "Cloud Services"
+  },
+  {
+   "id": "IRO-12 - Information Spillage Response",
+   "name": "Information Spillage Response"
+  },
+  {
+   "id": "MDM-01 - Centralized Management Of Mobile Devices",
+   "name": "Centralized Management Of Mobile Devices"
+  },
+  {
+   "id": "TPM-03.1 - Acquisition Strategies, Tools \u0026 Methods",
+   "name": "Acquisition Strategies, Tools \u0026 Methods"
+  },
+  {
+   "id": "BCD-07 - Alternative Security Measures",
+   "name": "Alternative Security Measures"
+  },
+  {
+   "id": "IAC-21.3 - Privileged Accounts",
+   "name": "Privileged Accounts"
+  },
+  {
+   "id": "MON-01.4 - System Generated Alerts",
+   "name": "System Generated Alerts"
+  },
+  {
+   "id": "IAC-19 - Credential Sharing",
+   "name": "Credential Sharing"
+  },
+  {
+   "id": "NET-05.1 - External System Connections",
+   "name": "External System Connections"
+  },
+  {
+   "id": "PES-05.1 - Intrusion Alarms / Surveillance Equipment",
+   "name": "Intrusion Alarms / Surveillance Equipment"
+  },
+  {
+   "id": "IAC-18 - User Responsibilities for Account Management",
+   "name": "User Responsibilities for Account Management"
+  },
+  {
+   "id": "MON-03.3 - Privileged Functions Logging",
+   "name": "Privileged Functions Logging"
+  },
+  {
+   "id": "BCD-02.2 - Continue Essential Mission \u0026 Business Functions",
+   "name": "Continue Essential Mission \u0026 Business Functions"
+  },
+  {
+   "id": "PRI-06.5 - Right to Erasure",
+   "name": "Right to Erasure"
+  },
+  {
+   "id": "PRI-10 - Data Quality Management",
+   "name": "Data Quality Management"
+  },
+  {
+   "id": "CFG-02.5 - Configure Systems, Components or Services for High-Risk Areas",
+   "name": "Configure Systems, Components or Services for High-Risk Areas"
+  },
+  {
+   "id": "AST-12 - Use of Personal Devices",
+   "name": "Use of Personal Devices"
+  },
+  {
+   "id": "NET-15 - Wireless Networking",
+   "name": "Wireless Networking"
+  },
+  {
+   "id": "RSK-07 - Risk Assessment Update",
+   "name": "Risk Assessment Update"
+  },
+  {
+   "id": "TDA-06 - Secure Coding",
+   "name": "Secure Coding"
+  },
+  {
+   "id": "MON-01.2 - Automated Tools for Real-Time Analysis",
+   "name": "Automated Tools for Real-Time Analysis"
+  },
+  {
+   "id": "IRO-09 - Situational Awareness For Incidents",
+   "name": "Situational Awareness For Incidents"
+  },
+  {
+   "id": "PES-09 - Temperature \u0026 Humidity Controls",
+   "name": "Temperature \u0026 Humidity Controls"
+  },
+  {
+   "id": "GOV-02 - Publishing Cybersecurity \u0026 Data Protection Documentation",
+   "name": "Publishing Cybersecurity \u0026 Data Protection Documentation"
+  },
+  {
+   "id": "VPM-05 - Software \u0026 Firmware Patching",
+   "name": "Software \u0026 Firmware Patching"
+  },
+  {
+   "id": "TDA-09 - Cybersecurity \u0026 Data Privacy Testing Throughout Development",
+   "name": "Cybersecurity \u0026 Data Privacy Testing Throughout Development"
+  },
+  {
+   "id": "THR-03 - Threat Intelligence Feeds",
+   "name": "Threat Intelligence Feeds"
+  },
+  {
+   "id": "MDM-05 - Remote Purging",
+   "name": "Remote Purging"
+  },
+  {
+   "id": "PRI-06.4 - User Feedback Management",
+   "name": "User Feedback Management"
+  },
+  {
+   "id": "SEA-20 - Clock Synchronization",
+   "name": "Clock Synchronization"
+  },
+  {
+   "id": "PES-08 - Fire Protection",
+   "name": "Fire Protection"
+  },
+  {
+   "id": "PES-07 - Supporting Utilities",
+   "name": "Supporting Utilities"
+  },
+  {
+   "id": "HRS-02.1 - Users With Elevated Privileges",
+   "name": "Users With Elevated Privileges"
+  },
+  {
+   "id": "NET-04.1 - Deny Traffic by Default \u0026 Allow Traffic by Exception",
+   "name": "Deny Traffic by Default \u0026 Allow Traffic by Exception"
+  },
+  {
+   "id": "TPM-05.1 - Security Compromise Notification Agreements",
+   "name": "Security Compromise Notification Agreements"
+  },
+  {
+   "id": "DCH-06 - Media Storage",
+   "name": "Media Storage"
+  },
+  {
+   "id": "DCH-14 - Information Sharing",
+   "name": "Information Sharing"
+  },
+  {
+   "id": "PRM-06 - Business Process Definition",
+   "name": "Business Process Definition"
+  },
+  {
+   "id": "HRS-06.1 - Confidentiality Agreements",
+   "name": "Confidentiality Agreements"
+  },
+  {
+   "id": "TDA-07 - Secure Development Environments",
+   "name": "Secure Development Environments"
+  },
+  {
+   "id": "DCH-04 - Media Marking",
+   "name": "Media Marking"
+  },
+  {
+   "id": "GOV-05.2 - Key Risk Indicators (KRIs)",
+   "name": "Key Risk Indicators (KRIs)"
+  },
+  {
+   "id": "END-06.2 - Integration of Detection \u0026 Response",
+   "name": "Integration of Detection \u0026 Response"
+  },
+  {
+   "id": "RSK-04.1 - Risk Register",
+   "name": "Risk Register"
+  },
+  {
+   "id": "IRO-11.2 - Coordination With External Providers",
+   "name": "Coordination With External Providers"
+  },
+  {
+   "id": "IAC-07 - User Provisioning \u0026 De-Provisioning",
+   "name": "User Provisioning \u0026 De-Provisioning"
+  },
+  {
+   "id": "IAC-04 - Identification \u0026 Authentication for Devices",
+   "name": "Identification \u0026 Authentication for Devices"
+  },
+  {
+   "id": "PRM-02 - Cybersecurity \u0026 Data Privacy Resource Management",
+   "name": "Cybersecurity \u0026 Data Privacy Resource Management"
+  },
+  {
+   "id": "CFG-03 - Least Functionality",
+   "name": "Least Functionality"
+  },
+  {
+   "id": "GOV-07 - Contacts With Groups \u0026 Associations",
+   "name": "Contacts With Groups \u0026 Associations"
+  },
+  {
+   "id": "PRI-13 - Data Management Board",
+   "name": "Data Management Board"
+  },
+  {
+   "id": "PRM-04 - Cybersecurity \u0026 Data Privacy In Project Management",
+   "name": "Cybersecurity \u0026 Data Privacy In Project Management"
+  },
+  {
+   "id": "PRI-05 - Personal Data Retention \u0026 Disposal",
+   "name": "Personal Data Retention \u0026 Disposal"
+  },
+  {
+   "id": "NET-08.1 - DMZ Networks",
+   "name": "DMZ Networks"
+  },
+  {
+   "id": "CFG-03.1 - Periodic Review",
+   "name": "Periodic Review"
+  },
+  {
+   "id": "DCH-25 - Transfer of Sensitive and/or Regulated Data",
+   "name": "Transfer of Sensitive and/or Regulated Data"
+  },
+  {
+   "id": "NET-18 - DNS \u0026 Content Filtering",
+   "name": "DNS \u0026 Content Filtering"
+  },
+  {
+   "id": "IRO-04.1 - Data Breach",
+   "name": "Data Breach"
+  },
+  {
+   "id": "PRM-01 - Cybersecurity \u0026 Data Privacy Portfolio Management",
+   "name": "Cybersecurity \u0026 Data Privacy Portfolio Management"
+  },
+  {
+   "id": "AST-08 - Tamper Detection",
+   "name": "Tamper Detection"
+  },
+  {
+   "id": "THR-02 - Indicators of Exposure (IOE)",
+   "name": "Indicators of Exposure (IOE)"
+  },
+  {
+   "id": "IAC-15.3 - Disable Inactive Accounts",
+   "name": "Disable Inactive Accounts"
+  },
+  {
+   "id": "BCD-11.4 - Cryptographic Protection",
+   "name": "Cryptographic Protection"
+  },
+  {
+   "id": "TDA-20 - Access to Program Source Code",
+   "name": "Access to Program Source Code"
+  },
+  {
+   "id": "PES-01 - Physical \u0026 Environmental Protections",
+   "name": "Physical \u0026 Environmental Protections"
+  },
+  {
+   "id": "PES-06 - Visitor Control",
+   "name": "Visitor Control"
+  },
+  {
+   "id": "DCH-21 - Information Disposal",
+   "name": "Information Disposal"
+  },
+  {
+   "id": "BCD-09.3 - Alternate Site Priority of Service",
+   "name": "Alternate Site Priority of Service"
+  },
+  {
+   "id": "BCD-02 - Identify Critical Assets",
+   "name": "Identify Critical Assets"
+  },
+  {
+   "id": "IRO-06 - Incident Response Testing",
+   "name": "Incident Response Testing"
+  },
+  {
+   "id": "CLD-06 - Multi-Tenant Environments",
+   "name": "Multi-Tenant Environments"
+  },
+  {
+   "id": "MDM-03 - Full Device \u0026 Container-Based Encryption",
+   "name": "Full Device \u0026 Container-Based Encryption"
+  },
+  {
+   "id": "BCD-12 - Information System Recovery \u0026 Reconstitution",
+   "name": "Information System Recovery \u0026 Reconstitution"
+  },
+  {
+   "id": "MDM-02 - Access Control For Mobile Devices",
+   "name": "Access Control For Mobile Devices"
+  },
+  {
+   "id": "IAC-09.4 - Cross-Organization Management",
+   "name": "Cross-Organization Management"
+  },
+  {
+   "id": "CPL-03.1 - Independent Assessors",
+   "name": "Independent Assessors"
+  },
+  {
+   "id": "PES-13 - Information Leakage Due To Electromagnetic Signals Emanations",
+   "name": "Information Leakage Due To Electromagnetic Signals Emanations"
+  },
+  {
+   "id": "PRI-06.3 - Appeal Adverse Decision",
+   "name": "Appeal Adverse Decision"
+  },
+  {
+   "id": "BCD-11.7 - Redundant Secondary System",
+   "name": "Redundant Secondary System"
+  },
+  {
+   "id": "PRI-05.4 - Usage Restrictions of Sensitive Personal Data",
+   "name": "Usage Restrictions of Sensitive Personal Data"
+  },
+  {
+   "id": "SEA-02 - Alignment With Enterprise Architecture",
+   "name": "Alignment With Enterprise Architecture"
+  },
+  {
+   "id": "CRY-05 - Encrypting Data At Rest",
+   "name": "Encrypting Data At Rest"
+  },
+  {
+   "id": "IRO-08 - Chain of Custody \u0026 Forensics",
+   "name": "Chain of Custody \u0026 Forensics"
+  },
+  {
+   "id": "END-03.2 - Governing Access Restriction for Change",
+   "name": "Governing Access Restriction for Change"
+  },
+  {
+   "id": "AST-09 - Secure Disposal, Destruction or Re-Use of Equipment",
+   "name": "Secure Disposal, Destruction or Re-Use of Equipment"
+  },
+  {
+   "id": "WEB-01 - Web Security",
+   "name": "Web Security"
+  },
+  {
+   "id": "BCD-01.1 - Coordinate with Related Plans",
+   "name": "Coordinate with Related Plans"
+  },
+  {
+   "id": "TDA-01 - Technology Development \u0026 Acquisition",
+   "name": "Technology Development \u0026 Acquisition"
+  },
+  {
+   "id": "IAC-15.2 - Removal of Temporary / Emergency Accounts",
+   "name": "Removal of Temporary / Emergency Accounts"
+  },
+  {
+   "id": "PES-09.1 - Monitoring with Alarms / Notifications",
+   "name": "Monitoring with Alarms / Notifications"
+  },
+  {
+   "id": "PRI-06.1 - Correcting Inaccurate Personal Data",
+   "name": "Correcting Inaccurate Personal Data"
+  },
+  {
+   "id": "AST-15 - Tamper Protection",
+   "name": "Tamper Protection"
+  },
+  {
+   "id": "HRS-03 - Roles \u0026 Responsibilities",
+   "name": "Roles \u0026 Responsibilities"
+  },
+  {
+   "id": "PRI-10.1 - Automation",
+   "name": "Automation"
+  },
+  {
+   "id": "CFG-02.4 - Development \u0026 Test Environment Configurations",
+   "name": "Development \u0026 Test Environment Configurations"
+  },
+  {
+   "id": "AST-04.1 - Asset Scope Classification",
+   "name": "Asset Scope Classification"
+  },
+  {
+   "id": "PES-10 - Delivery \u0026 Removal",
+   "name": "Delivery \u0026 Removal"
+  },
+  {
+   "id": "MON-01.5 - Wireless Intrusion Detection System (WIDS)",
+   "name": "Wireless Intrusion Detection System (WIDS)"
+  },
+  {
+   "id": "HRS-05.2 - Social Media \u0026 Social Networking Restrictions",
+   "name": "Social Media \u0026 Social Networking Restrictions"
+  },
+  {
+   "id": "IRO-14 - Regulatory \u0026 Law Enforcement Contacts",
+   "name": "Regulatory \u0026 Law Enforcement Contacts"
+  },
+  {
+   "id": "BCD-01 - Business Continuity Management System (BCMS)",
+   "name": "Business Continuity Management System (BCMS)"
+  },
+  {
+   "id": "TPM-04 - Third-Party Services",
+   "name": "Third-Party Services"
+  },
+  {
+   "id": "BCD-06 - Contingency Planning \u0026 Updates",
+   "name": "Contingency Planning \u0026 Updates"
+  },
+  {
+   "id": "HRS-09.2 - High-Risk Terminations",
+   "name": "High-Risk Terminations"
+  },
+  {
+   "id": "PRI-14.1 - Accounting of Disclosures",
+   "name": "Accounting of Disclosures"
+  },
+  {
+   "id": "PRI-05.1 - Internal Use of Personal Data For Testing, Training and Research",
+   "name": "Internal Use of Personal Data For Testing, Training and Research"
+  },
+  {
+   "id": "HRS-10 - Third-Party Personnel Security",
+   "name": "Third-Party Personnel Security"
+  },
+  {
+   "id": "IAO-02 - Assessments",
+   "name": "Assessments"
+  },
+  {
+   "id": "PRI-01.6 - Security of Personal Data",
+   "name": "Security of Personal Data"
+  },
+  {
+   "id": "BCD-11.3 - Information System Imaging",
+   "name": "Information System Imaging"
+  },
+  {
+   "id": "IAC-21 - Least Privilege",
+   "name": "Least Privilege"
+  },
+  {
+   "id": "DCH-03.1 - Disclosure of Information",
+   "name": "Disclosure of Information"
+  },
+  {
+   "id": "TDA-14 - Developer Configuration Management",
+   "name": "Developer Configuration Management"
+  },
+  {
+   "id": "TPM-04.1 - Third-Party Risk Assessments \u0026 Approvals",
+   "name": "Third-Party Risk Assessments \u0026 Approvals"
+  },
+  {
+   "id": "CPL-03 - Cybersecurity \u0026 Data Protection Assessments",
+   "name": "Cybersecurity \u0026 Data Protection Assessments"
+  },
+  {
+   "id": "CAP-02 - Resource Priority",
+   "name": "Resource Priority"
+  },
+  {
+   "id": "CFG-02 - System Hardening Through Baseline Configurations",
+   "name": "System Hardening Through Baseline Configurations"
+  },
+  {
+   "id": "THR-01 - Threat Intelligence Program",
+   "name": "Threat Intelligence Program"
+  },
+  {
+   "id": "DCH-24 - Information Location",
+   "name": "Information Location"
+  },
+  {
+   "id": "PES-07.1 - Automatic Voltage Controls",
+   "name": "Automatic Voltage Controls"
+  },
+  {
+   "id": "CFG-02.2 - Automated Central Management \u0026 Verification",
+   "name": "Automated Central Management \u0026 Verification"
+  },
+  {
+   "id": "NET-14.5 - Work From Anywhere (WFA) - Telecommuting Security",
+   "name": "Work From Anywhere (WFA)"
+  },
+  {
+   "id": "AST-06 - Unattended End-User Equipment",
+   "name": "Unattended End-User Equipment"
+  },
+  {
+   "id": "MON-11.3 - Monitoring for Indicators of Compromise (IOC)",
+   "name": "Monitoring for Indicators of Compromise (IOC)"
+  },
+  {
+   "id": "VPM-04.2 - Flaw Remediation with Personal Data (PD)",
+   "name": "Flaw Remediation with Personal Data (PD)"
+  },
+  {
+   "id": "CLD-04 - Application \u0026 Program Interface (API) Security",
+   "name": "Application \u0026 Program Interface (API) Security"
+  },
+  {
+   "id": "CHG-02.1 - Prohibition Of Changes",
+   "name": "Prohibition Of Changes"
+  },
+  {
+   "id": "PES-05 - Monitoring Physical Access",
+   "name": "Monitoring Physical Access"
+  },
+  {
+   "id": "TPM-03.3 - Processes To Address Weaknesses or Deficiencies",
+   "name": "Processes To Address Weaknesses or Deficiencies"
+  },
+  {
+   "id": "CHG-03 - Security Impact Analysis for Changes",
+   "name": "Security Impact Analysis for Changes"
+  },
+  {
+   "id": "GOV-09 - Define Control Objectives",
+   "name": "Define Control Objectives"
+  },
+  {
+   "id": "RSK-06 - Risk Remediation",
+   "name": "Risk Remediation"
+  },
+  {
+   "id": "SAT-02 - Cybersecurity \u0026 Data Privacy Awareness Training",
+   "name": "Cybersecurity \u0026 Data Privacy Awareness Training"
+  },
+  {
+   "id": "CAP-03 - Capacity Planning",
+   "name": "Capacity Planning"
+  },
+  {
+   "id": "CHG-01 - Change Management Program",
+   "name": "Change Management Program"
+  },
+  {
+   "id": "IAO-01 - Information Assurance (IA) Operations",
+   "name": "Information Assurance (IA) Operations"
+  },
+  {
+   "id": "BCD-05 - Contingency Plan Root Cause Analysis (RCA) \u0026 Lessons Learned",
+   "name": "Contingency Plan Root Cause Analysis (RCA) \u0026 Lessons Learned"
+  },
+  {
+   "id": "BCD-12.1 - Transaction Recovery",
+   "name": "Transaction Recovery"
+  },
+  {
+   "id": "DCH-09.3 - Sanitization of Personal Data (PD)",
+   "name": "Sanitization of Personal Data (PD)"
+  },
+  {
+   "id": "PES-02.1 - Role-Based Physical Access",
+   "name": "Role-Based Physical Access"
+  },
+  {
+   "id": "SEA-01.1 - Centralized Management of Cybersecurity \u0026 Data Privacy Controls",
+   "name": "Centralized Management of Cybersecurity \u0026 Data Privacy Controls"
+  },
+  {
+   "id": "IAC-10.11 - Password Managers",
+   "name": "Password Managers"
+  },
+  {
+   "id": "CRY-09.4 - Control \u0026 Distribution of Cryptographic Keys",
+   "name": "Control \u0026 Distribution of Cryptographic Keys"
+  },
+  {
+   "id": "IAC-15 - Account Management",
+   "name": "Account Management"
+  },
+  {
+   "id": "IAC-03 - Identification \u0026 Authentication for Non-Organizational Users",
+   "name": "Identification \u0026 Authentication for Non-Organizational Users"
+  },
+  {
+   "id": "PRI-06.6 - Data Portability",
+   "name": "Data Portability"
+  },
+  {
+   "id": "PRM-03 - Allocation of Resources",
+   "name": "Allocation of Resources"
+  },
+  {
+   "id": "BCD-09 - Alternate Processing Site",
+   "name": "Alternate Processing Site"
+  },
+  {
+   "id": "PRI-03.1 - Tailored Consent",
+   "name": "Tailored Consent"
+  },
+  {
+   "id": "HRS-02 - Position Categorization",
+   "name": "Position Categorization"
+  },
+  {
+   "id": "PRI-01.4 - Data Protection Officer (DPO)",
+   "name": "Data Protection Officer (DPO)"
+  },
+  {
+   "id": "BCD-09.2 - Accessibility",
+   "name": "Accessibility"
+  },
+  {
+   "id": "GOV-15 - Operationalizing Cybersecurity \u0026 Data Protection Practices",
+   "name": "Operationalizing Cybersecurity \u0026 Data Protection Practices"
+  },
+  {
+   "id": "DCH-22 - Data Quality Operations",
+   "name": "Data Quality Operations"
+  },
+  {
+   "id": "TPM-02 - Third-Party Criticality Assessments",
+   "name": "Third-Party Criticality Assessments"
+  },
+  {
+   "id": "IAO-04 - Threat Analysis \u0026 Flaw Remediation During Development",
+   "name": "Threat Analysis \u0026 Flaw Remediation During Development"
+  },
+  {
+   "id": "CFG-04.2 - Unsupported Internet Browsers \u0026 Email Clients",
+   "name": "Unsupported Internet Browsers \u0026 Email Clients"
+  },
+  {
+   "id": "DCH-09.1 - System Media Sanitization Documentation",
+   "name": "System Media Sanitization Documentation"
+  },
+  {
+   "id": "AST-11 - Removal of Assets",
+   "name": "Removal of Assets"
+  },
+  {
+   "id": "END-13.2 - Notice of Collection",
+   "name": "Notice of Collection"
+  },
+  {
+   "id": "END-06.1 - Integrity Checks",
+   "name": "Integrity Checks"
+  },
+  {
+   "id": "TPM-07 - Monitoring for Third-Party Information Disclosure",
+   "name": "Monitoring for Third-Party Information Disclosure"
+  },
+  {
+   "id": "DCH-01 - Data Protection",
+   "name": "Data Protection"
+  },
+  {
+   "id": "MON-16 - Anomalous Behavior",
+   "name": "Anomalous Behavior"
+  },
+  {
+   "id": "HRS-09 - Personnel Termination",
+   "name": "Personnel Termination"
+  },
+  {
+   "id": "VPM-06 - Vulnerability Scanning",
+   "name": "Vulnerability Scanning"
+  },
+  {
+   "id": "PES-02 - Physical Access Authorizations",
+   "name": "Physical Access Authorizations"
+  },
+  {
+   "id": "IAC-01 - Identity \u0026 Access Management (IAM)",
+   "name": "Identity \u0026 Access Management (IAM)"
+  },
+  {
+   "id": "MON-01.8 - Reviews \u0026 Updates",
+   "name": "Reviews \u0026 Updates"
+  },
+  {
+   "id": "RSK-01.1 - Risk Framing",
+   "name": "Risk Framing"
+  },
+  {
+   "id": "GOV-05.1 - Key Performance Indicators (KPIs)",
+   "name": "Key Performance Indicators (KPIs)"
+  },
+  {
+   "id": "IRO-07 - Integrated Security Incident Response Team (ISIRT)",
+   "name": "Integrated Security Incident Response Team (ISIRT)"
+  },
+  {
+   "id": "HRS-12 - Incompatible Roles",
+   "name": "Incompatible Roles"
+  },
+  {
+   "id": "END-13.1 - Authorized Use",
+   "name": "Authorized Use"
+  },
+  {
+   "id": "PRI-01.1 - Chief Privacy Officer (CPO)",
+   "name": "Chief Privacy Officer (CPO)"
+  },
+  {
+   "id": "IRO-06.1 - Coordination with Related Plans",
+   "name": "Coordination with Related Plans"
+  },
+  {
+   "id": "MON-03 - Content of Event Logs",
+   "name": "Content of Event Logs"
+  },
+  {
+   "id": "CRY-03 - Transmission Confidentiality",
+   "name": "Transmission Confidentiality"
+  },
+  {
+   "id": "DCH-02 - Data \u0026 Asset Classification",
+   "name": "Data \u0026 Asset Classification"
+  },
+  {
+   "id": "NET-08 - Network Intrusion Detection / Prevention Systems (NIDS / NIPS)",
+   "name": "Network Intrusion Detection / Prevention Systems (NIDS / NIPS)"
+  },
+  {
+   "id": "TDA-06.1 - Criticality Analysis",
+   "name": "Criticality Analysis"
+  },
+  {
+   "id": "MON-01.3 - Inbound \u0026 Outbound Communications Traffic",
+   "name": "Inbound \u0026 Outbound Communications Traffic"
+  },
+  {
+   "id": "HRS-04.1 - Roles With Special Protection Measures",
+   "name": "Roles With Special Protection Measures"
+  },
+  {
+   "id": "TPM-05 - Third-Party Contract Requirements",
+   "name": "Third-Party Contract Requirements"
+  },
+  {
+   "id": "CHG-02.3 - Cybersecurity \u0026 Data Privacy Representative for Asset Lifecycle Changes",
+   "name": "Cybersecurity \u0026 Data Privacy Representative for Asset Lifecycle Changes"
+  },
+  {
+   "id": "CLD-06.1 - Customer Responsibility Matrix (CRM)",
+   "name": "Customer Responsibility Matrix (CRM)"
+  },
+  {
+   "id": "DCH-07.1 - Custodians",
+   "name": "Custodians"
+  },
+  {
+   "id": "END-04 - Malicious Code Protection (Anti-Malware)",
+   "name": "Malicious Code Protection (Anti-Malware)"
+  },
+  {
+   "id": "IAC-10.8 - Vendor-Supplied Defaults",
+   "name": "Vendor-Supplied Defaults"
+  },
+  {
+   "id": "DCH-17 - Ad-Hoc Transfers",
+   "name": "Ad-Hoc Transfers"
+  },
+  {
+   "id": "PES-03 - Physical Access Control",
+   "name": "Physical Access Control"
+  },
+  {
+   "id": "IRO-04 - Incident Response Plan (IRP)",
+   "name": "Incident Response Plan (IRP)"
+  },
+  {
+   "id": "PES-07.5 - Water Damage Protection",
+   "name": "Water Damage Protection"
+  },
+  {
+   "id": "IRO-10.2 - Cyber Incident Reporting for Sensitive Data",
+   "name": "Cyber Incident Reporting for Sensitive Data"
+  },
+  {
+   "id": "IAC-07.2 - Termination of Employment",
+   "name": "Termination of Employment"
+  },
+  {
+   "id": "CFG-02.1 - Reviews \u0026 Updates",
+   "name": "Reviews \u0026 Updates"
+  },
+  {
+   "id": "PES-08.2 - Fire Suppression Devices",
+   "name": "Fire Suppression Devices"
+  },
+  {
+   "id": "CLD-02 - Cloud Security Architecture",
+   "name": "Cloud Security Architecture"
+  },
+  {
+   "id": "PRI-05.2 - Personal Data Accuracy \u0026 Integrity",
+   "name": "Personal Data Accuracy \u0026 Integrity"
+  },
+  {
+   "id": "BCD-11.2 - Separate Storage for Critical Information",
+   "name": "Separate Storage for Critical Information"
+  },
+  {
+   "id": "PES-12.1 - Transmission Medium Security",
+   "name": "Transmission Medium Security"
+  },
+  {
+   "id": "PRI-12 - Updating Personal Data (PD)",
+   "name": "Updating Personal Data (PD)"
+  },
+  {
+   "id": "AST-07 - Kiosks \u0026 Point of Interaction (PoI) Devices",
+   "name": "Kiosks \u0026 Point of Interaction (PoI) Devices"
+  },
+  {
+   "id": "CRY-08 - Public Key Infrastructure (PKI)",
+   "name": "Public Key Infrastructure (PKI)"
+  },
+  {
+   "id": "HRS-04 - Personnel Screening",
+   "name": "Personnel Screening"
+  },
+  {
+   "id": "IAC-07.1 - Change of Roles \u0026 Duties",
+   "name": "Change of Roles \u0026 Duties"
+  },
+  {
+   "id": "IRO-02 - Incident Handling",
+   "name": "Incident Handling"
+  },
+  {
+   "id": "DCH-23 - De-Identification (Anonymization)",
+   "name": "De-Identification (Anonymization)"
+  },
+  {
+   "id": "HRS-04.2 - Formal Indoctrination",
+   "name": "Formal Indoctrination"
+  },
+  {
+   "id": "IAO-02.2 - Specialized Assessments",
+   "name": "Specialized Assessments"
+  },
+  {
+   "id": "PES-12 - Equipment Siting \u0026 Protection",
+   "name": "Equipment Siting \u0026 Protection"
+  },
+  {
+   "id": "HRS-01 - Human Resources Security Management",
+   "name": "Human Resources Security Management"
+  },
+  {
+   "id": "BCD-02.3 - Resume Essential Missions \u0026 Business Functions",
+   "name": "Resume Essential Missions \u0026 Business Functions"
+  },
+  {
+   "id": "TDA-08 - Separation of Development, Testing and Operational Environments",
+   "name": "Separation of Development, Testing and Operational Environments"
+  },
+  {
+   "id": "PRI-04 - Restrict Collection To Identified Purpose",
+   "name": "Restrict Collection To Identified Purpose"
+  },
+  {
+   "id": "PRI-14 - Data Privacy Records \u0026 Reporting",
+   "name": "Data Privacy Records \u0026 Reporting"
+  },
+  {
+   "id": "PRI-04.1 - Authority To Collect, Use, Maintain \u0026 Share Personal Data",
+   "name": "Authority To Collect, Use, Maintain \u0026 Share Personal Data"
+  },
+  {
+   "id": "DCH-08 - Physical Media Disposal",
+   "name": "Physical Media Disposal"
+  },
+  {
+   "id": "CHG-02.2 - Test, Validate \u0026 Document Changes",
+   "name": "Test, Validate \u0026 Document Changes"
+  },
+  {
+   "id": "VPM-03 - Vulnerability Ranking",
+   "name": "Vulnerability Ranking"
+  },
+  {
+   "id": "MON-01.7 - File Integrity Monitoring (FIM)",
+   "name": "File Integrity Monitoring (FIM)"
+  },
+  {
+   "id": "RSK-08 - Business Impact Analysis (BIA)",
+   "name": "Business Impact Analysis (BIA)"
+  },
+  {
+   "id": "HRS-05.4 - Use of Critical Technologies",
+   "name": "Use of Critical Technologies"
+  },
+  {
+   "id": "PRI-08 - Testing, Training \u0026 Monitoring",
+   "name": "Testing, Training \u0026 Monitoring"
+  },
+  {
+   "id": "BCD-04 - Contingency Plan Testing \u0026 Exercises",
+   "name": "Contingency Plan Testing \u0026 Exercises"
+  },
+  {
+   "id": "EMB-01 - Embedded Technology Security Program",
+   "name": "Embedded Technology Security Program"
+  },
+  {
+   "id": "TPM-06 - Third-Party Personnel Security",
+   "name": "Third-Party Personnel Security"
+  },
+  {
+   "id": "BCD-08 - Alternate Storage Site",
+   "name": "Alternate Storage Site"
+  },
+  {
+   "id": "BCD-13 - Backup \u0026 Restoration Hardware Protection",
+   "name": "Backup \u0026 Restoration Hardware Protection"
+  },
+  {
+   "id": "MON-02.2 - Central Review \u0026 Analysis",
+   "name": "Central Review \u0026 Analysis"
+  },
+  {
+   "id": "CPL-01.2 - Compliance Scope",
+   "name": "Compliance Scope"
+  },
+  {
+   "id": "WEB-02 - Use of Demilitarized Zones (DMZ)",
+   "name": "Use of Demilitarized Zones (DMZ)"
+  },
+  {
+   "id": "DCH-18.1 - Minimize Personal Data (PD)",
+   "name": "Minimize Personal Data (PD)"
+  },
+  {
+   "id": "TDA-10 - Use of Live Data",
+   "name": "Use of Live Data"
+  },
+  {
+   "id": "MON-06 - Monitoring Reporting",
+   "name": "Monitoring Reporting"
+  },
+  {
+   "id": "NET-12.2 - End-User Messaging Technologies",
+   "name": "End-User Messaging Technologies"
+  },
+  {
+   "id": "HRS-05.3 - Use of Communications Technology",
+   "name": "Use of Communications Technology"
+  },
+  {
+   "id": "OPS-01.1 - Standardized Operating Procedures (SOP)",
+   "name": "Standardized Operating Procedures (SOP)"
+  },
+  {
+   "id": "BCD-02.1 - Resume All Missions \u0026 Business Functions",
+   "name": "Resume All Missions \u0026 Business Functions"
+  },
+  {
+   "id": "GOV-01.1 - Steering Committee \u0026 Program Oversight",
+   "name": "Steering Committee \u0026 Program Oversight"
+  },
+  {
+   "id": "END-04.1 - Automatic Antimalware Signature Updates",
+   "name": "Automatic Antimalware Signature Updates"
+  },
+  {
+   "id": "IAC-17 - Periodic Review of Account Privileges",
+   "name": "Periodic Review of Account Privileges"
+  },
+  {
+   "id": "CRY-09.1 - Symmetric Keys",
+   "name": "Symmetric Keys"
+  },
+  {
+   "id": "AST-01.1 - Asset-Service Dependencies",
+   "name": "Asset-Service Dependencies"
+  },
+  {
+   "id": "IAC-15.1 - Automated System Account Management (Directory Services)",
+   "name": "Automated System Account Management (Directory Services)"
+  },
+  {
+   "id": "NET-03.1 - Limit Network Connections",
+   "name": "Limit Network Connections"
+  },
+  {
+   "id": "IAO-02.1 - Assessor Independence",
+   "name": "Assessor Independence"
+  },
+  {
+   "id": "RSK-09.1 - Supply Chain Risk Assessment",
+   "name": "Supply Chain Risk Assessment"
+  },
+  {
+   "id": "HRS-07 - Personnel Sanctions",
+   "name": "Personnel Sanctions"
+  },
+  {
+   "id": "IAC-16.1 - Privileged Account Inventories",
+   "name": "Privileged Account Inventories"
+  },
+  {
+   "id": "GOV-15.1 - Select Controls",
+   "name": "Select Controls"
+  },
+  {
+   "id": "MON-10 - Event Log Retention",
+   "name": "Event Log Retention"
+  },
+  {
+   "id": "END-07 - Host Intrusion Detection and Prevention Systems (HIDS / HIPS)",
+   "name": "Host Intrusion Detection and Prevention Systems (HIDS / HIPS)"
+  },
+  {
+   "id": "BCD-12.2 - Failover Capability",
+   "name": "Failover Capability"
+  },
+  {
+   "id": "DCH-18.2 - Limit Personal Data (PD) Elements In Testing, Training \u0026 Research",
+   "name": "Limit Personal Data (PD) Elements In Testing, Training \u0026 Research"
+  },
+  {
+   "id": "IAC-20.2 - Database Access",
+   "name": "Database Access"
+  },
+  {
+   "id": "PES-04 - Physical Security of Offices, Rooms \u0026 Facilities",
+   "name": "Physical Security of Offices, Rooms \u0026 Facilities"
+  },
+  {
+   "id": "END-06 - Endpoint File Integrity Monitoring (FIM)",
+   "name": "Endpoint File Integrity Monitoring (FIM)"
+  },
+  {
+   "id": "CLD-09 - Geolocation Requirements for Processing, Storage and Service Locations",
+   "name": "Geolocation Requirements for Processing, Storage and Service Locations"
+  },
+  {
+   "id": "HRS-03.1 - User Awareness",
+   "name": "User Awareness"
+  },
+  {
+   "id": "AST-01.2 - Stakeholder Identification \u0026 Involvement",
+   "name": "Stakeholder Identification \u0026 Involvement"
+  },
+  {
+   "id": "CRY-04 - Transmission Integrity",
+   "name": "Transmission Integrity"
+  },
+  {
+   "id": "MON-01.6 - Host-Based Devices",
+   "name": "Host-Based Devices"
+  },
+  {
+   "id": "BCD-11 - Data Backups",
+   "name": "Data Backups"
+  },
+  {
+   "id": "AST-10 - Return of Assets",
+   "name": "Return of Assets"
+  },
+  {
+   "id": "IAC-10 - Authenticator Management",
+   "name": "Authenticator Management"
+  },
+  {
+   "id": "PES-07.3 - Emergency Power",
+   "name": "Emergency Power"
+  },
+  {
+   "id": "PES-07.4 - Emergency Lighting",
+   "name": "Emergency Lighting"
+  },
+  {
+   "id": "SEA-01 - Secure Engineering Principles",
+   "name": "Secure Engineering Principles"
+  },
+  {
+   "id": "TDA-18 - Input Data Validation",
+   "name": "Input Data Validation"
+  },
+  {
+   "id": "TPM-04.4 - Third-Party Processing, Storage and Service Locations",
+   "name": "Third-Party Processing, Storage and Service Locations"
+  },
+  {
+   "id": "VPM-01 - Vulnerability \u0026 Patch Management Program (VPMP)",
+   "name": "Vulnerability \u0026 Patch Management Program (VPMP)"
+  },
+  {
+   "id": "AST-03 - Asset Ownership Assignment",
+   "name": "Asset Ownership Assignment"
+  },
+  {
+   "id": "TDA-15 - Developer Threat Analysis \u0026 Flaw Remediation",
+   "name": "Developer Threat Analysis \u0026 Flaw Remediation"
+  },
+  {
+   "id": "END-02 - Endpoint Protection Measures",
+   "name": "Endpoint Protection Measures"
+  },
+  {
+   "id": "HRS-05 - Terms of Employment",
+   "name": "Terms of Employment"
+  },
+  {
+   "id": "HRS-05.5 - Use of Mobile Devices",
+   "name": "Use of Mobile Devices"
+  },
+  {
+   "id": "IRO-01 - Incident Response Operations",
+   "name": "Incident Response Operations"
+  },
+  {
+   "id": "OPS-02 - Security Concept Of Operations (CONOPS)",
+   "name": "Security Concept Of Operations (CONOPS)"
+  },
+  {
+   "id": "AST-02 - Asset Inventories",
+   "name": "Asset Inventories"
+  },
+  {
+   "id": "RSK-03 - Risk Identification",
+   "name": "Risk Identification"
+  },
+  {
+   "id": "BCD-10.1 - Telecommunications Priority of Service Provisions",
+   "name": "Telecommunications Priority of Service Provisions"
+  },
+  {
+   "id": "PRI-06.2 - Notice of Correction or Processing Change",
+   "name": "Notice of Correction or Processing Change"
+  },
+  {
+   "id": "NET-12.1 - Wireless Link Protection",
+   "name": "Wireless Link Protection"
+  },
+  {
+   "id": "DCH-03 - Media Access",
+   "name": "Media Access"
+  },
+  {
+   "id": "CRY-09.2 - Asymmetric Keys",
+   "name": "Asymmetric Keys"
+  },
+  {
+   "id": "IAC-08 - Role-Based Access Control (RBAC)",
+   "name": "Role-Based Access Control (RBAC)"
+  },
+  {
+   "id": "TPM-10 - Managing Changes To Third-Party Services",
+   "name": "Managing Changes To Third-Party Services"
+  },
+  {
+   "id": "BCD-08.2 - Accessibility",
+   "name": "Accessibility"
+  },
+  {
+   "id": "GOV-06 - Contacts With Authorities",
+   "name": "Contacts With Authorities"
+  },
+  {
+   "id": "TPM-08 - Review of Third-Party Services",
+   "name": "Review of Third-Party Services"
+  },
+  {
+   "id": "NET-01 - Network Security Controls (NSC)",
+   "name": "Network Security Controls (NSC)"
+  },
+  {
+   "id": "IAC-20.3 - Use of Privileged Utility Programs",
+   "name": "Use of Privileged Utility Programs"
+  },
+  {
+   "id": "IAC-02 - Identification \u0026 Authentication for Organizational Users",
+   "name": "Identification \u0026 Authentication for Organizational Users"
+  },
+  {
+   "id": "RSK-10 - Data Protection Impact Assessment (DPIA)",
+   "name": "Data Protection Impact Assessment (DPIA)"
+  },
+  {
+   "id": "RSK-04 - Risk Assessment",
+   "name": "Risk Assessment"
+  },
+  {
+   "id": "TPM-01.1 - Third-Party Inventories",
+   "name": "Third-Party Inventories"
+  },
+  {
+   "id": "PRI-06 - Data Subject Access",
+   "name": "Data Subject Access"
+  },
+  {
+   "id": "IAC-10.1 - Password-Based Authentication",
+   "name": "Password-Based Authentication"
+  },
+  {
+   "id": "MON-11 - Monitoring For Information Disclosure",
+   "name": "Monitoring For Information Disclosure"
+  },
+  {
+   "id": "IAC-20.1 - Access To Sensitive / Regulated Data",
+   "name": "Access To Sensitive / Regulated Data"
+  },
+  {
+   "id": "PES-03.3 - Physical Access Logs",
+   "name": "Physical Access Logs"
+  },
+  {
+   "id": "TPM-03.2 - Limit Potential Harm",
+   "name": "Limit Potential Harm"
+  },
+  {
+   "id": "HRS-07.1 - Workplace Investigations",
+   "name": "Workplace Investigations"
+  },
+  {
+   "id": "IAC-09.6 - Pairwise Pseudonymous Identifiers (PPID)",
+   "name": "Pairwise Pseudonymous Identifiers (PPID)"
+  },
+  {
+   "id": "SAT-03 - Role-Based Cybersecurity \u0026 Data Privacy Training",
+   "name": "Role-Based Cybersecurity \u0026 Data Privacy Training"
+  },
+  {
+   "id": "DCH-07.2 - Encrypting Data In Storage Media",
+   "name": "Encrypting Data In Storage Media"
+  },
+  {
+   "id": "IAC-16 - Privileged Account Management (PAM)",
+   "name": "Privileged Account Management (PAM)"
+  },
+  {
+   "id": "IRO-10.4 - Supply Chain Coordination",
+   "name": "Supply Chain Coordination"
+  },
+  {
+   "id": "TPM-11 - Third-Party Incident Response \u0026 Recovery Capabilities",
+   "name": "Third-Party Incident Response \u0026 Recovery Capabilities"
+  }
+ ]
+}

@@ -155,3 +155,43 @@ func shortenDomain(standard Framework, domain string) string {
 	}
 
 }
+
+func GenerateISOProboImportJson(standard Framework, isoFramework ISOFramework) error {
+	type ProboControl struct {
+		ID   string `json:"id"`
+		Name string `json:"name"`
+	}
+	type ProboImport struct {
+		Name     string         `json:"name"`
+		ID       string         `json:"id"`
+		Controls []ProboControl `json:"controls"`
+	}
+
+	var controls []ProboControl
+	for _, domain := range isoFramework.Domains {
+		for _, control := range domain.Controls {
+			controls = append(controls, ProboControl{
+				ID:   control.Ref,
+				Name: control.Title,
+			})
+		}
+	}
+
+	name := string(standard)
+	id := strings.ReplaceAll(strings.ToUpper(string(standard)), " ", "")
+	dir := fmt.Sprintf("docs/%s", strings.ToLower(id))
+	os.MkdirAll(dir, 0755)
+	filePath := fmt.Sprintf("%s/probo-import.json", dir)
+
+	proboImport := ProboImport{
+		Name:     name,
+		ID:       id,
+		Controls: controls,
+	}
+
+	data, err := json.MarshalIndent(proboImport, "", "  ")
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(filePath, data, 0644)
+}

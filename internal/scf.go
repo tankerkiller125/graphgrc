@@ -245,7 +245,7 @@ func fixControlQuestions(input string) string {
 	return strings.ReplaceAll(strings.ReplaceAll(input, "•	", "- "), "\n", "<br>")
 }
 
-func GetComplianceControlMappings(controls SCFControls) SCFControlMappings {
+func GetComplianceControlMappings(controls SCFControls, soc2Framework *SOC2Framework) SCFControlMappings {
 	controlMappings := map[SCFControlID]ControlMapping{}
 	for controlID, control := range controls {
 		controlMapping := ControlMapping{}
@@ -253,7 +253,15 @@ func GetComplianceControlMappings(controls SCFControls) SCFControlMappings {
 			fcids := strings.Split(string(control[header]), "\n")
 			frameworkControlIDs := []FrameworkControlID{}
 			for _, fcid := range fcids {
-				frameworkControlIDs = append(frameworkControlIDs, FrameworkControlID(fcid))
+				// For SOC 2, expand parent control IDs (e.g., P1.0 -> P1.1, P1.2, etc.)
+				if framework == "SOC 2" && soc2Framework != nil {
+					expandedIDs := soc2Framework.ExpandParentControlID(fcid)
+					for _, expandedID := range expandedIDs {
+						frameworkControlIDs = append(frameworkControlIDs, FrameworkControlID(expandedID))
+					}
+				} else {
+					frameworkControlIDs = append(frameworkControlIDs, FrameworkControlID(fcid))
+				}
 			}
 			controlMapping[framework] = frameworkControlIDs
 			if len(controlMapping[framework]) == 1 && controlMapping[framework][0] == "" {
@@ -301,6 +309,87 @@ func GenerateSCFIndex(scfControlMappings SCFControlMappings, scfControls SCFCont
 		}
 	}
 	doc.Build()
+	return nil
+}
+
+func GenerateSCFProboImportJson(scfControlMappings SCFControlMappings, scfControls SCFControls) error {
+	type ProboControl struct {
+		ID   string `json:"id"`
+		Name string `json:"name"`
+	}
+	type ProboImport struct {
+		Name     string         `json:"name"`
+		ID       string         `json:"id"`
+		Controls []ProboControl `json:"controls"`
+	}
+
+	var controls []ProboControl
+	for scfControlID, _ := range scfControlMappings {
+		controlName := strings.Split(string(scfControlID), " - ")
+		controls = append(controls, ProboControl{
+			ID:   string(scfControlID),
+			Name: controlName[1],
+		})
+	}
+	proboImport := ProboImport{
+		Name:     "Secure Controls Framework (SCF) 2023.4",
+		ID:       "SCF",
+		Controls: controls,
+	}
+	file, err := json.MarshalIndent(proboImport, "", " ")
+	if err != nil {
+		return err
+	}
+	err = os.WriteFile("docs/scf/probo-import.json", file, 0644)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func GenerateAllFrameworkProboImports(scfControlMappings SCFControlMappings, scfControls SCFControls) error {
+	type ProboControl struct {
+		ID   string `json:"id"`
+		Name string `json:"name"`
+	}
+	type ProboImport struct {
+		Name     string         `json:"name"`
+		ID       string         `json:"id"`
+		Controls []ProboControl `json:"controls"`
+	}
+
+	for framework, header := range SupportedFrameworks {
+		var controls []ProboControl
+		for scfControlID, mapping := range scfControlMappings {
+			for _, fcid := range mapping[framework] {
+				name := strings.TrimSpace(string(scfControls[scfControlID][header]))
+				if name != "" {
+					controls = append(controls, ProboControl{
+						ID:   string(fcid),
+						Name: name,
+					})
+				}
+			}
+		}
+		if len(controls) == 0 {
+			continue
+		}
+		proboImport := ProboImport{
+			Name:     string(framework),
+			ID:       strings.ReplaceAll(string(framework), " ", ""),
+			Controls: controls,
+		}
+		dir := fmt.Sprintf("docs/scf/%s", strings.ToLower(strings.ReplaceAll(string(framework), " ", "")))
+		os.MkdirAll(dir, 0755)
+		filePath := fmt.Sprintf("%s/probo-import.json", dir)
+		data, err := json.MarshalIndent(proboImport, "", " ")
+		if err != nil {
+			return err
+		}
+		if err := os.WriteFile(filePath, data, 0644); err != nil {
+			return err
+		}
+	}
 	return nil
 }
 

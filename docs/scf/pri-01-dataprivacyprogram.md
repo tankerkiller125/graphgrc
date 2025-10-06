@@ -12,7 +12,7 @@ Mechanisms exist to facilitate the implementation and operation of data privacy 
 - [A.5.34](../iso27002/a-5.md#a534)
   
 ### SOC 2
-- [P1.0](../soc2/p10.md)
+- [P1.1](../soc2/p11.md)
   
 ## Control questions
 Does the organization facilitate the implementation and operation of data privacy controls? 

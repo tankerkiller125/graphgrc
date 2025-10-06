@@ -14,8 +14,8 @@ Mechanisms exist to provide data subjects the ability to access their Personal D
 - [Art 26.3](../gdpr/art26.md#Article-263)
   
 ### SOC 2
-- [P5.0](../soc2/p50.md)
 - [P5.1](../soc2/p51.md)
+- [P5.2](../soc2/p52.md)
   
 ## Control questions
 Does the organization provide data subjects the ability to access their Personal Data (PD) maintained in organizational systems of records?

@@ -19,7 +19,7 @@ Mechanisms exist to:
 ### SOC 2
 - [C1.2](../soc2/c12.md)
 - [CC6.5](../soc2/cc65.md)
-- [P4.0](../soc2/p40.md)
+- [P4.1](../soc2/p41.md)
 - [P4.2](../soc2/p42.md)
 - [P4.3](../soc2/p43.md)
   

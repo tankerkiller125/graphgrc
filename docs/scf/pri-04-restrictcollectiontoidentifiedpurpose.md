@@ -8,8 +8,8 @@ Mechanisms exist to collect Personal Data (PD) only for the purposes identified 
 - [A.5.33](../iso27002/a-5.md#a533)
   
 ### SOC 2
-- [P3.0](../soc2/p30.md)
 - [P3.1](../soc2/p31.md)
+- [P3.2](../soc2/p32.md)
   
 ## Control questions
 Does the organization collect Personal Data (PD) only for the purposes identified in the data privacy notice and includes protections against collecting PD from minors without appropriate parental, or legal guardian, consent?

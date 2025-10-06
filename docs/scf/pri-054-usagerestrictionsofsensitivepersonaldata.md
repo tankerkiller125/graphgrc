@@ -14,8 +14,9 @@ Mechanisms exist to restrict the use of Personal Data (PD) to only the authorize
 - [A.5.33](../iso27002/a-5.md#a533)
   
 ### SOC 2
-- [P4.0](../soc2/p40.md)
 - [P4.1](../soc2/p41.md)
+- [P4.2](../soc2/p42.md)
+- [P4.3](../soc2/p43.md)
   
 ## Control questions
 Does the organization restrict the use of Personal Data (PD) to only the authorized purpose(s) consistent with applicable laws, regulations and in data privacy notices? 
