@@ -392,6 +392,16 @@ func GenerateSCFProboMeasuresImportJson(scfControlMappings SCFControlMappings, s
 				controlID = "A." + controlID
 			}
 			return controlID
+		} else if framework == "GDPR" {
+			// Normalize to 'Article X' or 'Article X.Y' format
+			controlID = strings.TrimSpace(controlID)
+			controlID = strings.ReplaceAll(controlID, "Art", "Article ")
+			controlID = strings.ReplaceAll(controlID, "Article icle", "Article") // handle double replacement
+			controlID = strings.ReplaceAll(controlID, "  ", " ")                 // remove double spaces
+			controlID = strings.ReplaceAll(controlID, "-", ".")                  // convert dashes to dots if present
+			controlID = strings.ReplaceAll(controlID, "..", ".")                 // fix double dots
+			controlID = strings.TrimSpace(controlID)
+			return controlID
 		}
 		return controlID
 	}
