@@ -26,6 +26,7 @@ func main() {
 		internal.GenerateSCFMarkdown(scfControls[scfControlID], scfControlID, controlMapping)
 	}
 	internal.GenerateSCFProboImportJson(scfControlMappings, scfControls)
+	internal.GenerateSCFProboMeasuresImportJson(scfControlMappings, scfControls)
 	internal.GenerateSCFIndex(scfControlMappings, scfControls)
 
 	allControls := soc2Framework.GetAllControls()

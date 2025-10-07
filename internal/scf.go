@@ -347,48 +347,119 @@ func GenerateSCFProboImportJson(scfControlMappings SCFControlMappings, scfContro
 	return nil
 }
 
-func GenerateAllFrameworkProboImports(scfControlMappings SCFControlMappings, scfControls SCFControls) error {
-	type ProboControl struct {
-		ID   string `json:"id"`
-		Name string `json:"name"`
+func GenerateSCFProboMeasuresImportJson(scfControlMappings SCFControlMappings, scfControls SCFControls) error {
+	type RequestedEvidence struct {
+		ReferenceID string `json:"reference-id"`
+		Type        string `json:"type"`
+		Name        string `json:"name"`
 	}
-	type ProboImport struct {
-		Name     string         `json:"name"`
-		ID       string         `json:"id"`
-		Controls []ProboControl `json:"controls"`
+	type Task struct {
+		Name               string              `json:"name"`
+		Description        string              `json:"description"`
+		ReferenceID        string              `json:"reference-id"`
+		RequestedEvidences []RequestedEvidence `json:"requested-evidences"`
+	}
+	type Standard struct {
+		Framework string `json:"framework"`
+		Control   string `json:"control"`
+	}
+	type Measure struct {
+		Name        string     `json:"name"`
+		Category    string     `json:"category"`
+		ReferenceID string     `json:"reference-id"`
+		Standards   []Standard `json:"standards"`
+		Tasks       []Task     `json:"tasks"`
 	}
 
-	for framework, header := range SupportedFrameworks {
-		var controls []ProboControl
-		for scfControlID, mapping := range scfControlMappings {
-			for _, fcid := range mapping[framework] {
-				name := strings.TrimSpace(string(scfControls[scfControlID][header]))
-				if name != "" {
-					controls = append(controls, ProboControl{
-						ID:   string(fcid),
-						Name: name,
+	// Map framework names to their probo-import IDs
+	frameworkIDMapping := map[Framework]string{
+		"SOC 2":     "SOC2",
+		"GDPR":      "GDPR",
+		"ISO 27001": "ISO27001",
+		"ISO 27002": "ISO27002",
+	}
+
+	// Function to convert SCF control IDs to probo-import format
+	convertControlID := func(framework Framework, controlID string) string {
+		if framework == "ISO 27001" {
+			// Convert parentheses to dots: "7.3(a)" -> "7.3.a"
+			controlID = strings.ReplaceAll(controlID, "(", ".")
+			controlID = strings.ReplaceAll(controlID, ")", "")
+			return controlID
+		} else if framework == "ISO 27002" {
+			// Add "A." prefix if not already present: "5.4" -> "A.5.4"
+			if !strings.HasPrefix(controlID, "A") && !strings.HasPrefix(controlID, "a") {
+				controlID = "A." + controlID
+			}
+			return controlID
+		}
+		return controlID
+	}
+
+	var measures []Measure
+	for scfControlID, controlMapping := range scfControlMappings {
+		controlName := strings.Split(string(scfControlID), " - ")
+		name := controlName[1]
+
+		// Determine category from control family
+		category := ""
+		for fam, famName := range SCFControlFamilyMapping {
+			if strings.HasPrefix(string(scfControlID), fam) {
+				category = famName
+				break
+			}
+		}
+
+		// Build standards array from control mappings
+		var standards []Standard
+		for framework, frameworkControlIDs := range controlMapping {
+			for _, fcid := range frameworkControlIDs {
+				if string(fcid) != "" {
+					// Use the mapped framework ID instead of the full name
+					frameworkID := frameworkIDMapping[framework]
+					if frameworkID == "" {
+						frameworkID = string(framework) // fallback to original name
+					}
+					// Convert the control ID to match probo-import format
+					convertedControlID := convertControlID(framework, string(fcid))
+					standards = append(standards, Standard{
+						Framework: frameworkID,
+						Control:   convertedControlID,
 					})
 				}
 			}
 		}
-		if len(controls) == 0 {
-			continue
+
+		// Create a task based on the control questions
+		var tasks []Task
+		controlQuestions := string(scfControls[scfControlID][SCFColumnMapping[ControlQuestions]])
+		if controlQuestions != "" {
+			tasks = append(tasks, Task{
+				Name:               name,
+				Description:        controlQuestions,
+				ReferenceID:        string(scfControlID),
+				RequestedEvidences: []RequestedEvidence{},
+			})
 		}
-		proboImport := ProboImport{
-			Name:     string(framework),
-			ID:       strings.ReplaceAll(string(framework), " ", ""),
-			Controls: controls,
+
+		measure := Measure{
+			Name:        name,
+			Category:    category,
+			ReferenceID: string(scfControlID),
+			Standards:   standards,
+			Tasks:       tasks,
 		}
-		dir := fmt.Sprintf("docs/scf/%s", strings.ToLower(strings.ReplaceAll(string(framework), " ", "")))
-		os.MkdirAll(dir, 0755)
-		filePath := fmt.Sprintf("%s/probo-import.json", dir)
-		data, err := json.MarshalIndent(proboImport, "", " ")
-		if err != nil {
-			return err
-		}
-		if err := os.WriteFile(filePath, data, 0644); err != nil {
-			return err
-		}
+		measures = append(measures, measure)
+	}
+
+	// Export directly as array, not wrapped in object
+	file, err := json.MarshalIndent(measures, "", " ")
+	if err != nil {
+		return err
+	}
+	err = os.WriteFile("docs/scf/probo-measures-import.json", file, 0644)
+	if err != nil {
+		return err
 	}
 	return nil
 }
