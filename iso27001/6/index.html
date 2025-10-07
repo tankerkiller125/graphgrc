@@ -1,0 +1,1276 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="GRC Alignment Doc">
+      
+      
+        <meta name="author" content="tankerkiller125">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>ISO 27001 - 6 - Planning - GRC Alignment Doc</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#iso-27001-6-planning" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="GRC Alignment Doc" class="md-header__button md-logo" aria-label="GRC Alignment Doc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GRC Alignment Doc
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ISO 27001 - 6 - Planning
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/tankerkiller125/graphgrc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tankerkiller125/graphgrc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="GRC Alignment Doc" class="md-nav__button md-logo" aria-label="GRC Alignment Doc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    GRC Alignment Doc
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/tankerkiller125/graphgrc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tankerkiller125/graphgrc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scf/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SCF
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ISO 27001
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../iso27002/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ISO 27002
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../soc2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SOC 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gdpr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GDPR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#611a" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.1.a
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.1.a">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#611b" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.1.b
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.1.b">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#611c" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.1.c
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.1.c">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#611d" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.1.d
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.1.d">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#611e" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.1.e
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#612a" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.2.a
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.2.a">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#612b" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.2.b
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.2.b">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#612c" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.2.c
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.2.c">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#612d" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.2.d
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.2.d">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#612e" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.2.e
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.2.e">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#613a" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.3.a
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.3.a">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#613b" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.3.b
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.3.b">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#613c" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.3.c
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.3.c">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#613d" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.3.d
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.3.d">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#613e" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.3.e
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.3.e">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#613f" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1.3.f
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1.3.f">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62a" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.a
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.a">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62b" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.b
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.b">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62c" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.c
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.c">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62d" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.d
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.d">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62e" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.e
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.e">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62f" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.f
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.f">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62g" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.g
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.g">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62h" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.h
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.h">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62i" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.i
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.i">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62j" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.j
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.j">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62k" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.k
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.k">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62l" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2.l
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.l">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="iso-27001-6-planning">ISO 27001 - 6 - Planning</h1>
+<h2 id="611a">6.1.1.a</h2>
+<p><strong>General planning, part a)</strong></p>
+<p>When planning for the information security management system, the organization shall consider the issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to: ensure the information security management system can achieve its intended outcome(s).</p>
+<h3 id="mapped-scf-controls">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-01-cybersecurity%26dataprotectiongovernanceprogram/">GOV-01 - Cybersecurity &amp; Data Protection Governance Program</a></li>
+<li><a href="../../scf/rsk-01-riskmanagementprogram/">RSK-01 - Risk Management Program</a></li>
+</ul>
+<h2 id="611b">6.1.1.b</h2>
+<p><strong>General planning, part b)</strong></p>
+<p>When planning for the information security management system, the organization shall consider the issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to: prevent, or reduce, undesired effects.</p>
+<h3 id="mapped-scf-controls_1">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-01-cybersecurity%26dataprotectiongovernanceprogram/">GOV-01 - Cybersecurity &amp; Data Protection Governance Program</a></li>
+<li><a href="../../scf/rsk-01-riskmanagementprogram/">RSK-01 - Risk Management Program</a></li>
+</ul>
+<h2 id="611c">6.1.1.c</h2>
+<p><strong>General planning, part c)</strong></p>
+<p>When planning for the information security management system, the organization shall consider the issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to: achieve continual improvement.</p>
+<h3 id="mapped-scf-controls_2">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-01-cybersecurity%26dataprotectiongovernanceprogram/">GOV-01 - Cybersecurity &amp; Data Protection Governance Program</a></li>
+<li><a href="../../scf/rsk-01-riskmanagementprogram/">RSK-01 - Risk Management Program</a></li>
+</ul>
+<h2 id="611d">6.1.1.d</h2>
+<p><strong>General planning, part d)</strong></p>
+<p>The organization shall plan: actions to address these risks and opportunities.</p>
+<h3 id="mapped-scf-controls_3">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-01-cybersecurity%26dataprotectiongovernanceprogram/">GOV-01 - Cybersecurity &amp; Data Protection Governance Program</a></li>
+<li><a href="../../scf/rsk-01-riskmanagementprogram/">RSK-01 - Risk Management Program</a></li>
+</ul>
+<h2 id="611e">6.1.1.e</h2>
+<p><strong>General planning, part e)</strong></p>
+<p>The organization shall plan: how to 1) integrate and implement the actions into its information security management system; and 2) evaluate the effectiveness of these actions.</p>
+<h2 id="612a">6.1.2.a</h2>
+<p><strong>Information security risk assessment, part a)</strong></p>
+<p>The organization shall define and apply an information security risk assessment process that: establishes and maintains information security risk criteria that include: 1) the risk acceptance criteria; and 2) criteria for performing information security risk assessments.The organization shall retain documented information about the information security risk assessment process.</p>
+<h3 id="mapped-scf-controls_4">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/rsk-01-riskmanagementprogram/">RSK-01 - Risk Management Program</a></li>
+<li><a href="../../scf/rsk-011-riskframing/">RSK-01.1 - Risk Framing</a></li>
+</ul>
+<h2 id="612b">6.1.2.b</h2>
+<p><strong>Information security risk assessment, part b)</strong></p>
+<p>The organization shall define and apply an information security risk assessment process that: ensures that repeated information security risk assessments produce consistent, valid and comparable results. The organization shall retain documented information about the information security risk assessment process.</p>
+<h3 id="mapped-scf-controls_5">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/rsk-01-riskmanagementprogram/">RSK-01 - Risk Management Program</a></li>
+<li><a href="../../scf/rsk-011-riskframing/">RSK-01.1 - Risk Framing</a></li>
+</ul>
+<h2 id="612c">6.1.2.c</h2>
+<p><strong>Information security risk assessment, part c)</strong></p>
+<p>The organization shall define and apply an information security risk assessment process that identifies the information security risks: 1) to identify risks associated with the loss of confidentiality, integrity and availability for information within the scope of the information security management system; and 2) identify the risk owners. The organization shall retain documented information about the information security risk assessment process.</p>
+<h3 id="mapped-scf-controls_6">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/rsk-01-riskmanagementprogram/">RSK-01 - Risk Management Program</a></li>
+<li><a href="../../scf/rsk-011-riskframing/">RSK-01.1 - Risk Framing</a></li>
+<li><a href="../../scf/rsk-03-riskidentification/">RSK-03 - Risk Identification</a></li>
+</ul>
+<h2 id="612d">6.1.2.d</h2>
+<p><strong>Information security risk assessment, part d)</strong></p>
+<p>The organization shall define and apply an information security risk assessment process that analyzes the information security risks [to] 1) assess the potential consequences that would result if the risks identified in 6.1.2 c) 1) were to materialize 2) assess the realistic likelihood of occurence of the risks identified in 6.1.2 c) 1)[and] 3) determine the levels of risk. The organization shall retain documented information about the information security risk assessment process.</p>
+<h3 id="mapped-scf-controls_7">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/rsk-01-riskmanagementprogram/">RSK-01 - Risk Management Program</a></li>
+<li><a href="../../scf/rsk-011-riskframing/">RSK-01.1 - Risk Framing</a></li>
+<li><a href="../../scf/rsk-04-riskassessment/">RSK-04 - Risk Assessment</a></li>
+</ul>
+<h2 id="612e">6.1.2.e</h2>
+<p><strong>Information security risk assessment, part e)</strong></p>
+<p>The organization shall define and apply an information security risk assessment process that evaluates the information security risks [to] 1) compare the results of risk analysis with the risk criteria established in 6.1.2 [and] 2) prioritize the analyzed risks for risk treatment. The organization shall retain documented information about the information security risk assessment process.</p>
+<h3 id="mapped-scf-controls_8">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/rsk-01-riskmanagementprogram/">RSK-01 - Risk Management Program</a></li>
+<li><a href="../../scf/rsk-011-riskframing/">RSK-01.1 - Risk Framing</a></li>
+<li><a href="../../scf/rsk-04-riskassessment/">RSK-04 - Risk Assessment</a></li>
+</ul>
+<h2 id="613a">6.1.3.a</h2>
+<p><strong>Information security risk treatment, part a)</strong></p>
+<p>The organization shall define and apply an information security risk treatment process to: select appropriate information security treatment options, taking account of the risk assessment results. The organization shall retain documented information about the information security risk treatment process.</p>
+<h3 id="mapped-scf-controls_9">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/rsk-06-riskremediation/">RSK-06 - Risk Remediation</a></li>
+<li><a href="../../scf/rsk-061-riskresponse/">RSK-06.1 - Risk Response</a></li>
+</ul>
+<h2 id="613b">6.1.3.b</h2>
+<p><strong>Information security risk treatment, part b)</strong></p>
+<p>The organization shall define and apply an information security risk treatment process to: determine all controls that are necessary to implement the information security risk treatment option(s) chosen. The organization shall retain documented information about the information security risk treatment process. NOTE 1: Organizations can design controls as required, or identify them from any source</p>
+<h3 id="mapped-scf-controls_10">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/rsk-06-riskremediation/">RSK-06 - Risk Remediation</a></li>
+<li><a href="../../scf/rsk-061-riskresponse/">RSK-06.1 - Risk Response</a></li>
+</ul>
+<h2 id="613c">6.1.3.c</h2>
+<p><strong>Information security risk treatment, part c)</strong></p>
+<p>The organization shall define and apply an information security risk treatment process to: compare the controls determined in 6.1.3 b) with those in Annex A and verify that nonecessary controls have been omitted. The organization shall retain documented information about the information security risk treatment process. Note 2) Annex A contains a list of possible information security controls. Users of this document are directed to Annex A to ensure that no necessary information security controls are overlooked.</p>
+<h3 id="mapped-scf-controls_11">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/rsk-06-riskremediation/">RSK-06 - Risk Remediation</a></li>
+<li><a href="../../scf/rsk-061-riskresponse/">RSK-06.1 - Risk Response</a></li>
+</ul>
+<h2 id="613d">6.1.3.d</h2>
+<p><strong>Information security risk treatment, part d)</strong></p>
+<p>The organization shall define and apply an information security risk treatment process to: produce a Statement of Applicability that contains the necessary controls (see 6.1.3 b) and c)) justification for inclusions, whether the necessary controls are implemented or not, and the justification for excluding any of the Annex A controls. The organization shall retain documented information about the information security risk treatment process.</p>
+<h3 id="mapped-scf-controls_12">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/rsk-06-riskremediation/">RSK-06 - Risk Remediation</a></li>
+<li><a href="../../scf/rsk-061-riskresponse/">RSK-06.1 - Risk Response</a></li>
+</ul>
+<h2 id="613e">6.1.3.e</h2>
+<p><strong>Information security risk treatment, part e)</strong></p>
+<p>The organization shall define and apply an information security risk treatment process to: formulate an information security risk treatment plan. The organization shall retain documented information about the information security risk treatment process.</p>
+<h3 id="mapped-scf-controls_13">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/rsk-06-riskremediation/">RSK-06 - Risk Remediation</a></li>
+<li><a href="../../scf/rsk-061-riskresponse/">RSK-06.1 - Risk Response</a></li>
+</ul>
+<h2 id="613f">6.1.3.f</h2>
+<p><strong>Information security risk treatment, part f)</strong></p>
+<p>The organization shall define and apply an information security risk treatment process to: obtain risk owners’ approval of the information security risk treatment plan and acceptance of the residual information security risks. The organization shall retain documented information about the information security risk treatment process.</p>
+<h3 id="mapped-scf-controls_14">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/rsk-06-riskremediation/">RSK-06 - Risk Remediation</a></li>
+<li><a href="../../scf/rsk-061-riskresponse/">RSK-06.1 - Risk Response</a></li>
+</ul>
+<h2 id="62a">6.2.a</h2>
+<p><strong>Information security objectives and planning to achieve them, part a)</strong></p>
+<p>The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be consistent with the information security policy. The organization shall retain documented information on the information security objectives.</p>
+<h3 id="mapped-scf-controls_15">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+<h2 id="62b">6.2.b</h2>
+<p><strong>Information security objectives and planning to achieve them, part b)</strong></p>
+<p>The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be measurable (if practicable). The organization shall retain documented information on the information security objectives.</p>
+<h3 id="mapped-scf-controls_16">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+<h2 id="62c">6.2.c</h2>
+<p><strong>Information security objectives and planning to achieve them, part c)</strong></p>
+<p>The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: take into account applicable information security requirements, and results from risk assessment and risk treatment. The organization shall retain documented information on the information security objectives.</p>
+<h3 id="mapped-scf-controls_17">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+<h2 id="62d">6.2.d</h2>
+<p><strong>Information security objectives and planning to achieve them, part d)</strong></p>
+<p>The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be monitored. The organization shall retain documented information on the information security objectives.</p>
+<h3 id="mapped-scf-controls_18">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+<h2 id="62e">6.2.e</h2>
+<p><strong>Information security objectives and planning to achieve them, part e)</strong></p>
+<p>The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be communicated. The organization shall retain documented information on the information security objectives.</p>
+<h3 id="mapped-scf-controls_19">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+<h2 id="62f">6.2.f</h2>
+<p><strong>Information security objectives and planning to achieve them, part f)</strong></p>
+<p>The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be be updated as appropriate. The organization shall retain documented information on the information security objectives.</p>
+<h3 id="mapped-scf-controls_20">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+<h2 id="62g">6.2.g</h2>
+<p><strong>Information security objectives and planning to achieve them, part g)</strong></p>
+<p>The organization shall establish information security objectives at relevant functions and levels. The information security objectives shall: be available as documented information. The organization shall retain documented information on the information security objectives.</p>
+<h3 id="mapped-scf-controls_21">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+<h2 id="62h">6.2.h</h2>
+<p><strong>Information security objectives and planning to achieve them, part h)</strong></p>
+<p>The organization shall retain documented information on the information security objectives. When planning how to achieve its information security objectives, the organization shall determine: what will be done.</p>
+<h3 id="mapped-scf-controls_22">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+<h2 id="62i">6.2.i</h2>
+<p><strong>Information security objectives and planning to achieve them, part i)</strong></p>
+<p>The organization shall retain documented information on the information security objectives. When planning how to achieve its information security objectives, the organization shall determine: what resources will be required.</p>
+<h3 id="mapped-scf-controls_23">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+<h2 id="62j">6.2.j</h2>
+<p><strong>Information security objectives and planning to achieve them, part j)</strong></p>
+<p>The organization shall retain documented information on the information security objectives. When planning how to achieve its information security objectives, the organization shall determine: who will be responsible.</p>
+<h3 id="mapped-scf-controls_24">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+<h2 id="62k">6.2.k</h2>
+<p><strong>Information security objectives and planning to achieve them, part k)</strong></p>
+<p>The organization shall retain documented information on the information security objectives. When planning how to achieve its information security objectives, the organization shall determine: when it will be completed.</p>
+<h3 id="mapped-scf-controls_25">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+<h2 id="62l">6.2.l</h2>
+<p><strong>Information security objectives and planning to achieve them, part l)</strong></p>
+<p>The organization shall retain documented information on the information security objectives. When planning how to achieve its information security objectives, the organization shall determine: how the results will be evaluated.</p>
+<h3 id="mapped-scf-controls_26">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1756 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="GRC Alignment Doc">
+      
+      
+        <meta name="author" content="tankerkiller125">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>ISO 27002 - A.5 - Information security policies - GRC Alignment Doc</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#iso-27002-a5-information-security-policies" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="GRC Alignment Doc" class="md-header__button md-logo" aria-label="GRC Alignment Doc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GRC Alignment Doc
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ISO 27002 - A.5 -  Information security policies
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/tankerkiller125/graphgrc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tankerkiller125/graphgrc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="GRC Alignment Doc" class="md-nav__button md-logo" aria-label="GRC Alignment Doc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    GRC Alignment Doc
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/tankerkiller125/graphgrc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tankerkiller125/graphgrc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scf/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SCF
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../iso27001/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ISO 27001
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ISO 27002
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../soc2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SOC 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gdpr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GDPR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a51" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a52" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a53" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a54" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a55" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.5
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a56" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.6
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a57" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.7
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.7">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a58" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.8
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.8">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a59" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.9
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.9">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a510" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.10
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.10">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a511" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.11
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a512" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.12
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a513" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.13
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.13">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a514" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.14
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.14">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a515" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.15
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.15">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a516" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.16
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.16">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a517" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.17
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.17">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a518" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.18
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.18">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a519" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.19
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.19">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a520" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.20
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.20">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a521" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.21
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a522" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.22
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.22">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a523" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.23
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.23">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a524" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.24
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.24">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a525" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.25
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.25">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a526" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.26
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.26">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a527" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.27
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.27">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a528" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.28
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.28">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a529" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.29
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.29">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a530" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.30
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.30">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a531" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.31
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.31">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a532" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.32
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.32">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a533" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.33
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.33">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a534" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.34
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.34">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a535" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.35
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.35">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a536" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.36
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.36">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a537" class="md-nav__link">
+    <span class="md-ellipsis">
+      A.5.37
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A.5.37">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapped-scf-controls_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapped SCF controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="iso-27002-a5-information-security-policies">ISO 27002 - A.5 -  Information security policies</h1>
+<h2 id="a51">A.5.1</h2>
+<p><strong>Policies for information security</strong></p>
+<p>Information security policy and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel and relevant interested parties, and reviewed at planned intervals and if significant changes occur.</p>
+<h3 id="mapped-scf-controls">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-01-cybersecurity%26dataprotectiongovernanceprogram/">GOV-01 - Cybersecurity &amp; Data Protection Governance Program</a></li>
+<li><a href="../../scf/gov-02-publishingcybersecurity%26dataprotectiondocumentation/">GOV-02 - Publishing Cybersecurity &amp; Data Protection Documentation</a></li>
+<li><a href="../../scf/gov-03-periodicreview%26updateofcybersecurity%26dataprotectionprogram/">GOV-03 - Periodic Review &amp; Update of Cybersecurity &amp; Data Protection Program</a></li>
+<li><a href="../../scf/pri-01-dataprivacyprogram/">PRI-01 - Data Privacy Program</a></li>
+<li><a href="../../scf/pri-013-disseminationofdataprivacyprograminformation/">PRI-01.3 - Dissemination of Data Privacy Program Information</a></li>
+</ul>
+<h2 id="a52">A.5.2</h2>
+<p><strong>Information security roles and responsibilities</strong></p>
+<p>Information security roles and responsibilities shall be defined and allocated according to the organization needs.</p>
+<h3 id="mapped-scf-controls_1">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-04-assignedcybersecurity%26dataprotectionresponsibilities/">GOV-04 - Assigned Cybersecurity &amp; Data Protection Responsibilities</a></li>
+<li><a href="../../scf/hrs-03-roles%26responsibilities/">HRS-03 - Roles &amp; Responsibilities</a></li>
+<li><a href="../../scf/hrs-041-roleswithspecialprotectionmeasures/">HRS-04.1 - Roles With Special Protection Measures</a></li>
+<li><a href="../../scf/tpm-06-third-partypersonnelsecurity/">TPM-06 - Third-Party Personnel Security</a></li>
+</ul>
+<h2 id="a53">A.5.3</h2>
+<p><strong>Segregation of duties</strong></p>
+<p>Conflicting duties and conflicting areas of responsibility shall be segregated.</p>
+<h3 id="mapped-scf-controls_2">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/hrs-11-separationofdutiessod/">HRS-11 - Separation of Duties (SoD)</a></li>
+<li><a href="../../scf/hrs-12-incompatibleroles/">HRS-12 - Incompatible Roles</a></li>
+</ul>
+<h2 id="a54">A.5.4</h2>
+<p><strong>Management responsibilities</strong></p>
+<p>Management shall require all personnel to apply information security in accordance with the established information security policy, topic-specific policies and procedures of the organization.</p>
+<h3 id="mapped-scf-controls_3">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-01-cybersecurity%26dataprotectiongovernanceprogram/">GOV-01 - Cybersecurity &amp; Data Protection Governance Program</a></li>
+<li><a href="../../scf/hrs-01-humanresourcessecuritymanagement/">HRS-01 - Human Resources Security Management</a></li>
+<li><a href="../../scf/hrs-042-formalindoctrination/">HRS-04.2 - Formal Indoctrination</a></li>
+<li><a href="../../scf/hrs-05-termsofemployment/">HRS-05 - Terms of Employment</a></li>
+<li><a href="../../scf/hrs-051-rulesofbehavior/">HRS-05.1 - Rules of Behavior</a></li>
+<li><a href="../../scf/hrs-052-socialmedia%26socialnetworkingrestrictions/">HRS-05.2 - Social Media &amp; Social Networking Restrictions</a></li>
+<li><a href="../../scf/hrs-053-useofcommunicationstechnology/">HRS-05.3 - Use of Communications Technology</a></li>
+<li><a href="../../scf/prm-01-cybersecurity%26dataprivacyportfoliomanagement/">PRM-01 - Cybersecurity &amp; Data Privacy Portfolio Management</a></li>
+<li><a href="../../scf/prm-02-cybersecurity%26dataprivacyresourcemanagement/">PRM-02 - Cybersecurity &amp; Data Privacy Resource Management</a></li>
+<li><a href="../../scf/sat-03-role-basedcybersecurity%26dataprivacytraining/">SAT-03 - Role-Based Cybersecurity &amp; Data Privacy Training</a></li>
+</ul>
+<h2 id="a55">A.5.5</h2>
+<p>** Contact with authorities**</p>
+<p>The organization shall establish and maintain contact with relevant authorities.</p>
+<h3 id="mapped-scf-controls_4">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-06-contactswithauthorities/">GOV-06 - Contacts With Authorities</a></li>
+</ul>
+<h2 id="a56">A.5.6</h2>
+<p>** Contact with special interest groups**</p>
+<p>The organization shall establish and maintain contact with special interest groups or other specialist security forums and professional associations.</p>
+<h3 id="mapped-scf-controls_5">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-07-contactswithgroups%26associations/">GOV-07 - Contacts With Groups &amp; Associations</a></li>
+</ul>
+<h2 id="a57">A.5.7</h2>
+<p><strong>Threat intelligence</strong></p>
+<p>Information relating to information security threats shall be collected and analysed to produce threat intelligence.</p>
+<h3 id="mapped-scf-controls_6">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/mon-11-monitoringforinformationdisclosure/">MON-11 - Monitoring For Information Disclosure</a></li>
+<li><a href="../../scf/mon-113-monitoringforindicatorsofcompromiseioc/">MON-11.3 - Monitoring for Indicators of Compromise (IOC)</a></li>
+<li><a href="../../scf/thr-01-threatintelligenceprogram/">THR-01 - Threat Intelligence Program</a></li>
+<li><a href="../../scf/thr-02-indicatorsofexposureioe/">THR-02 - Indicators of Exposure (IOE)</a></li>
+<li><a href="../../scf/thr-03-threatintelligencefeeds/">THR-03 - Threat Intelligence Feeds</a></li>
+</ul>
+<h2 id="a58">A.5.8</h2>
+<p><strong>Information security in project management</strong></p>
+<p>Information security shall be integrated into project management.</p>
+<h3 id="mapped-scf-controls_7">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/prm-01-cybersecurity%26dataprivacyportfoliomanagement/">PRM-01 - Cybersecurity &amp; Data Privacy Portfolio Management</a></li>
+<li><a href="../../scf/prm-04-cybersecurity%26dataprivacyinprojectmanagement/">PRM-04 - Cybersecurity &amp; Data Privacy In Project Management</a></li>
+<li><a href="../../scf/prm-05-cybersecurity%26dataprivacyrequirementsdefinition/">PRM-05 - Cybersecurity &amp; Data Privacy Requirements Definition</a></li>
+<li><a href="../../scf/prm-07-securedevelopmentlifecyclesdlcmanagement/">PRM-07 - Secure Development Life Cycle (SDLC) Management</a></li>
+<li><a href="../../scf/rsk-011-riskframing/">RSK-01.1 - Risk Framing</a></li>
+<li><a href="../../scf/rsk-03-riskidentification/">RSK-03 - Risk Identification</a></li>
+<li><a href="../../scf/rsk-04-riskassessment/">RSK-04 - Risk Assessment</a></li>
+<li><a href="../../scf/rsk-06-riskremediation/">RSK-06 - Risk Remediation</a></li>
+<li><a href="../../scf/rsk-061-riskresponse/">RSK-06.1 - Risk Response</a></li>
+<li><a href="../../scf/sea-02-alignmentwithenterprisearchitecture/">SEA-02 - Alignment With Enterprise Architecture</a></li>
+</ul>
+<h2 id="a59">A.5.9</h2>
+<p><strong>Information security in project management</strong></p>
+<p>An inventory of information and other associated assets, including owners, shall be developed and maintained.</p>
+<h3 id="mapped-scf-controls_8">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/ast-011-asset-servicedependencies/">AST-01.1 - Asset-Service Dependencies</a></li>
+<li><a href="../../scf/ast-012-stakeholderidentification%26involvement/">AST-01.2 - Stakeholder Identification &amp; Involvement</a></li>
+<li><a href="../../scf/ast-02-assetinventories/">AST-02 - Asset Inventories</a></li>
+<li><a href="../../scf/ast-028-dataactionmapping/">AST-02.8 - Data Action Mapping</a></li>
+<li><a href="../../scf/ast-03-assetownershipassignment/">AST-03 - Asset Ownership Assignment</a></li>
+<li><a href="../../scf/ast-031-accountabilityinformation/">AST-03.1 - Accountability Information</a></li>
+<li><a href="../../scf/ast-04-networkdiagrams%26dataflowdiagramsdfds/">AST-04 - Network Diagrams &amp; Data Flow Diagrams (DFDs)</a></li>
+<li><a href="../../scf/dch-01-dataprotection/">DCH-01 - Data Protection</a></li>
+<li><a href="../../scf/dch-02-data%26assetclassification/">DCH-02 - Data &amp; Asset Classification</a></li>
+<li><a href="../../scf/prm-05-cybersecurity%26dataprivacyrequirementsdefinition/">PRM-05 - Cybersecurity &amp; Data Privacy Requirements Definition</a></li>
+</ul>
+<h2 id="a510">A.5.10</h2>
+<p><strong>Acceptable use of information and other associated assets</strong></p>
+<p>Rules for the acceptable use and procedures for handling information and other associated assets shall be identified, documented and implemented.</p>
+<h3 id="mapped-scf-controls_9">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/dch-01-dataprotection/">DCH-01 - Data Protection</a></li>
+<li><a href="../../scf/dch-04-mediamarking/">DCH-04 - Media Marking</a></li>
+<li><a href="../../scf/dch-071-custodians/">DCH-07.1 - Custodians</a></li>
+<li><a href="../../scf/hrs-051-rulesofbehavior/">HRS-05.1 - Rules of Behavior</a></li>
+<li><a href="../../scf/hrs-052-socialmedia%26socialnetworkingrestrictions/">HRS-05.2 - Social Media &amp; Social Networking Restrictions</a></li>
+<li><a href="../../scf/hrs-053-useofcommunicationstechnology/">HRS-05.3 - Use of Communications Technology</a></li>
+<li><a href="../../scf/hrs-06-accessagreements/">HRS-06 - Access Agreements</a></li>
+</ul>
+<h2 id="a511">A.5.11</h2>
+<p><strong>Acceptable use of information and other associated assets</strong></p>
+<p>Rules for the acceptable use and procedures for handling information and other associated assets shall be identified, documented and implemented.</p>
+<h3 id="mapped-scf-controls_10">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/ast-10-returnofassets/">AST-10 - Return of Assets</a></li>
+</ul>
+<h2 id="a512">A.5.12</h2>
+<p><strong>Classification of information</strong></p>
+<p>Information shall be classified according to the information security needs of the organization based on confidentiality, integrity, availability and relevant interested party requirements.</p>
+<h3 id="mapped-scf-controls_11">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/dch-01-dataprotection/">DCH-01 - Data Protection</a></li>
+<li><a href="../../scf/dch-02-data%26assetclassification/">DCH-02 - Data &amp; Asset Classification</a></li>
+</ul>
+<h2 id="a513">A.5.13</h2>
+<p><strong>Labelling of information</strong></p>
+<p>An appropriate set of procedures for information labelling shall be developed and implemented in accordance with the information classification scheme adopted by the organization.</p>
+<h3 id="mapped-scf-controls_12">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/dch-04-mediamarking/">DCH-04 - Media Marking</a></li>
+</ul>
+<h2 id="a514">A.5.14</h2>
+<p><strong>Information transfer</strong></p>
+<p>Information transfer rules, procedures, or agreements shall be in place for all types of transfer facilities within the organization and between the organization and other parties.</p>
+<h3 id="mapped-scf-controls_13">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/cry-03-transmissionconfidentiality/">CRY-03 - Transmission Confidentiality</a></li>
+<li><a href="../../scf/dch-07-mediatransportation/">DCH-07 - Media Transportation</a></li>
+<li><a href="../../scf/dch-071-custodians/">DCH-07.1 - Custodians</a></li>
+<li><a href="../../scf/dch-14-informationsharing/">DCH-14 - Information Sharing</a></li>
+<li><a href="../../scf/dch-17-ad-hoctransfers/">DCH-17 - Ad-Hoc Transfers</a></li>
+<li><a href="../../scf/hrs-05-termsofemployment/">HRS-05 - Terms of Employment</a></li>
+<li><a href="../../scf/hrs-051-rulesofbehavior/">HRS-05.1 - Rules of Behavior</a></li>
+<li><a href="../../scf/hrs-06-accessagreements/">HRS-06 - Access Agreements</a></li>
+<li><a href="../../scf/hrs-061-confidentialityagreements/">HRS-06.1 - Confidentiality Agreements</a></li>
+<li><a href="../../scf/net-01-networksecuritycontrolsnsc/">NET-01 - Network Security Controls (NSC)</a></li>
+<li><a href="../../scf/net-04-dataflowenforcement%E2%80%93accesscontrollistsacls/">NET-04 - Data Flow Enforcement – Access Control Lists (ACLs)</a></li>
+<li><a href="../../scf/net-041-denytrafficbydefault%26allowtrafficbyexception/">NET-04.1 - Deny Traffic by Default &amp; Allow Traffic by Exception</a></li>
+<li><a href="../../scf/net-13-electronicmessaging/">NET-13 - Electronic Messaging</a></li>
+<li><a href="../../scf/net-18-dns%26contentfiltering/">NET-18 - DNS &amp; Content Filtering</a></li>
+<li><a href="../../scf/pes-01-physical%26environmentalprotections/">PES-01 - Physical &amp; Environmental Protections</a></li>
+</ul>
+<h2 id="a515">A.5.15</h2>
+<p><strong>Access control</strong></p>
+<p>Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements.</p>
+<h3 id="mapped-scf-controls_14">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/iac-01-identity%26accessmanagementiam/">IAC-01 - Identity &amp; Access Management (IAM)</a></li>
+<li><a href="../../scf/iac-02-identification%26authenticationfororganizationalusers/">IAC-02 - Identification &amp; Authentication for Organizational Users</a></li>
+<li><a href="../../scf/iac-08-role-basedaccesscontrolrbac/">IAC-08 - Role-Based Access Control (RBAC)</a></li>
+<li><a href="../../scf/iac-15-accountmanagement/">IAC-15 - Account Management</a></li>
+<li><a href="../../scf/iac-16-privilegedaccountmanagementpam/">IAC-16 - Privileged Account Management (PAM)</a></li>
+<li><a href="../../scf/iac-17-periodicreviewofaccountprivileges/">IAC-17 - Periodic Review of Account Privileges</a></li>
+<li><a href="../../scf/iac-21-leastprivilege/">IAC-21 - Least Privilege</a></li>
+<li><a href="../../scf/pes-01-physical%26environmentalprotections/">PES-01 - Physical &amp; Environmental Protections</a></li>
+<li><a href="../../scf/pes-02-physicalaccessauthorizations/">PES-02 - Physical Access Authorizations</a></li>
+<li><a href="../../scf/pes-021-role-basedphysicalaccess/">PES-02.1 - Role-Based Physical Access</a></li>
+<li><a href="../../scf/pes-03-physicalaccesscontrol/">PES-03 - Physical Access Control</a></li>
+<li><a href="../../scf/pes-04-physicalsecurityofoffices%2Crooms%26facilities/">PES-04 - Physical Security of Offices, Rooms &amp; Facilities</a></li>
+<li><a href="../../scf/pes-041-workinginsecureareas/">PES-04.1 - Working in Secure Areas</a></li>
+</ul>
+<h2 id="a516">A.5.16</h2>
+<p><strong>Identity management</strong></p>
+<p>The full life cycle of identities shall be managed.</p>
+<h3 id="mapped-scf-controls_15">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/iac-03-identification%26authenticationfornon-organizationalusers/">IAC-03 - Identification &amp; Authentication for Non-Organizational Users</a></li>
+<li><a href="../../scf/iac-04-identification%26authenticationfordevices/">IAC-04 - Identification &amp; Authentication for Devices</a></li>
+<li><a href="../../scf/iac-05-identification%26authenticationforthirdpartysystems%26services/">IAC-05 - Identification &amp; Authentication for Third Party Systems &amp; Services</a></li>
+<li><a href="../../scf/iac-07-userprovisioning%26de-provisioning/">IAC-07 - User Provisioning &amp; De-Provisioning</a></li>
+<li><a href="../../scf/iac-09-identifiermanagementusernames/">IAC-09 - Identifier Management (User Names)</a></li>
+<li><a href="../../scf/iac-091-useridentityidmanagement/">IAC-09.1 - User Identity (ID) Management</a></li>
+<li><a href="../../scf/iac-094-cross-organizationmanagement/">IAC-09.4 - Cross-Organization Management</a></li>
+<li><a href="../../scf/iac-15-accountmanagement/">IAC-15 - Account Management</a></li>
+<li><a href="../../scf/iac-153-disableinactiveaccounts/">IAC-15.3 - Disable Inactive Accounts</a></li>
+<li><a href="../scf/iac-155-restrictionsonsharedgroups/accounts.md">IAC-15.5 - Restrictions on Shared Groups / Accounts</a></li>
+</ul>
+<h2 id="a517">A.5.17</h2>
+<p><strong>Authentication information</strong></p>
+<p>Allocation and management of authentication information shall be controlled by a management process, including advising personnel on appropriate handling of authentication information.</p>
+<h3 id="mapped-scf-controls_16">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/iac-10-authenticatormanagement/">IAC-10 - Authenticator Management</a></li>
+<li><a href="../../scf/iac-101-password-basedauthentication/">IAC-10.1 - Password-Based Authentication</a></li>
+<li><a href="../../scf/iac-1011-passwordmanagers/">IAC-10.11 - Password Managers</a></li>
+<li><a href="../../scf/iac-105-protectionofauthenticators/">IAC-10.5 - Protection of Authenticators</a></li>
+<li><a href="../../scf/iac-108-vendor-supplieddefaults/">IAC-10.8 - Vendor-Supplied Defaults</a></li>
+<li><a href="../../scf/iac-18-userresponsibilitiesforaccountmanagement/">IAC-18 - User Responsibilities for Account Management</a></li>
+</ul>
+<h2 id="a518">A.5.18</h2>
+<p><strong>Access rights</strong></p>
+<p>Access rights to information and other associated assets shall be provisioned, reviewed, modified and removed in accordance with the organization’s topic-specific policy on and rules for access control.</p>
+<h3 id="mapped-scf-controls_17">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/cfg-031-periodicreview/">CFG-03.1 - Periodic Review</a></li>
+<li><a href="../../scf/hrs-11-separationofdutiessod/">HRS-11 - Separation of Duties (SoD)</a></li>
+<li><a href="../../scf/iac-01-identity%26accessmanagementiam/">IAC-01 - Identity &amp; Access Management (IAM)</a></li>
+<li><a href="../../scf/iac-07-userprovisioning%26de-provisioning/">IAC-07 - User Provisioning &amp; De-Provisioning</a></li>
+<li><a href="../../scf/iac-071-changeofroles%26duties/">IAC-07.1 - Change of Roles &amp; Duties</a></li>
+<li><a href="../../scf/iac-072-terminationofemployment/">IAC-07.2 - Termination of Employment</a></li>
+<li><a href="../../scf/iac-10-authenticatormanagement/">IAC-10 - Authenticator Management</a></li>
+<li><a href="../../scf/iac-1011-passwordmanagers/">IAC-10.11 - Password Managers</a></li>
+<li><a href="../../scf/iac-15-accountmanagement/">IAC-15 - Account Management</a></li>
+<li><a href="../../scf/iac-151-automatedsystemaccountmanagementdirectoryservices/">IAC-15.1 - Automated System Account Management (Directory Services)</a></li>
+<li><a href="../scf/iac-152-removaloftemporary/emergencyaccounts.md">IAC-15.2 - Removal of Temporary / Emergency Accounts</a></li>
+<li><a href="../../scf/iac-16-privilegedaccountmanagementpam/">IAC-16 - Privileged Account Management (PAM)</a></li>
+<li><a href="../../scf/iac-161-privilegedaccountinventories/">IAC-16.1 - Privileged Account Inventories</a></li>
+<li><a href="../../scf/iac-17-periodicreviewofaccountprivileges/">IAC-17 - Periodic Review of Account Privileges</a></li>
+<li><a href="../../scf/iac-19-credentialsharing/">IAC-19 - Credential Sharing</a></li>
+<li><a href="../../scf/iac-20-accessenforcement/">IAC-20 - Access Enforcement</a></li>
+<li><a href="../scf/iac-201-accesstosensitive/regulateddata.md">IAC-20.1 - Access To Sensitive / Regulated Data</a></li>
+<li><a href="../../scf/iac-202-databaseaccess/">IAC-20.2 - Database Access</a></li>
+<li><a href="../../scf/iac-203-useofprivilegedutilityprograms/">IAC-20.3 - Use of Privileged Utility Programs</a></li>
+<li><a href="../../scf/iac-21-leastprivilege/">IAC-21 - Least Privilege</a></li>
+<li><a href="../../scf/iac-213-privilegedaccounts/">IAC-21.3 - Privileged Accounts</a></li>
+<li><a href="../../scf/pes-01-physical%26environmentalprotections/">PES-01 - Physical &amp; Environmental Protections</a></li>
+<li><a href="../../scf/pes-02-physicalaccessauthorizations/">PES-02 - Physical Access Authorizations</a></li>
+<li><a href="../../scf/pes-021-role-basedphysicalaccess/">PES-02.1 - Role-Based Physical Access</a></li>
+<li><a href="../../scf/pes-03-physicalaccesscontrol/">PES-03 - Physical Access Control</a></li>
+</ul>
+<h2 id="a519">A.5.19</h2>
+<p><strong>Information security in supplier relationships</strong></p>
+<p>Processes and procedures shall be defined and implemented to manage the information security risks associated with the use of supplier’s products or services.</p>
+<h3 id="mapped-scf-controls_18">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/tpm-01-third-partymanagement/">TPM-01 - Third-Party Management</a></li>
+<li><a href="../../scf/tpm-011-third-partyinventories/">TPM-01.1 - Third-Party Inventories</a></li>
+<li><a href="../../scf/tpm-02-third-partycriticalityassessments/">TPM-02 - Third-Party Criticality Assessments</a></li>
+<li><a href="../../scf/tpm-03-supplychainprotection/">TPM-03 - Supply Chain Protection</a></li>
+<li><a href="../../scf/tpm-032-limitpotentialharm/">TPM-03.2 - Limit Potential Harm</a></li>
+<li><a href="../../scf/tpm-033-processestoaddressweaknessesordeficiencies/">TPM-03.3 - Processes To Address Weaknesses or Deficiencies</a></li>
+<li><a href="../../scf/tpm-04-third-partyservices/">TPM-04 - Third-Party Services</a></li>
+<li><a href="../../scf/tpm-041-third-partyriskassessments%26approvals/">TPM-04.1 - Third-Party Risk Assessments &amp; Approvals</a></li>
+<li><a href="../../scf/tpm-043-conflictofinterests/">TPM-04.3 - Conflict of Interests</a></li>
+<li><a href="../../scf/tpm-05-third-partycontractrequirements/">TPM-05 - Third-Party Contract Requirements</a></li>
+<li><a href="../../scf/tpm-06-third-partypersonnelsecurity/">TPM-06 - Third-Party Personnel Security</a></li>
+<li><a href="../../scf/tpm-08-reviewofthird-partyservices/">TPM-08 - Review of Third-Party Services</a></li>
+<li><a href="../../scf/tpm-09-third-partydeficiencyremediation/">TPM-09 - Third-Party Deficiency Remediation</a></li>
+<li><a href="../../scf/tpm-11-third-partyincidentresponse%26recoverycapabilities/">TPM-11 - Third-Party Incident Response &amp; Recovery Capabilities</a></li>
+</ul>
+<h2 id="a520">A.5.20</h2>
+<p><strong>Addressing information security within supplier agreements</strong></p>
+<p>Relevant information security requirements shall be established and agreed with each supplier based on the type of supplier relationship.</p>
+<h3 id="mapped-scf-controls_19">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/iro-104-supplychaincoordination/">IRO-10.4 - Supply Chain Coordination</a></li>
+<li><a href="../../scf/tpm-01-third-partymanagement/">TPM-01 - Third-Party Management</a></li>
+<li><a href="../../scf/tpm-032-limitpotentialharm/">TPM-03.2 - Limit Potential Harm</a></li>
+<li><a href="../../scf/tpm-05-third-partycontractrequirements/">TPM-05 - Third-Party Contract Requirements</a></li>
+<li><a href="../../scf/tpm-08-reviewofthird-partyservices/">TPM-08 - Review of Third-Party Services</a></li>
+<li><a href="../../scf/tpm-10-managingchangestothird-partyservices/">TPM-10 - Managing Changes To Third-Party Services</a></li>
+</ul>
+<h2 id="a521">A.5.21</h2>
+<p><strong>Managing information security in the information and communication technology (ICT) supply chain</strong></p>
+<p>Processes and procedures shall be defined and implemented to manage the information security risks associated with the ICT products and services supply chain.</p>
+<h3 id="mapped-scf-controls_20">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/ast-032-provenance/">AST-03.2 - Provenance</a></li>
+<li><a href="../../scf/iao-01-informationassuranceiaoperations/">IAO-01 - Information Assurance (IA) Operations</a></li>
+<li><a href="../../scf/iao-02-assessments/">IAO-02 - Assessments</a></li>
+<li><a href="../../scf/iao-022-specializedassessments/">IAO-02.2 - Specialized Assessments</a></li>
+<li><a href="../../scf/rsk-09-supplychainriskmanagementscrmplan/">RSK-09 - Supply Chain Risk Management (SCRM) Plan</a></li>
+<li><a href="../../scf/tpm-03-supplychainprotection/">TPM-03 - Supply Chain Protection</a></li>
+<li><a href="../../scf/tpm-031-acquisitionstrategies%2Ctools%26methods/">TPM-03.1 - Acquisition Strategies, Tools &amp; Methods</a></li>
+<li><a href="../../scf/tpm-044-third-partyprocessing%2Cstorageandservicelocations/">TPM-04.4 - Third-Party Processing, Storage and Service Locations</a></li>
+<li><a href="../../scf/tpm-05-third-partycontractrequirements/">TPM-05 - Third-Party Contract Requirements</a></li>
+<li><a href="../../scf/tpm-051-securitycompromisenotificationagreements/">TPM-05.1 - Security Compromise Notification Agreements</a></li>
+</ul>
+<h2 id="a522">A.5.22</h2>
+<p><strong>Monitoring, review and change management of supplier services</strong></p>
+<p>The organization shall regularly monitor, review, evaluate and manage change in supplier information security practices and service delivery.</p>
+<h3 id="mapped-scf-controls_21">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/tpm-03-supplychainprotection/">TPM-03 - Supply Chain Protection</a></li>
+<li><a href="../../scf/tpm-031-acquisitionstrategies%2Ctools%26methods/">TPM-03.1 - Acquisition Strategies, Tools &amp; Methods</a></li>
+<li><a href="../../scf/tpm-033-processestoaddressweaknessesordeficiencies/">TPM-03.3 - Processes To Address Weaknesses or Deficiencies</a></li>
+<li><a href="../../scf/tpm-08-reviewofthird-partyservices/">TPM-08 - Review of Third-Party Services</a></li>
+<li><a href="../../scf/tpm-10-managingchangestothird-partyservices/">TPM-10 - Managing Changes To Third-Party Services</a></li>
+</ul>
+<h2 id="a523">A.5.23</h2>
+<p><strong>Information security for use of cloud services</strong></p>
+<p>Processes for acquisition, use, management and exit from cloud services shall be established in accordance with the organization’s information security requirements.</p>
+<h3 id="mapped-scf-controls_22">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/cld-01-cloudservices/">CLD-01 - Cloud Services</a></li>
+<li><a href="../../scf/cld-02-cloudsecurityarchitecture/">CLD-02 - Cloud Security Architecture</a></li>
+<li><a href="../../scf/cld-04-application%26programinterfaceapisecurity/">CLD-04 - Application &amp; Program Interface (API) Security</a></li>
+<li><a href="../../scf/cld-06-multi-tenantenvironments/">CLD-06 - Multi-Tenant Environments</a></li>
+<li><a href="../../scf/cld-061-customerresponsibilitymatrixcrm/">CLD-06.1 - Customer Responsibility Matrix (CRM)</a></li>
+<li><a href="../../scf/cld-09-geolocationrequirementsforprocessing%2Cstorageandservicelocations/">CLD-09 - Geolocation Requirements for Processing, Storage and Service Locations</a></li>
+<li><a href="../../scf/iao-02-assessments/">IAO-02 - Assessments</a></li>
+<li><a href="../../scf/iao-022-specializedassessments/">IAO-02.2 - Specialized Assessments</a></li>
+<li><a href="../../scf/tpm-054-responsible%2Caccountable%2Csupportive%2Cconsulted%26informedrascimatrix/">TPM-05.4 - Responsible, Accountable, Supportive, Consulted &amp; Informed (RASCI) Matrix</a></li>
+</ul>
+<h2 id="a524">A.5.24</h2>
+<p><strong>Information security incident management planning and preparation</strong></p>
+<p>The organization shall plan and prepare for managing information security incidents by defining, establishing and communicating information security incident management processes, roles and responsibilities.</p>
+<h3 id="mapped-scf-controls_23">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/iro-01-incidentresponseoperations/">IRO-01 - Incident Response Operations</a></li>
+<li><a href="../../scf/iro-02-incidenthandling/">IRO-02 - Incident Handling</a></li>
+<li><a href="../../scf/iro-04-incidentresponseplanirp/">IRO-04 - Incident Response Plan (IRP)</a></li>
+<li><a href="../../scf/iro-13-rootcauseanalysisrca%26lessonslearned/">IRO-13 - Root Cause Analysis (RCA) &amp; Lessons Learned</a></li>
+</ul>
+<h2 id="a525">A.5.25</h2>
+<p><strong>Assessment and decision on information security events</strong></p>
+<p>The organization shall assess information security events and decide if they are to be categorized as information security incidents.</p>
+<h3 id="mapped-scf-controls_24">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/iro-02-incidenthandling/">IRO-02 - Incident Handling</a></li>
+<li><a href="../../scf/iro-041-databreach/">IRO-04.1 - Data Breach</a></li>
+<li><a href="../../scf/iro-07-integratedsecurityincidentresponseteamisirt/">IRO-07 - Integrated Security Incident Response Team (ISIRT)</a></li>
+<li><a href="../../scf/iro-09-situationalawarenessforincidents/">IRO-09 - Situational Awareness For Incidents</a></li>
+</ul>
+<h2 id="a526">A.5.26</h2>
+<p><strong>Response to information security incidents</strong></p>
+<p>Information security incidents shall be responded to in accordance with the documented procedures.</p>
+<h3 id="mapped-scf-controls_25">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/iro-02-incidenthandling/">IRO-02 - Incident Handling</a></li>
+<li><a href="../../scf/iro-04-incidentresponseplanirp/">IRO-04 - Incident Response Plan (IRP)</a></li>
+<li><a href="../../scf/iro-07-integratedsecurityincidentresponseteamisirt/">IRO-07 - Integrated Security Incident Response Team (ISIRT)</a></li>
+<li><a href="../../scf/iro-08-chainofcustody%26forensics/">IRO-08 - Chain of Custody &amp; Forensics</a></li>
+</ul>
+<h2 id="a527">A.5.27</h2>
+<p><strong>Learning from information security incidents</strong></p>
+<p>Knowledge gained from information security incidents shall be used to strengthen and improve the information security controls.</p>
+<h3 id="mapped-scf-controls_26">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/iro-13-rootcauseanalysisrca%26lessonslearned/">IRO-13 - Root Cause Analysis (RCA) &amp; Lessons Learned</a></li>
+</ul>
+<h2 id="a528">A.5.28</h2>
+<p><strong>Collection of evidence</strong></p>
+<p>The organization shall establish and implement procedures for the identification, collection, acquisition and preservation of evidence related to information security events.</p>
+<h3 id="mapped-scf-controls_27">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/iro-08-chainofcustody%26forensics/">IRO-08 - Chain of Custody &amp; Forensics</a></li>
+</ul>
+<h2 id="a529">A.5.29</h2>
+<p><strong>Information security during disruption</strong></p>
+<p>The organization shall plan how to maintain information security at an appropriate level during disruption.</p>
+<h3 id="mapped-scf-controls_28">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/bcd-01-businesscontinuitymanagementsystembcms/">BCD-01 - Business Continuity Management System (BCMS)</a></li>
+<li><a href="../../scf/bcd-011-coordinatewithrelatedplans/">BCD-01.1 - Coordinate with Related Plans</a></li>
+<li><a href="../../scf/bcd-012-coordinatewithexternalserviceproviders/">BCD-01.2 - Coordinate With External Service Providers</a></li>
+<li><a href="../../scf/bcd-04-contingencyplantesting%26exercises/">BCD-04 - Contingency Plan Testing &amp; Exercises</a></li>
+<li><a href="../../scf/iro-05-incidentresponsetraining/">IRO-05 - Incident Response Training</a></li>
+<li><a href="../../scf/iro-061-coordinationwithrelatedplans/">IRO-06.1 - Coordination with Related Plans</a></li>
+<li><a href="../../scf/iro-112-coordinationwithexternalproviders/">IRO-11.2 - Coordination With External Providers</a></li>
+</ul>
+<h2 id="a530">A.5.30</h2>
+<p><strong>ICT readiness for business continuity</strong></p>
+<p>ICT readiness shall be planned, implemented, maintained and tested based on business continuity objectives and ICT continuity requirements.</p>
+<h3 id="mapped-scf-controls_29">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/ast-01-assetgovernance/">AST-01 - Asset Governance</a></li>
+<li><a href="../../scf/ast-011-asset-servicedependencies/">AST-01.1 - Asset-Service Dependencies</a></li>
+<li><a href="../../scf/bcd-01-businesscontinuitymanagementsystembcms/">BCD-01 - Business Continuity Management System (BCMS)</a></li>
+<li><a href="../../scf/bcd-011-coordinatewithrelatedplans/">BCD-01.1 - Coordinate with Related Plans</a></li>
+<li><a href="../../scf/bcd-012-coordinatewithexternalserviceproviders/">BCD-01.2 - Coordinate With External Service Providers</a></li>
+<li><a href="../../scf/bcd-04-contingencyplantesting%26exercises/">BCD-04 - Contingency Plan Testing &amp; Exercises</a></li>
+<li><a href="../../scf/iro-06-incidentresponsetesting/">IRO-06 - Incident Response Testing</a></li>
+<li><a href="../../scf/rsk-08-businessimpactanalysisbia/">RSK-08 - Business Impact Analysis (BIA)</a></li>
+</ul>
+<h2 id="a531">A.5.31</h2>
+<p><strong>Legal, statutory, regulatory and contractual requirements</strong></p>
+<p>Legal, statutory, regulatory and contractual requirements relevant to information security and the organization’s approach to meet these requirements shall be identified, documented and kept up to date.</p>
+<h3 id="mapped-scf-controls_30">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/ast-01-assetgovernance/">AST-01 - Asset Governance</a></li>
+<li><a href="../../scf/cpl-01-statutory%2Cregulatory%26contractualcompliance/">CPL-01 - Statutory, Regulatory &amp; Contractual Compliance</a></li>
+<li><a href="../../scf/cpl-02-cybersecurity%26dataprotectioncontrolsoversight/">CPL-02 - Cybersecurity &amp; Data Protection Controls Oversight</a></li>
+<li><a href="../../scf/cry-012-export-controlledtechnology/">CRY-01.2 - Export-Controlled Technology</a></li>
+<li><a href="../../scf/pri-071-dataprivacyrequirementsforcontractors%26serviceproviders/">PRI-07.1 - Data Privacy Requirements for Contractors &amp; Service Providers</a></li>
+<li><a href="../../scf/tpm-05-third-partycontractrequirements/">TPM-05 - Third-Party Contract Requirements</a></li>
+</ul>
+<h2 id="a532">A.5.32</h2>
+<p><strong>Intellectual property rights</strong></p>
+<p>The organization shall implement appropriate procedures to protect intellectual property rights.</p>
+<h3 id="mapped-scf-controls_31">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/ast-027-softwarelicensingrestrictions/">AST-02.7 - Software Licensing Restrictions</a></li>
+</ul>
+<h2 id="a533">A.5.33</h2>
+<p><strong>Protection of records</strong></p>
+<p>Records shall be protected from loss, destruction, falsification, unauthorized access and unauthorized release.</p>
+<h3 id="mapped-scf-controls_32">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/dch-01-dataprotection/">DCH-01 - Data Protection</a></li>
+<li><a href="../../scf/dch-18-media%26dataretention/">DCH-18 - Media &amp; Data Retention</a></li>
+<li><a href="../../scf/pri-03-choice%26consent/">PRI-03 - Choice &amp; Consent</a></li>
+<li><a href="../../scf/pri-04-restrictcollectiontoidentifiedpurpose/">PRI-04 - Restrict Collection To Identified Purpose</a></li>
+<li><a href="../../scf/pri-05-personaldataretention%26disposal/">PRI-05 - Personal Data Retention &amp; Disposal</a></li>
+<li><a href="../../scf/pri-051-internaluseofpersonaldatafortesting%2Ctrainingandresearch/">PRI-05.1 - Internal Use of Personal Data For Testing, Training and Research</a></li>
+<li><a href="../../scf/pri-054-usagerestrictionsofsensitivepersonaldata/">PRI-05.4 - Usage Restrictions of Sensitive Personal Data</a></li>
+<li><a href="../../scf/pri-07-informationsharingwiththirdparties/">PRI-07 - Information Sharing With Third Parties</a></li>
+<li><a href="../../scf/pri-071-dataprivacyrequirementsforcontractors%26serviceproviders/">PRI-07.1 - Data Privacy Requirements for Contractors &amp; Service Providers</a></li>
+<li><a href="../../scf/rsk-10-dataprotectionimpactassessmentdpia/">RSK-10 - Data Protection Impact Assessment (DPIA)</a></li>
+</ul>
+<h2 id="a534">A.5.34</h2>
+<p><strong>Privacy and protection of personal identifiable information (PII)</strong></p>
+<p>The organization shall identify and meet the requirements regarding the preservation of privacy and protection of PII according to applicable laws and regulations and contractual requirements.</p>
+<h3 id="mapped-scf-controls_33">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/pri-01-dataprivacyprogram/">PRI-01 - Data Privacy Program</a></li>
+<li><a href="../../scf/pri-016-securityofpersonaldata/">PRI-01.6 - Security of Personal Data</a></li>
+<li><a href="../../scf/pri-02-dataprivacynotice/">PRI-02 - Data Privacy Notice</a></li>
+<li><a href="../../scf/pri-021-purposespecification/">PRI-02.1 - Purpose Specification</a></li>
+</ul>
+<h2 id="a535">A.5.35</h2>
+<p><strong>Independent review of information security</strong></p>
+<p>The organization’s approach to managing information security and its implementation including people, processes and technologies shall be reviewed independently at planned intervals, or when significant changes occur</p>
+<h3 id="mapped-scf-controls_34">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/cpl-021-internalauditfunction/">CPL-02.1 - Internal Audit Function</a></li>
+<li><a href="../../scf/cpl-03-cybersecurity%26dataprotectionassessments/">CPL-03 - Cybersecurity &amp; Data Protection Assessments</a></li>
+<li><a href="../../scf/cpl-031-independentassessors/">CPL-03.1 - Independent Assessors</a></li>
+<li><a href="../../scf/cpl-032-functionalreviewofcybersecurity%26dataprotectioncontrols/">CPL-03.2 - Functional Review Of Cybersecurity &amp; Data Protection Controls</a></li>
+<li><a href="../../scf/cpl-04-auditactivities/">CPL-04 - Audit Activities</a></li>
+</ul>
+<h2 id="a536">A.5.36</h2>
+<p><strong>Compliance with policies, rules and standards for information security</strong></p>
+<p>Compliance with the organization’s information security policy, topic-specific policies, rules and standards shall be regularly reviewed.</p>
+<h3 id="mapped-scf-controls_35">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/cpl-02-cybersecurity%26dataprotectioncontrolsoversight/">CPL-02 - Cybersecurity &amp; Data Protection Controls Oversight</a></li>
+<li><a href="../../scf/cpl-03-cybersecurity%26dataprotectionassessments/">CPL-03 - Cybersecurity &amp; Data Protection Assessments</a></li>
+<li><a href="../../scf/cpl-032-functionalreviewofcybersecurity%26dataprotectioncontrols/">CPL-03.2 - Functional Review Of Cybersecurity &amp; Data Protection Controls</a></li>
+<li><a href="../../scf/pri-08-testing%2Ctraining%26monitoring/">PRI-08 - Testing, Training &amp; Monitoring</a></li>
+</ul>
+<h2 id="a537">A.5.37</h2>
+<p><strong>Documented operating procedures</strong></p>
+<p>Operating procedures for information processing facilities shall be documented and made available to personnel who need them.</p>
+<h3 id="mapped-scf-controls_36">Mapped SCF controls</h3>
+<ul>
+<li><a href="../../scf/gov-01-cybersecurity%26dataprotectiongovernanceprogram/">GOV-01 - Cybersecurity &amp; Data Protection Governance Program</a></li>
+<li><a href="../../scf/gov-02-publishingcybersecurity%26dataprotectiondocumentation/">GOV-02 - Publishing Cybersecurity &amp; Data Protection Documentation</a></li>
+<li><a href="../../scf/gov-03-periodicreview%26updateofcybersecurity%26dataprotectionprogram/">GOV-03 - Periodic Review &amp; Update of Cybersecurity &amp; Data Protection Program</a></li>
+<li><a href="../../scf/ops-01-operationssecurity/">OPS-01 - Operations Security</a></li>
+<li><a href="../../scf/ops-011-standardizedoperatingproceduressop/">OPS-01.1 - Standardized Operating Procedures (SOP)</a></li>
+<li><a href="../../scf/ops-03-servicedeliverybusinessprocesssupport/">OPS-03 - Service Delivery (Business Process Support)</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>

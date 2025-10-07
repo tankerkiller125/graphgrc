@@ -1,0 +1,1563 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="GRC Alignment Doc">
+      
+      
+        <meta name="author" content="tankerkiller125">
+      
+      
+      
+      
+        <link rel="next" href="../iso27001/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>SCF - GRC Alignment Doc</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#scf-controls" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="GRC Alignment Doc" class="md-header__button md-logo" aria-label="GRC Alignment Doc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GRC Alignment Doc
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              SCF
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/tankerkiller125/graphgrc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tankerkiller125/graphgrc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="GRC Alignment Doc" class="md-nav__button md-logo" aria-label="GRC Alignment Doc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    GRC Alignment Doc
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/tankerkiller125/graphgrc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    tankerkiller125/graphgrc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    SCF
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    SCF
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ast-asset-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      AST - Asset Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bcd-business-continuity-disaster-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      BCD - Business Continuity &amp; Disaster Recovery
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cap-capacity-performance-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAP - Capacity &amp; Performance Planning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cfg-configuration-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      CFG - Configuration Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chg-change-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      CHG - Change Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cld-cloud-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      CLD - Cloud Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cpl-compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      CPL - Compliance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cry-cryptographic-protections" class="md-nav__link">
+    <span class="md-ellipsis">
+      CRY - Cryptographic Protections
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dch-data-classification-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      DCH - Data Classification &amp; Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emb-embedded-technology" class="md-nav__link">
+    <span class="md-ellipsis">
+      EMB - Embedded Technology
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#end-endpoint-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      END - Endpoint Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gov-cybersecurity-data-privacy-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      GOV - Cybersecurity &amp; Data Privacy Governance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hrs-human-resources-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      HRS - Human Resources Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iac-identification-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      IAC - Identification &amp; Authentication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iao-information-assurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      IAO - Information Assurance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iro-incident-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      IRO - Incident Response
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mdm-mobile-device-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      MDM - Mobile Device Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mnt-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      MNT - Maintenance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mon-continuous-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      MON - Continuous Monitoring
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#net-network-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      NET - Network Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ops-security-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      OPS - Security Operations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pes-physical-environmental-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      PES - Physical &amp; Environmental Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pri-data-privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      PRI - Data Privacy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prm-project-resource-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      PRM - Project &amp; Resource Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rsk-risk-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      RSK - Risk Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sat-security-awareness-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAT - Security Awareness &amp; Training
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sea-secure-engineering-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      SEA - Secure Engineering &amp; Architecture
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tda-technology-development-acquisition" class="md-nav__link">
+    <span class="md-ellipsis">
+      TDA - Technology Development &amp; Acquisition
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thr-threat-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      THR - Threat Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tpm-third-party-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      TPM - Third-Party Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpm-vulnerability-patch-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      VPM - Vulnerability &amp; Patch Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-web-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      WEB - Web Security
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iso27001/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ISO 27001
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iso27002/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ISO 27002
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../soc2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SOC 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gdpr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GDPR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ast-asset-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      AST - Asset Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bcd-business-continuity-disaster-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      BCD - Business Continuity &amp; Disaster Recovery
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cap-capacity-performance-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAP - Capacity &amp; Performance Planning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cfg-configuration-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      CFG - Configuration Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chg-change-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      CHG - Change Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cld-cloud-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      CLD - Cloud Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cpl-compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      CPL - Compliance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cry-cryptographic-protections" class="md-nav__link">
+    <span class="md-ellipsis">
+      CRY - Cryptographic Protections
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dch-data-classification-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      DCH - Data Classification &amp; Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emb-embedded-technology" class="md-nav__link">
+    <span class="md-ellipsis">
+      EMB - Embedded Technology
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#end-endpoint-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      END - Endpoint Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gov-cybersecurity-data-privacy-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      GOV - Cybersecurity &amp; Data Privacy Governance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hrs-human-resources-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      HRS - Human Resources Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iac-identification-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      IAC - Identification &amp; Authentication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iao-information-assurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      IAO - Information Assurance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iro-incident-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      IRO - Incident Response
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mdm-mobile-device-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      MDM - Mobile Device Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mnt-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      MNT - Maintenance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mon-continuous-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      MON - Continuous Monitoring
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#net-network-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      NET - Network Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ops-security-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      OPS - Security Operations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pes-physical-environmental-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      PES - Physical &amp; Environmental Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pri-data-privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      PRI - Data Privacy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prm-project-resource-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      PRM - Project &amp; Resource Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rsk-risk-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      RSK - Risk Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sat-security-awareness-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAT - Security Awareness &amp; Training
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sea-secure-engineering-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      SEA - Secure Engineering &amp; Architecture
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tda-technology-development-acquisition" class="md-nav__link">
+    <span class="md-ellipsis">
+      TDA - Technology Development &amp; Acquisition
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thr-threat-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      THR - Threat Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tpm-third-party-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      TPM - Third-Party Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpm-vulnerability-patch-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      VPM - Vulnerability &amp; Patch Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-web-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      WEB - Web Security
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="scf-controls">SCF Controls</h1>
+<h2 id="ast-asset-management">AST - Asset Management</h2>
+<ul>
+<li><a href="ast-01-assetgovernance/">AST-01 - Asset Governance</a></li>
+<li><a href="ast-011-asset-servicedependencies/">AST-01.1 - Asset-Service Dependencies</a></li>
+<li><a href="ast-012-stakeholderidentification%26involvement/">AST-01.2 - Stakeholder Identification &amp; Involvement</a></li>
+<li><a href="ast-02-assetinventories/">AST-02 - Asset Inventories</a></li>
+<li><a href="ast-027-softwarelicensingrestrictions/">AST-02.7 - Software Licensing Restrictions</a></li>
+<li><a href="ast-028-dataactionmapping/">AST-02.8 - Data Action Mapping</a></li>
+<li><a href="ast-03-assetownershipassignment/">AST-03 - Asset Ownership Assignment</a></li>
+<li><a href="ast-031-accountabilityinformation/">AST-03.1 - Accountability Information</a></li>
+<li><a href="ast-032-provenance/">AST-03.2 - Provenance</a></li>
+<li><a href="ast-04-networkdiagrams%26dataflowdiagramsdfds/">AST-04 - Network Diagrams &amp; Data Flow Diagrams (DFDs)</a></li>
+<li><a href="ast-041-assetscopeclassification/">AST-04.1 - Asset Scope Classification</a></li>
+<li><a href="ast-05-securityofassets%26media/">AST-05 - Security of Assets &amp; Media</a></li>
+<li><a href="ast-06-unattendedend-userequipment/">AST-06 - Unattended End-User Equipment</a></li>
+<li><a href="ast-07-kiosks%26pointofinteractionpoidevices/">AST-07 - Kiosks &amp; Point of Interaction (PoI) Devices</a></li>
+<li><a href="ast-08-tamperdetection/">AST-08 - Tamper Detection</a></li>
+<li><a href="ast-09-securedisposal%2Cdestructionorre-useofequipment/">AST-09 - Secure Disposal, Destruction or Re-Use of Equipment</a></li>
+<li><a href="ast-10-returnofassets/">AST-10 - Return of Assets</a></li>
+<li><a href="ast-11-removalofassets/">AST-11 - Removal of Assets</a></li>
+<li><a href="ast-12-useofpersonaldevices/">AST-12 - Use of Personal Devices</a></li>
+<li><a href="ast-15-tamperprotection/">AST-15 - Tamper Protection</a></li>
+</ul>
+<h2 id="bcd-business-continuity-disaster-recovery">BCD - Business Continuity &amp; Disaster Recovery</h2>
+<ul>
+<li><a href="bcd-01-businesscontinuitymanagementsystembcms/">BCD-01 - Business Continuity Management System (BCMS)</a></li>
+<li><a href="bcd-011-coordinatewithrelatedplans/">BCD-01.1 - Coordinate with Related Plans</a></li>
+<li><a href="bcd-012-coordinatewithexternalserviceproviders/">BCD-01.2 - Coordinate With External Service Providers</a></li>
+<li><a href="bcd-02-identifycriticalassets/">BCD-02 - Identify Critical Assets</a></li>
+<li><a href="bcd-021-resumeallmissions%26businessfunctions/">BCD-02.1 - Resume All Missions &amp; Business Functions</a></li>
+<li><a href="bcd-022-continueessentialmission%26businessfunctions/">BCD-02.2 - Continue Essential Mission &amp; Business Functions</a></li>
+<li><a href="bcd-023-resumeessentialmissions%26businessfunctions/">BCD-02.3 - Resume Essential Missions &amp; Business Functions</a></li>
+<li><a href="bcd-031-simulatedevents/">BCD-03.1 - Simulated Events</a></li>
+<li><a href="bcd-04-contingencyplantesting%26exercises/">BCD-04 - Contingency Plan Testing &amp; Exercises</a></li>
+<li><a href="bcd-05-contingencyplanrootcauseanalysisrca%26lessonslearned/">BCD-05 - Contingency Plan Root Cause Analysis (RCA) &amp; Lessons Learned</a></li>
+<li><a href="bcd-06-contingencyplanning%26updates/">BCD-06 - Contingency Planning &amp; Updates</a></li>
+<li><a href="bcd-07-alternativesecuritymeasures/">BCD-07 - Alternative Security Measures</a></li>
+<li><a href="bcd-08-alternatestoragesite/">BCD-08 - Alternate Storage Site</a></li>
+<li><a href="bcd-081-separationfromprimarysite/">BCD-08.1 - Separation from Primary Site</a></li>
+<li><a href="bcd-082-accessibility/">BCD-08.2 - Accessibility</a></li>
+<li><a href="bcd-09-alternateprocessingsite/">BCD-09 - Alternate Processing Site</a></li>
+<li><a href="bcd-091-separationfromprimarysite/">BCD-09.1 - Separation from Primary Site</a></li>
+<li><a href="bcd-092-accessibility/">BCD-09.2 - Accessibility</a></li>
+<li><a href="bcd-093-alternatesitepriorityofservice/">BCD-09.3 - Alternate Site Priority of Service</a></li>
+<li><a href="bcd-10-telecommunicationsservicesavailability/">BCD-10 - Telecommunications Services Availability</a></li>
+<li><a href="bcd-101-telecommunicationspriorityofserviceprovisions/">BCD-10.1 - Telecommunications Priority of Service Provisions</a></li>
+<li><a href="bcd-11-databackups/">BCD-11 - Data Backups</a></li>
+<li><a href="bcd-111-testingforreliability%26integrity/">BCD-11.1 - Testing for Reliability &amp; Integrity</a></li>
+<li><a href="bcd-112-separatestorageforcriticalinformation/">BCD-11.2 - Separate Storage for Critical Information</a></li>
+<li><a href="bcd-113-informationsystemimaging/">BCD-11.3 - Information System Imaging</a></li>
+<li><a href="bcd-114-cryptographicprotection/">BCD-11.4 - Cryptographic Protection</a></li>
+<li><a href="bcd-117-redundantsecondarysystem/">BCD-11.7 - Redundant Secondary System</a></li>
+<li><a href="bcd-12-informationsystemrecovery%26reconstitution/">BCD-12 - Information System Recovery &amp; Reconstitution</a></li>
+<li><a href="bcd-121-transactionrecovery/">BCD-12.1 - Transaction Recovery</a></li>
+<li><a href="bcd-122-failovercapability/">BCD-12.2 - Failover Capability</a></li>
+<li><a href="bcd-13-backup%26restorationhardwareprotection/">BCD-13 - Backup &amp; Restoration Hardware Protection</a></li>
+</ul>
+<h2 id="cap-capacity-performance-planning">CAP - Capacity &amp; Performance Planning</h2>
+<ul>
+<li><a href="cap-01-capacity%26performancemanagement/">CAP-01 - Capacity &amp; Performance Management</a></li>
+<li><a href="cap-02-resourcepriority/">CAP-02 - Resource Priority</a></li>
+<li><a href="cap-03-capacityplanning/">CAP-03 - Capacity Planning</a></li>
+</ul>
+<h2 id="cfg-configuration-management">CFG - Configuration Management</h2>
+<ul>
+<li><a href="cfg-01-configurationmanagementprogram/">CFG-01 - Configuration Management Program</a></li>
+<li><a href="cfg-011-assignmentofresponsibility/">CFG-01.1 - Assignment of Responsibility</a></li>
+<li><a href="cfg-02-systemhardeningthroughbaselineconfigurations/">CFG-02 - System Hardening Through Baseline Configurations</a></li>
+<li><a href="cfg-021-reviews%26updates/">CFG-02.1 - Reviews &amp; Updates</a></li>
+<li><a href="cfg-022-automatedcentralmanagement%26verification/">CFG-02.2 - Automated Central Management &amp; Verification</a></li>
+<li><a href="cfg-024-development%26testenvironmentconfigurations/">CFG-02.4 - Development &amp; Test Environment Configurations</a></li>
+<li><a href="cfg-025-configuresystems%2Ccomponentsorservicesforhigh-riskareas/">CFG-02.5 - Configure Systems, Components or Services for High-Risk Areas</a></li>
+<li><a href="cfg-03-leastfunctionality/">CFG-03 - Least Functionality</a></li>
+<li><a href="cfg-031-periodicreview/">CFG-03.1 - Periodic Review</a></li>
+<li><a href="cfg-042-unsupportedinternetbrowsers%26emailclients/">CFG-04.2 - Unsupported Internet Browsers &amp; Email Clients</a></li>
+</ul>
+<h2 id="chg-change-management">CHG - Change Management</h2>
+<ul>
+<li><a href="chg-01-changemanagementprogram/">CHG-01 - Change Management Program</a></li>
+<li><a href="chg-02-configurationchangecontrol/">CHG-02 - Configuration Change Control</a></li>
+<li><a href="chg-021-prohibitionofchanges/">CHG-02.1 - Prohibition Of Changes</a></li>
+<li><a href="chg-022-test%2Cvalidate%26documentchanges/">CHG-02.2 - Test, Validate &amp; Document Changes</a></li>
+<li><a href="chg-023-cybersecurity%26dataprivacyrepresentativeforassetlifecyclechanges/">CHG-02.3 - Cybersecurity &amp; Data Privacy Representative for Asset Lifecycle Changes</a></li>
+<li><a href="chg-03-securityimpactanalysisforchanges/">CHG-03 - Security Impact Analysis for Changes</a></li>
+<li><a href="chg-05-stakeholdernotificationofchanges/">CHG-05 - Stakeholder Notification of Changes</a></li>
+</ul>
+<h2 id="cld-cloud-security">CLD - Cloud Security</h2>
+<ul>
+<li><a href="cld-01-cloudservices/">CLD-01 - Cloud Services</a></li>
+<li><a href="cld-02-cloudsecurityarchitecture/">CLD-02 - Cloud Security Architecture</a></li>
+<li><a href="cld-04-application%26programinterfaceapisecurity/">CLD-04 - Application &amp; Program Interface (API) Security</a></li>
+<li><a href="cld-06-multi-tenantenvironments/">CLD-06 - Multi-Tenant Environments</a></li>
+<li><a href="cld-061-customerresponsibilitymatrixcrm/">CLD-06.1 - Customer Responsibility Matrix (CRM)</a></li>
+<li><a href="cld-09-geolocationrequirementsforprocessing%2Cstorageandservicelocations/">CLD-09 - Geolocation Requirements for Processing, Storage and Service Locations</a></li>
+</ul>
+<h2 id="cpl-compliance">CPL - Compliance</h2>
+<ul>
+<li><a href="cpl-01-statutory%2Cregulatory%26contractualcompliance/">CPL-01 - Statutory, Regulatory &amp; Contractual Compliance</a></li>
+<li><a href="cpl-011-non-complianceoversight/">CPL-01.1 - Non-Compliance Oversight</a></li>
+<li><a href="cpl-012-compliancescope/">CPL-01.2 - Compliance Scope</a></li>
+<li><a href="cpl-02-cybersecurity%26dataprotectioncontrolsoversight/">CPL-02 - Cybersecurity &amp; Data Protection Controls Oversight</a></li>
+<li><a href="cpl-021-internalauditfunction/">CPL-02.1 - Internal Audit Function</a></li>
+<li><a href="cpl-03-cybersecurity%26dataprotectionassessments/">CPL-03 - Cybersecurity &amp; Data Protection Assessments</a></li>
+<li><a href="cpl-031-independentassessors/">CPL-03.1 - Independent Assessors</a></li>
+<li><a href="cpl-032-functionalreviewofcybersecurity%26dataprotectioncontrols/">CPL-03.2 - Functional Review Of Cybersecurity &amp; Data Protection Controls</a></li>
+<li><a href="cpl-04-auditactivities/">CPL-04 - Audit Activities</a></li>
+</ul>
+<h2 id="cry-cryptographic-protections">CRY - Cryptographic Protections</h2>
+<ul>
+<li><a href="cry-01-useofcryptographiccontrols/">CRY-01 - Use of Cryptographic Controls</a></li>
+<li><a href="cry-012-export-controlledtechnology/">CRY-01.2 - Export-Controlled Technology</a></li>
+<li><a href="cry-03-transmissionconfidentiality/">CRY-03 - Transmission Confidentiality</a></li>
+<li><a href="cry-04-transmissionintegrity/">CRY-04 - Transmission Integrity</a></li>
+<li><a href="cry-05-encryptingdataatrest/">CRY-05 - Encrypting Data At Rest</a></li>
+<li><a href="cry-08-publickeyinfrastructurepki/">CRY-08 - Public Key Infrastructure (PKI)</a></li>
+<li><a href="cry-09-cryptographickeymanagement/">CRY-09 - Cryptographic Key Management</a></li>
+<li><a href="cry-091-symmetrickeys/">CRY-09.1 - Symmetric Keys</a></li>
+<li><a href="cry-092-asymmetrickeys/">CRY-09.2 - Asymmetric Keys</a></li>
+<li><a href="cry-093-cryptographickeylossorchange/">CRY-09.3 - Cryptographic Key Loss or Change</a></li>
+<li><a href="cry-094-control%26distributionofcryptographickeys/">CRY-09.4 - Control &amp; Distribution of Cryptographic Keys</a></li>
+</ul>
+<h2 id="dch-data-classification-handling">DCH - Data Classification &amp; Handling</h2>
+<ul>
+<li><a href="dch-01-dataprotection/">DCH-01 - Data Protection</a></li>
+<li><a href="dch-011-datastewardship/">DCH-01.1 - Data Stewardship</a></li>
+<li><a href="dch-02-data%26assetclassification/">DCH-02 - Data &amp; Asset Classification</a></li>
+<li><a href="dch-03-mediaaccess/">DCH-03 - Media Access</a></li>
+<li><a href="dch-031-disclosureofinformation/">DCH-03.1 - Disclosure of Information</a></li>
+<li><a href="dch-032-maskingdisplayeddata/">DCH-03.2 - Masking Displayed Data</a></li>
+<li><a href="dch-04-mediamarking/">DCH-04 - Media Marking</a></li>
+<li><a href="dch-06-mediastorage/">DCH-06 - Media Storage</a></li>
+<li><a href="dch-07-mediatransportation/">DCH-07 - Media Transportation</a></li>
+<li><a href="dch-071-custodians/">DCH-07.1 - Custodians</a></li>
+<li><a href="dch-072-encryptingdatainstoragemedia/">DCH-07.2 - Encrypting Data In Storage Media</a></li>
+<li><a href="dch-08-physicalmediadisposal/">DCH-08 - Physical Media Disposal</a></li>
+<li><a href="dch-09-systemmediasanitization/">DCH-09 - System Media Sanitization</a></li>
+<li><a href="dch-091-systemmediasanitizationdocumentation/">DCH-09.1 - System Media Sanitization Documentation</a></li>
+<li><a href="dch-093-sanitizationofpersonaldatapd/">DCH-09.3 - Sanitization of Personal Data (PD)</a></li>
+<li><a href="dch-10-mediause/">DCH-10 - Media Use</a></li>
+<li><a href="dch-101-limitationsonuse/">DCH-10.1 - Limitations on Use</a></li>
+<li><a href="dch-12-removablemediasecurity/">DCH-12 - Removable Media Security</a></li>
+<li><a href="dch-13-useofexternalinformationsystems/">DCH-13 - Use of External Information Systems</a></li>
+<li><a href="dch-132-portablestoragedevices/">DCH-13.2 - Portable Storage Devices</a></li>
+<li><a href="dch-14-informationsharing/">DCH-14 - Information Sharing</a></li>
+<li><a href="dch-17-ad-hoctransfers/">DCH-17 - Ad-Hoc Transfers</a></li>
+<li><a href="dch-18-media%26dataretention/">DCH-18 - Media &amp; Data Retention</a></li>
+<li><a href="dch-181-minimizepersonaldatapd/">DCH-18.1 - Minimize Personal Data (PD)</a></li>
+<li><a href="dch-182-limitpersonaldatapdelementsintesting%2Ctraining%26research/">DCH-18.2 - Limit Personal Data (PD) Elements In Testing, Training &amp; Research</a></li>
+<li><a href="dch-21-informationdisposal/">DCH-21 - Information Disposal</a></li>
+<li><a href="dch-22-dataqualityoperations/">DCH-22 - Data Quality Operations</a></li>
+<li><a href="dch-221-updating%26correctingpersonaldatapd/">DCH-22.1 - Updating &amp; Correcting Personal Data (PD)</a></li>
+<li><a href="dch-23-de-identificationanonymization/">DCH-23 - De-Identification (Anonymization)</a></li>
+<li><a href="dch-234-removal%2Cmasking%2Cencryption%2Chashingorreplacementofdirectidentifiers/">DCH-23.4 - Removal, Masking, Encryption, Hashing or Replacement of Direct Identifiers</a></li>
+<li><a href="dch-24-informationlocation/">DCH-24 - Information Location</a></li>
+<li><a href="dch-25-transferofsensitiveand/orregulateddata.md">DCH-25 - Transfer of Sensitive and/or Regulated Data</a></li>
+</ul>
+<h2 id="emb-embedded-technology">EMB - Embedded Technology</h2>
+<ul>
+<li><a href="emb-01-embeddedtechnologysecurityprogram/">EMB-01 - Embedded Technology Security Program</a></li>
+</ul>
+<h2 id="end-endpoint-security">END - Endpoint Security</h2>
+<ul>
+<li><a href="end-01-endpointsecurity/">END-01 - Endpoint Security</a></li>
+<li><a href="end-02-endpointprotectionmeasures/">END-02 - Endpoint Protection Measures</a></li>
+<li><a href="end-03-prohibitinstallationwithoutprivilegedstatus/">END-03 - Prohibit Installation Without Privileged Status</a></li>
+<li><a href="end-032-governingaccessrestrictionforchange/">END-03.2 - Governing Access Restriction for Change</a></li>
+<li><a href="end-04-maliciouscodeprotectionanti-malware/">END-04 - Malicious Code Protection (Anti-Malware)</a></li>
+<li><a href="end-041-automaticantimalwaresignatureupdates/">END-04.1 - Automatic Antimalware Signature Updates</a></li>
+<li><a href="end-06-endpointfileintegritymonitoringfim/">END-06 - Endpoint File Integrity Monitoring (FIM)</a></li>
+<li><a href="end-061-integritychecks/">END-06.1 - Integrity Checks</a></li>
+<li><a href="end-062-integrationofdetection%26response/">END-06.2 - Integration of Detection &amp; Response</a></li>
+<li><a href="end-07-hostintrusiondetectionandpreventionsystemshids/hips.md">END-07 - Host Intrusion Detection and Prevention Systems (HIDS / HIPS)</a></li>
+<li><a href="end-131-authorizeduse/">END-13.1 - Authorized Use</a></li>
+<li><a href="end-132-noticeofcollection/">END-13.2 - Notice of Collection</a></li>
+<li><a href="end-133-collectionminimization/">END-13.3 - Collection Minimization</a></li>
+</ul>
+<h2 id="gov-cybersecurity-data-privacy-governance">GOV - Cybersecurity &amp; Data Privacy Governance</h2>
+<ul>
+<li><a href="gov-01-cybersecurity%26dataprotectiongovernanceprogram/">GOV-01 - Cybersecurity &amp; Data Protection Governance Program</a></li>
+<li><a href="gov-011-steeringcommittee%26programoversight/">GOV-01.1 - Steering Committee &amp; Program Oversight</a></li>
+<li><a href="gov-012-statusreportingtogoverningbody/">GOV-01.2 - Status Reporting To Governing Body</a></li>
+<li><a href="gov-02-publishingcybersecurity%26dataprotectiondocumentation/">GOV-02 - Publishing Cybersecurity &amp; Data Protection Documentation</a></li>
+<li><a href="gov-03-periodicreview%26updateofcybersecurity%26dataprotectionprogram/">GOV-03 - Periodic Review &amp; Update of Cybersecurity &amp; Data Protection Program</a></li>
+<li><a href="gov-04-assignedcybersecurity%26dataprotectionresponsibilities/">GOV-04 - Assigned Cybersecurity &amp; Data Protection Responsibilities</a></li>
+<li><a href="gov-05-measuresofperformance/">GOV-05 - Measures of Performance</a></li>
+<li><a href="gov-051-keyperformanceindicatorskpis/">GOV-05.1 - Key Performance Indicators (KPIs)</a></li>
+<li><a href="gov-052-keyriskindicatorskris/">GOV-05.2 - Key Risk Indicators (KRIs)</a></li>
+<li><a href="gov-06-contactswithauthorities/">GOV-06 - Contacts With Authorities</a></li>
+<li><a href="gov-07-contactswithgroups%26associations/">GOV-07 - Contacts With Groups &amp; Associations</a></li>
+<li><a href="gov-09-definecontrolobjectives/">GOV-09 - Define Control Objectives</a></li>
+<li><a href="gov-15-operationalizingcybersecurity%26dataprotectionpractices/">GOV-15 - Operationalizing Cybersecurity &amp; Data Protection Practices</a></li>
+<li><a href="gov-151-selectcontrols/">GOV-15.1 - Select Controls</a></li>
+<li><a href="gov-152-implementcontrols/">GOV-15.2 - Implement Controls</a></li>
+</ul>
+<h2 id="hrs-human-resources-security">HRS - Human Resources Security</h2>
+<ul>
+<li><a href="hrs-01-humanresourcessecuritymanagement/">HRS-01 - Human Resources Security Management</a></li>
+<li><a href="hrs-02-positioncategorization/">HRS-02 - Position Categorization</a></li>
+<li><a href="hrs-021-userswithelevatedprivileges/">HRS-02.1 - Users With Elevated Privileges</a></li>
+<li><a href="hrs-03-roles%26responsibilities/">HRS-03 - Roles &amp; Responsibilities</a></li>
+<li><a href="hrs-031-userawareness/">HRS-03.1 - User Awareness</a></li>
+<li><a href="hrs-032-competencyrequirementsforsecurity-relatedpositions/">HRS-03.2 - Competency Requirements for Security-Related Positions</a></li>
+<li><a href="hrs-04-personnelscreening/">HRS-04 - Personnel Screening</a></li>
+<li><a href="hrs-041-roleswithspecialprotectionmeasures/">HRS-04.1 - Roles With Special Protection Measures</a></li>
+<li><a href="hrs-042-formalindoctrination/">HRS-04.2 - Formal Indoctrination</a></li>
+<li><a href="hrs-05-termsofemployment/">HRS-05 - Terms of Employment</a></li>
+<li><a href="hrs-051-rulesofbehavior/">HRS-05.1 - Rules of Behavior</a></li>
+<li><a href="hrs-052-socialmedia%26socialnetworkingrestrictions/">HRS-05.2 - Social Media &amp; Social Networking Restrictions</a></li>
+<li><a href="hrs-053-useofcommunicationstechnology/">HRS-05.3 - Use of Communications Technology</a></li>
+<li><a href="hrs-054-useofcriticaltechnologies/">HRS-05.4 - Use of Critical Technologies</a></li>
+<li><a href="hrs-055-useofmobiledevices/">HRS-05.5 - Use of Mobile Devices</a></li>
+<li><a href="hrs-057-policyfamiliarization%26acknowledgement/">HRS-05.7 - Policy Familiarization &amp; Acknowledgement</a></li>
+<li><a href="hrs-06-accessagreements/">HRS-06 - Access Agreements</a></li>
+<li><a href="hrs-061-confidentialityagreements/">HRS-06.1 - Confidentiality Agreements</a></li>
+<li><a href="hrs-07-personnelsanctions/">HRS-07 - Personnel Sanctions</a></li>
+<li><a href="hrs-071-workplaceinvestigations/">HRS-07.1 - Workplace Investigations</a></li>
+<li><a href="hrs-08-personneltransfer/">HRS-08 - Personnel Transfer</a></li>
+<li><a href="hrs-09-personneltermination/">HRS-09 - Personnel Termination</a></li>
+<li><a href="hrs-091-assetcollection/">HRS-09.1 - Asset Collection</a></li>
+<li><a href="hrs-092-high-riskterminations/">HRS-09.2 - High-Risk Terminations</a></li>
+<li><a href="hrs-093-post-employmentrequirements/">HRS-09.3 - Post-Employment Requirements</a></li>
+<li><a href="hrs-10-third-partypersonnelsecurity/">HRS-10 - Third-Party Personnel Security</a></li>
+<li><a href="hrs-11-separationofdutiessod/">HRS-11 - Separation of Duties (SoD)</a></li>
+<li><a href="hrs-12-incompatibleroles/">HRS-12 - Incompatible Roles</a></li>
+</ul>
+<h2 id="iac-identification-authentication">IAC - Identification &amp; Authentication</h2>
+<ul>
+<li><a href="iac-01-identity%26accessmanagementiam/">IAC-01 - Identity &amp; Access Management (IAM)</a></li>
+<li><a href="iac-02-identification%26authenticationfororganizationalusers/">IAC-02 - Identification &amp; Authentication for Organizational Users</a></li>
+<li><a href="iac-03-identification%26authenticationfornon-organizationalusers/">IAC-03 - Identification &amp; Authentication for Non-Organizational Users</a></li>
+<li><a href="iac-04-identification%26authenticationfordevices/">IAC-04 - Identification &amp; Authentication for Devices</a></li>
+<li><a href="iac-05-identification%26authenticationforthirdpartysystems%26services/">IAC-05 - Identification &amp; Authentication for Third Party Systems &amp; Services</a></li>
+<li><a href="iac-07-userprovisioning%26de-provisioning/">IAC-07 - User Provisioning &amp; De-Provisioning</a></li>
+<li><a href="iac-071-changeofroles%26duties/">IAC-07.1 - Change of Roles &amp; Duties</a></li>
+<li><a href="iac-072-terminationofemployment/">IAC-07.2 - Termination of Employment</a></li>
+<li><a href="iac-08-role-basedaccesscontrolrbac/">IAC-08 - Role-Based Access Control (RBAC)</a></li>
+<li><a href="iac-09-identifiermanagementusernames/">IAC-09 - Identifier Management (User Names)</a></li>
+<li><a href="iac-091-useridentityidmanagement/">IAC-09.1 - User Identity (ID) Management</a></li>
+<li><a href="iac-094-cross-organizationmanagement/">IAC-09.4 - Cross-Organization Management</a></li>
+<li><a href="iac-096-pairwisepseudonymousidentifiersppid/">IAC-09.6 - Pairwise Pseudonymous Identifiers (PPID)</a></li>
+<li><a href="iac-10-authenticatormanagement/">IAC-10 - Authenticator Management</a></li>
+<li><a href="iac-101-password-basedauthentication/">IAC-10.1 - Password-Based Authentication</a></li>
+<li><a href="iac-1011-passwordmanagers/">IAC-10.11 - Password Managers</a></li>
+<li><a href="iac-105-protectionofauthenticators/">IAC-10.5 - Protection of Authenticators</a></li>
+<li><a href="iac-108-vendor-supplieddefaults/">IAC-10.8 - Vendor-Supplied Defaults</a></li>
+<li><a href="iac-15-accountmanagement/">IAC-15 - Account Management</a></li>
+<li><a href="iac-151-automatedsystemaccountmanagementdirectoryservices/">IAC-15.1 - Automated System Account Management (Directory Services)</a></li>
+<li><a href="iac-152-removaloftemporary/emergencyaccounts.md">IAC-15.2 - Removal of Temporary / Emergency Accounts</a></li>
+<li><a href="iac-153-disableinactiveaccounts/">IAC-15.3 - Disable Inactive Accounts</a></li>
+<li><a href="iac-155-restrictionsonsharedgroups/accounts.md">IAC-15.5 - Restrictions on Shared Groups / Accounts</a></li>
+<li><a href="iac-16-privilegedaccountmanagementpam/">IAC-16 - Privileged Account Management (PAM)</a></li>
+<li><a href="iac-161-privilegedaccountinventories/">IAC-16.1 - Privileged Account Inventories</a></li>
+<li><a href="iac-17-periodicreviewofaccountprivileges/">IAC-17 - Periodic Review of Account Privileges</a></li>
+<li><a href="iac-18-userresponsibilitiesforaccountmanagement/">IAC-18 - User Responsibilities for Account Management</a></li>
+<li><a href="iac-19-credentialsharing/">IAC-19 - Credential Sharing</a></li>
+<li><a href="iac-20-accessenforcement/">IAC-20 - Access Enforcement</a></li>
+<li><a href="iac-201-accesstosensitive/regulateddata.md">IAC-20.1 - Access To Sensitive / Regulated Data</a></li>
+<li><a href="iac-202-databaseaccess/">IAC-20.2 - Database Access</a></li>
+<li><a href="iac-203-useofprivilegedutilityprograms/">IAC-20.3 - Use of Privileged Utility Programs</a></li>
+<li><a href="iac-21-leastprivilege/">IAC-21 - Least Privilege</a></li>
+<li><a href="iac-213-privilegedaccounts/">IAC-21.3 - Privileged Accounts</a></li>
+<li><a href="iac-22-accountlockout/">IAC-22 - Account Lockout</a></li>
+</ul>
+<h2 id="iao-information-assurance">IAO - Information Assurance</h2>
+<ul>
+<li><a href="iao-01-informationassuranceiaoperations/">IAO-01 - Information Assurance (IA) Operations</a></li>
+<li><a href="iao-02-assessments/">IAO-02 - Assessments</a></li>
+<li><a href="iao-021-assessorindependence/">IAO-02.1 - Assessor Independence</a></li>
+<li><a href="iao-022-specializedassessments/">IAO-02.2 - Specialized Assessments</a></li>
+<li><a href="iao-031-plan/coordinatewithotherorganizationalentities.md">IAO-03.1 - Plan / Coordinate with Other Organizational Entities</a></li>
+<li><a href="iao-04-threatanalysis%26flawremediationduringdevelopment/">IAO-04 - Threat Analysis &amp; Flaw Remediation During Development</a></li>
+<li><a href="iao-05-planofaction%26milestonespoa%26m/">IAO-05 - Plan of Action &amp; Milestones (POA&amp;M)</a></li>
+<li><a href="iao-06-technicalverification/">IAO-06 - Technical Verification</a></li>
+</ul>
+<h2 id="iro-incident-response">IRO - Incident Response</h2>
+<ul>
+<li><a href="iro-01-incidentresponseoperations/">IRO-01 - Incident Response Operations</a></li>
+<li><a href="iro-02-incidenthandling/">IRO-02 - Incident Handling</a></li>
+<li><a href="iro-04-incidentresponseplanirp/">IRO-04 - Incident Response Plan (IRP)</a></li>
+<li><a href="iro-041-databreach/">IRO-04.1 - Data Breach</a></li>
+<li><a href="iro-05-incidentresponsetraining/">IRO-05 - Incident Response Training</a></li>
+<li><a href="iro-06-incidentresponsetesting/">IRO-06 - Incident Response Testing</a></li>
+<li><a href="iro-061-coordinationwithrelatedplans/">IRO-06.1 - Coordination with Related Plans</a></li>
+<li><a href="iro-07-integratedsecurityincidentresponseteamisirt/">IRO-07 - Integrated Security Incident Response Team (ISIRT)</a></li>
+<li><a href="iro-08-chainofcustody%26forensics/">IRO-08 - Chain of Custody &amp; Forensics</a></li>
+<li><a href="iro-09-situationalawarenessforincidents/">IRO-09 - Situational Awareness For Incidents</a></li>
+<li><a href="iro-10-incidentstakeholderreporting/">IRO-10 - Incident Stakeholder Reporting</a></li>
+<li><a href="iro-102-cyberincidentreportingforsensitivedata/">IRO-10.2 - Cyber Incident Reporting for Sensitive Data</a></li>
+<li><a href="iro-103-vulnerabilitiesrelatedtoincidents/">IRO-10.3 - Vulnerabilities Related To Incidents</a></li>
+<li><a href="iro-104-supplychaincoordination/">IRO-10.4 - Supply Chain Coordination</a></li>
+<li><a href="iro-112-coordinationwithexternalproviders/">IRO-11.2 - Coordination With External Providers</a></li>
+<li><a href="iro-12-informationspillageresponse/">IRO-12 - Information Spillage Response</a></li>
+<li><a href="iro-13-rootcauseanalysisrca%26lessonslearned/">IRO-13 - Root Cause Analysis (RCA) &amp; Lessons Learned</a></li>
+<li><a href="iro-14-regulatory%26lawenforcementcontacts/">IRO-14 - Regulatory &amp; Law Enforcement Contacts</a></li>
+</ul>
+<h2 id="mdm-mobile-device-management">MDM - Mobile Device Management</h2>
+<ul>
+<li><a href="mdm-01-centralizedmanagementofmobiledevices/">MDM-01 - Centralized Management Of Mobile Devices</a></li>
+<li><a href="mdm-02-accesscontrolformobiledevices/">MDM-02 - Access Control For Mobile Devices</a></li>
+<li><a href="mdm-03-fulldevice%26container-basedencryption/">MDM-03 - Full Device &amp; Container-Based Encryption</a></li>
+<li><a href="mdm-05-remotepurging/">MDM-05 - Remote Purging</a></li>
+</ul>
+<h2 id="mnt-maintenance">MNT - Maintenance</h2>
+<ul>
+<li><a href="mnt-01-maintenanceoperations/">MNT-01 - Maintenance Operations</a></li>
+<li><a href="mnt-02-controlledmaintenance/">MNT-02 - Controlled Maintenance</a></li>
+<li><a href="mnt-03-timelymaintenance/">MNT-03 - Timely Maintenance</a></li>
+</ul>
+<h2 id="mon-continuous-monitoring">MON - Continuous Monitoring</h2>
+<ul>
+<li><a href="mon-01-continuousmonitoring/">MON-01 - Continuous Monitoring</a></li>
+<li><a href="mon-011-intrusiondetection%26preventionsystemsids%26ips/">MON-01.1 - Intrusion Detection &amp; Prevention Systems (IDS &amp; IPS)</a></li>
+<li><a href="mon-012-automatedtoolsforreal-timeanalysis/">MON-01.2 - Automated Tools for Real-Time Analysis</a></li>
+<li><a href="mon-013-inbound%26outboundcommunicationstraffic/">MON-01.3 - Inbound &amp; Outbound Communications Traffic</a></li>
+<li><a href="mon-014-systemgeneratedalerts/">MON-01.4 - System Generated Alerts</a></li>
+<li><a href="mon-015-wirelessintrusiondetectionsystemwids/">MON-01.5 - Wireless Intrusion Detection System (WIDS)</a></li>
+<li><a href="mon-016-host-baseddevices/">MON-01.6 - Host-Based Devices</a></li>
+<li><a href="mon-017-fileintegritymonitoringfim/">MON-01.7 - File Integrity Monitoring (FIM)</a></li>
+<li><a href="mon-018-reviews%26updates/">MON-01.8 - Reviews &amp; Updates</a></li>
+<li><a href="mon-02-centralizedcollectionofsecurityeventlogs/">MON-02 - Centralized Collection of Security Event Logs</a></li>
+<li><a href="mon-021-correlatemonitoringinformation/">MON-02.1 - Correlate Monitoring Information</a></li>
+<li><a href="mon-022-centralreview%26analysis/">MON-02.2 - Central Review &amp; Analysis</a></li>
+<li><a href="mon-03-contentofeventlogs/">MON-03 - Content of Event Logs</a></li>
+<li><a href="mon-033-privilegedfunctionslogging/">MON-03.3 - Privileged Functions Logging</a></li>
+<li><a href="mon-06-monitoringreporting/">MON-06 - Monitoring Reporting</a></li>
+<li><a href="mon-08-protectionofeventlogs/">MON-08 - Protection of Event Logs</a></li>
+<li><a href="mon-10-eventlogretention/">MON-10 - Event Log Retention</a></li>
+<li><a href="mon-11-monitoringforinformationdisclosure/">MON-11 - Monitoring For Information Disclosure</a></li>
+<li><a href="mon-113-monitoringforindicatorsofcompromiseioc/">MON-11.3 - Monitoring for Indicators of Compromise (IOC)</a></li>
+<li><a href="mon-16-anomalousbehavior/">MON-16 - Anomalous Behavior</a></li>
+</ul>
+<h2 id="net-network-security">NET - Network Security</h2>
+<ul>
+<li><a href="net-01-networksecuritycontrolsnsc/">NET-01 - Network Security Controls (NSC)</a></li>
+<li><a href="net-02-layerednetworkdefenses/">NET-02 - Layered Network Defenses</a></li>
+<li><a href="net-03-boundaryprotection/">NET-03 - Boundary Protection</a></li>
+<li><a href="net-031-limitnetworkconnections/">NET-03.1 - Limit Network Connections</a></li>
+<li><a href="net-04-dataflowenforcement%E2%80%93accesscontrollistsacls/">NET-04 - Data Flow Enforcement – Access Control Lists (ACLs)</a></li>
+<li><a href="net-041-denytrafficbydefault%26allowtrafficbyexception/">NET-04.1 - Deny Traffic by Default &amp; Allow Traffic by Exception</a></li>
+<li><a href="net-051-externalsystemconnections/">NET-05.1 - External System Connections</a></li>
+<li><a href="net-06-networksegmentation/">NET-06 - Network Segmentation</a></li>
+<li><a href="net-061-securitymanagementsubnets/">NET-06.1 - Security Management Subnets</a></li>
+<li><a href="net-08-networkintrusiondetection/preventionsystemsnids/nips.md">NET-08 - Network Intrusion Detection / Prevention Systems (NIDS / NIPS)</a></li>
+<li><a href="net-081-dmznetworks/">NET-08.1 - DMZ Networks</a></li>
+<li><a href="net-12-safeguardingdataoveropennetworks/">NET-12 - Safeguarding Data Over Open Networks</a></li>
+<li><a href="net-121-wirelesslinkprotection/">NET-12.1 - Wireless Link Protection</a></li>
+<li><a href="net-122-end-usermessagingtechnologies/">NET-12.2 - End-User Messaging Technologies</a></li>
+<li><a href="net-13-electronicmessaging/">NET-13 - Electronic Messaging</a></li>
+<li><a href="net-14-remoteaccess/">NET-14 - Remote Access</a></li>
+<li><a href="net-145-workfromanywherewfa-telecommutingsecurity/">NET-14.5 - Work From Anywhere (WFA) - Telecommuting Security</a></li>
+<li><a href="net-15-wirelessnetworking/">NET-15 - Wireless Networking</a></li>
+<li><a href="net-18-dns%26contentfiltering/">NET-18 - DNS &amp; Content Filtering</a></li>
+</ul>
+<h2 id="ops-security-operations">OPS - Security Operations</h2>
+<ul>
+<li><a href="ops-01-operationssecurity/">OPS-01 - Operations Security</a></li>
+<li><a href="ops-011-standardizedoperatingproceduressop/">OPS-01.1 - Standardized Operating Procedures (SOP)</a></li>
+<li><a href="ops-02-securityconceptofoperationsconops/">OPS-02 - Security Concept Of Operations (CONOPS)</a></li>
+<li><a href="ops-03-servicedeliverybusinessprocesssupport/">OPS-03 - Service Delivery (Business Process Support)</a></li>
+</ul>
+<h2 id="pes-physical-environmental-security">PES - Physical &amp; Environmental Security</h2>
+<ul>
+<li><a href="pes-01-physical%26environmentalprotections/">PES-01 - Physical &amp; Environmental Protections</a></li>
+<li><a href="pes-02-physicalaccessauthorizations/">PES-02 - Physical Access Authorizations</a></li>
+<li><a href="pes-021-role-basedphysicalaccess/">PES-02.1 - Role-Based Physical Access</a></li>
+<li><a href="pes-03-physicalaccesscontrol/">PES-03 - Physical Access Control</a></li>
+<li><a href="pes-031-controlledingress%26egresspoints/">PES-03.1 - Controlled Ingress &amp; Egress Points</a></li>
+<li><a href="pes-033-physicalaccesslogs/">PES-03.3 - Physical Access Logs</a></li>
+<li><a href="pes-04-physicalsecurityofoffices%2Crooms%26facilities/">PES-04 - Physical Security of Offices, Rooms &amp; Facilities</a></li>
+<li><a href="pes-041-workinginsecureareas/">PES-04.1 - Working in Secure Areas</a></li>
+<li><a href="pes-05-monitoringphysicalaccess/">PES-05 - Monitoring Physical Access</a></li>
+<li><a href="pes-051-intrusionalarms/surveillanceequipment.md">PES-05.1 - Intrusion Alarms / Surveillance Equipment</a></li>
+<li><a href="pes-052-monitoringphysicalaccesstoinformationsystems/">PES-05.2 - Monitoring Physical Access To Information Systems</a></li>
+<li><a href="pes-06-visitorcontrol/">PES-06 - Visitor Control</a></li>
+<li><a href="pes-07-supportingutilities/">PES-07 - Supporting Utilities</a></li>
+<li><a href="pes-071-automaticvoltagecontrols/">PES-07.1 - Automatic Voltage Controls</a></li>
+<li><a href="pes-072-emergencyshutoff/">PES-07.2 - Emergency Shutoff</a></li>
+<li><a href="pes-073-emergencypower/">PES-07.3 - Emergency Power</a></li>
+<li><a href="pes-074-emergencylighting/">PES-07.4 - Emergency Lighting</a></li>
+<li><a href="pes-075-waterdamageprotection/">PES-07.5 - Water Damage Protection</a></li>
+<li><a href="pes-08-fireprotection/">PES-08 - Fire Protection</a></li>
+<li><a href="pes-081-firedetectiondevices/">PES-08.1 - Fire Detection Devices</a></li>
+<li><a href="pes-082-firesuppressiondevices/">PES-08.2 - Fire Suppression Devices</a></li>
+<li><a href="pes-09-temperature%26humiditycontrols/">PES-09 - Temperature &amp; Humidity Controls</a></li>
+<li><a href="pes-091-monitoringwithalarms/notifications.md">PES-09.1 - Monitoring with Alarms / Notifications</a></li>
+<li><a href="pes-10-delivery%26removal/">PES-10 - Delivery &amp; Removal</a></li>
+<li><a href="pes-11-alternateworksite/">PES-11 - Alternate Work Site</a></li>
+<li><a href="pes-12-equipmentsiting%26protection/">PES-12 - Equipment Siting &amp; Protection</a></li>
+<li><a href="pes-121-transmissionmediumsecurity/">PES-12.1 - Transmission Medium Security</a></li>
+<li><a href="pes-122-accesscontrolforoutputdevices/">PES-12.2 - Access Control for Output Devices</a></li>
+<li><a href="pes-13-informationleakageduetoelectromagneticsignalsemanations/">PES-13 - Information Leakage Due To Electromagnetic Signals Emanations</a></li>
+<li><a href="pes-15-electromagneticpulseempprotection/">PES-15 - Electromagnetic Pulse (EMP) Protection</a></li>
+</ul>
+<h2 id="pri-data-privacy">PRI - Data Privacy</h2>
+<ul>
+<li><a href="pri-01-dataprivacyprogram/">PRI-01 - Data Privacy Program</a></li>
+<li><a href="pri-011-chiefprivacyofficercpo/">PRI-01.1 - Chief Privacy Officer (CPO)</a></li>
+<li><a href="pri-012-privacyactstatements/">PRI-01.2 - Privacy Act Statements</a></li>
+<li><a href="pri-013-disseminationofdataprivacyprograminformation/">PRI-01.3 - Dissemination of Data Privacy Program Information</a></li>
+<li><a href="pri-014-dataprotectionofficerdpo/">PRI-01.4 - Data Protection Officer (DPO)</a></li>
+<li><a href="pri-016-securityofpersonaldata/">PRI-01.6 - Security of Personal Data</a></li>
+<li><a href="pri-02-dataprivacynotice/">PRI-02 - Data Privacy Notice</a></li>
+<li><a href="pri-021-purposespecification/">PRI-02.1 - Purpose Specification</a></li>
+<li><a href="pri-022-automateddatamanagementprocesses/">PRI-02.2 - Automated Data Management Processes</a></li>
+<li><a href="pri-03-choice%26consent/">PRI-03 - Choice &amp; Consent</a></li>
+<li><a href="pri-031-tailoredconsent/">PRI-03.1 - Tailored Consent</a></li>
+<li><a href="pri-032-just-in-timenotice%26updatedconsent/">PRI-03.2 - Just-In-Time Notice &amp; Updated Consent</a></li>
+<li><a href="pri-04-restrictcollectiontoidentifiedpurpose/">PRI-04 - Restrict Collection To Identified Purpose</a></li>
+<li><a href="pri-041-authoritytocollect%2Cuse%2Cmaintain%26sharepersonaldata/">PRI-04.1 - Authority To Collect, Use, Maintain &amp; Share Personal Data</a></li>
+<li><a href="pri-05-personaldataretention%26disposal/">PRI-05 - Personal Data Retention &amp; Disposal</a></li>
+<li><a href="pri-051-internaluseofpersonaldatafortesting%2Ctrainingandresearch/">PRI-05.1 - Internal Use of Personal Data For Testing, Training and Research</a></li>
+<li><a href="pri-052-personaldataaccuracy%26integrity/">PRI-05.2 - Personal Data Accuracy &amp; Integrity</a></li>
+<li><a href="pri-053-datamasking/">PRI-05.3 - Data Masking</a></li>
+<li><a href="pri-054-usagerestrictionsofsensitivepersonaldata/">PRI-05.4 - Usage Restrictions of Sensitive Personal Data</a></li>
+<li><a href="pri-06-datasubjectaccess/">PRI-06 - Data Subject Access</a></li>
+<li><a href="pri-061-correctinginaccuratepersonaldata/">PRI-06.1 - Correcting Inaccurate Personal Data</a></li>
+<li><a href="pri-062-noticeofcorrectionorprocessingchange/">PRI-06.2 - Notice of Correction or Processing Change</a></li>
+<li><a href="pri-063-appealadversedecision/">PRI-06.3 - Appeal Adverse Decision</a></li>
+<li><a href="pri-064-userfeedbackmanagement/">PRI-06.4 - User Feedback Management</a></li>
+<li><a href="pri-065-righttoerasure/">PRI-06.5 - Right to Erasure</a></li>
+<li><a href="pri-066-dataportability/">PRI-06.6 - Data Portability</a></li>
+<li><a href="pri-07-informationsharingwiththirdparties/">PRI-07 - Information Sharing With Third Parties</a></li>
+<li><a href="pri-071-dataprivacyrequirementsforcontractors%26serviceproviders/">PRI-07.1 - Data Privacy Requirements for Contractors &amp; Service Providers</a></li>
+<li><a href="pri-08-testing%2Ctraining%26monitoring/">PRI-08 - Testing, Training &amp; Monitoring</a></li>
+<li><a href="pri-09-personaldatalineage/">PRI-09 - Personal Data Lineage</a></li>
+<li><a href="pri-10-dataqualitymanagement/">PRI-10 - Data Quality Management</a></li>
+<li><a href="pri-101-automation/">PRI-10.1 - Automation</a></li>
+<li><a href="pri-12-updatingpersonaldatapd/">PRI-12 - Updating Personal Data (PD)</a></li>
+<li><a href="pri-13-datamanagementboard/">PRI-13 - Data Management Board</a></li>
+<li><a href="pri-14-dataprivacyrecords%26reporting/">PRI-14 - Data Privacy Records &amp; Reporting</a></li>
+<li><a href="pri-141-accountingofdisclosures/">PRI-14.1 - Accounting of Disclosures</a></li>
+<li><a href="pri-15-registerasadatacontrollerand/ordataprocessor.md">PRI-15 - Register As A Data Controller and/or Data Processor</a></li>
+</ul>
+<h2 id="prm-project-resource-management">PRM - Project &amp; Resource Management</h2>
+<ul>
+<li><a href="prm-01-cybersecurity%26dataprivacyportfoliomanagement/">PRM-01 - Cybersecurity &amp; Data Privacy Portfolio Management</a></li>
+<li><a href="prm-02-cybersecurity%26dataprivacyresourcemanagement/">PRM-02 - Cybersecurity &amp; Data Privacy Resource Management</a></li>
+<li><a href="prm-03-allocationofresources/">PRM-03 - Allocation of Resources</a></li>
+<li><a href="prm-04-cybersecurity%26dataprivacyinprojectmanagement/">PRM-04 - Cybersecurity &amp; Data Privacy In Project Management</a></li>
+<li><a href="prm-05-cybersecurity%26dataprivacyrequirementsdefinition/">PRM-05 - Cybersecurity &amp; Data Privacy Requirements Definition</a></li>
+<li><a href="prm-06-businessprocessdefinition/">PRM-06 - Business Process Definition</a></li>
+<li><a href="prm-07-securedevelopmentlifecyclesdlcmanagement/">PRM-07 - Secure Development Life Cycle (SDLC) Management</a></li>
+</ul>
+<h2 id="rsk-risk-management">RSK - Risk Management</h2>
+<ul>
+<li><a href="rsk-01-riskmanagementprogram/">RSK-01 - Risk Management Program</a></li>
+<li><a href="rsk-011-riskframing/">RSK-01.1 - Risk Framing</a></li>
+<li><a href="rsk-02-risk-basedsecuritycategorization/">RSK-02 - Risk-Based Security Categorization</a></li>
+<li><a href="rsk-03-riskidentification/">RSK-03 - Risk Identification</a></li>
+<li><a href="rsk-04-riskassessment/">RSK-04 - Risk Assessment</a></li>
+<li><a href="rsk-041-riskregister/">RSK-04.1 - Risk Register</a></li>
+<li><a href="rsk-05-riskranking/">RSK-05 - Risk Ranking</a></li>
+<li><a href="rsk-06-riskremediation/">RSK-06 - Risk Remediation</a></li>
+<li><a href="rsk-061-riskresponse/">RSK-06.1 - Risk Response</a></li>
+<li><a href="rsk-07-riskassessmentupdate/">RSK-07 - Risk Assessment Update</a></li>
+<li><a href="rsk-08-businessimpactanalysisbia/">RSK-08 - Business Impact Analysis (BIA)</a></li>
+<li><a href="rsk-09-supplychainriskmanagementscrmplan/">RSK-09 - Supply Chain Risk Management (SCRM) Plan</a></li>
+<li><a href="rsk-091-supplychainriskassessment/">RSK-09.1 - Supply Chain Risk Assessment</a></li>
+<li><a href="rsk-10-dataprotectionimpactassessmentdpia/">RSK-10 - Data Protection Impact Assessment (DPIA)</a></li>
+</ul>
+<h2 id="sat-security-awareness-training">SAT - Security Awareness &amp; Training</h2>
+<ul>
+<li><a href="sat-01-cybersecurity%26dataprivacy-mindedworkforce/">SAT-01 - Cybersecurity &amp; Data Privacy-Minded Workforce</a></li>
+<li><a href="sat-02-cybersecurity%26dataprivacyawarenesstraining/">SAT-02 - Cybersecurity &amp; Data Privacy Awareness Training</a></li>
+<li><a href="sat-03-role-basedcybersecurity%26dataprivacytraining/">SAT-03 - Role-Based Cybersecurity &amp; Data Privacy Training</a></li>
+</ul>
+<h2 id="sea-secure-engineering-architecture">SEA - Secure Engineering &amp; Architecture</h2>
+<ul>
+<li><a href="sea-01-secureengineeringprinciples/">SEA-01 - Secure Engineering Principles</a></li>
+<li><a href="sea-011-centralizedmanagementofcybersecurity%26dataprivacycontrols/">SEA-01.1 - Centralized Management of Cybersecurity &amp; Data Privacy Controls</a></li>
+<li><a href="sea-02-alignmentwithenterprisearchitecture/">SEA-02 - Alignment With Enterprise Architecture</a></li>
+<li><a href="sea-021-standardizedterminology/">SEA-02.1 - Standardized Terminology</a></li>
+<li><a href="sea-15-distributedprocessing%26storage/">SEA-15 - Distributed Processing &amp; Storage</a></li>
+<li><a href="sea-17-securelog-onprocedures/">SEA-17 - Secure Log-On Procedures</a></li>
+<li><a href="sea-20-clocksynchronization/">SEA-20 - Clock Synchronization</a></li>
+</ul>
+<h2 id="tda-technology-development-acquisition">TDA - Technology Development &amp; Acquisition</h2>
+<ul>
+<li><a href="tda-01-technologydevelopment%26acquisition/">TDA-01 - Technology Development &amp; Acquisition</a></li>
+<li><a href="tda-02-minimumviableproductmvpsecurityrequirements/">TDA-02 - Minimum Viable Product (MVP) Security Requirements</a></li>
+<li><a href="tda-023-developmentmethods%2Ctechniques%26processes/">TDA-02.3 - Development Methods, Techniques &amp; Processes</a></li>
+<li><a href="tda-05-developerarchitecture%26design/">TDA-05 - Developer Architecture &amp; Design</a></li>
+<li><a href="tda-06-securecoding/">TDA-06 - Secure Coding</a></li>
+<li><a href="tda-061-criticalityanalysis/">TDA-06.1 - Criticality Analysis</a></li>
+<li><a href="tda-07-securedevelopmentenvironments/">TDA-07 - Secure Development Environments</a></li>
+<li><a href="tda-08-separationofdevelopment%2Ctestingandoperationalenvironments/">TDA-08 - Separation of Development, Testing and Operational Environments</a></li>
+<li><a href="tda-09-cybersecurity%26dataprivacytestingthroughoutdevelopment/">TDA-09 - Cybersecurity &amp; Data Privacy Testing Throughout Development</a></li>
+<li><a href="tda-10-useoflivedata/">TDA-10 - Use of Live Data</a></li>
+<li><a href="tda-112-componentdisposal/">TDA-11.2 - Component Disposal</a></li>
+<li><a href="tda-14-developerconfigurationmanagement/">TDA-14 - Developer Configuration Management</a></li>
+<li><a href="tda-15-developerthreatanalysis%26flawremediation/">TDA-15 - Developer Threat Analysis &amp; Flaw Remediation</a></li>
+<li><a href="tda-18-inputdatavalidation/">TDA-18 - Input Data Validation</a></li>
+<li><a href="tda-20-accesstoprogramsourcecode/">TDA-20 - Access to Program Source Code</a></li>
+</ul>
+<h2 id="thr-threat-management">THR - Threat Management</h2>
+<ul>
+<li><a href="thr-01-threatintelligenceprogram/">THR-01 - Threat Intelligence Program</a></li>
+<li><a href="thr-02-indicatorsofexposureioe/">THR-02 - Indicators of Exposure (IOE)</a></li>
+<li><a href="thr-03-threatintelligencefeeds/">THR-03 - Threat Intelligence Feeds</a></li>
+<li><a href="thr-04-insiderthreatprogram/">THR-04 - Insider Threat Program</a></li>
+</ul>
+<h2 id="tpm-third-party-management">TPM - Third-Party Management</h2>
+<ul>
+<li><a href="tpm-01-third-partymanagement/">TPM-01 - Third-Party Management</a></li>
+<li><a href="tpm-011-third-partyinventories/">TPM-01.1 - Third-Party Inventories</a></li>
+<li><a href="tpm-02-third-partycriticalityassessments/">TPM-02 - Third-Party Criticality Assessments</a></li>
+<li><a href="tpm-03-supplychainprotection/">TPM-03 - Supply Chain Protection</a></li>
+<li><a href="tpm-031-acquisitionstrategies%2Ctools%26methods/">TPM-03.1 - Acquisition Strategies, Tools &amp; Methods</a></li>
+<li><a href="tpm-032-limitpotentialharm/">TPM-03.2 - Limit Potential Harm</a></li>
+<li><a href="tpm-033-processestoaddressweaknessesordeficiencies/">TPM-03.3 - Processes To Address Weaknesses or Deficiencies</a></li>
+<li><a href="tpm-04-third-partyservices/">TPM-04 - Third-Party Services</a></li>
+<li><a href="tpm-041-third-partyriskassessments%26approvals/">TPM-04.1 - Third-Party Risk Assessments &amp; Approvals</a></li>
+<li><a href="tpm-043-conflictofinterests/">TPM-04.3 - Conflict of Interests</a></li>
+<li><a href="tpm-044-third-partyprocessing%2Cstorageandservicelocations/">TPM-04.4 - Third-Party Processing, Storage and Service Locations</a></li>
+<li><a href="tpm-05-third-partycontractrequirements/">TPM-05 - Third-Party Contract Requirements</a></li>
+<li><a href="tpm-051-securitycompromisenotificationagreements/">TPM-05.1 - Security Compromise Notification Agreements</a></li>
+<li><a href="tpm-054-responsible%2Caccountable%2Csupportive%2Cconsulted%26informedrascimatrix/">TPM-05.4 - Responsible, Accountable, Supportive, Consulted &amp; Informed (RASCI) Matrix</a></li>
+<li><a href="tpm-06-third-partypersonnelsecurity/">TPM-06 - Third-Party Personnel Security</a></li>
+<li><a href="tpm-07-monitoringforthird-partyinformationdisclosure/">TPM-07 - Monitoring for Third-Party Information Disclosure</a></li>
+<li><a href="tpm-08-reviewofthird-partyservices/">TPM-08 - Review of Third-Party Services</a></li>
+<li><a href="tpm-09-third-partydeficiencyremediation/">TPM-09 - Third-Party Deficiency Remediation</a></li>
+<li><a href="tpm-10-managingchangestothird-partyservices/">TPM-10 - Managing Changes To Third-Party Services</a></li>
+<li><a href="tpm-11-third-partyincidentresponse%26recoverycapabilities/">TPM-11 - Third-Party Incident Response &amp; Recovery Capabilities</a></li>
+</ul>
+<h2 id="vpm-vulnerability-patch-management">VPM - Vulnerability &amp; Patch Management</h2>
+<ul>
+<li><a href="vpm-01-vulnerability%26patchmanagementprogramvpmp/">VPM-01 - Vulnerability &amp; Patch Management Program (VPMP)</a></li>
+<li><a href="vpm-011-attacksurfacescope/">VPM-01.1 - Attack Surface Scope</a></li>
+<li><a href="vpm-02-vulnerabilityremediationprocess/">VPM-02 - Vulnerability Remediation Process</a></li>
+<li><a href="vpm-03-vulnerabilityranking/">VPM-03 - Vulnerability Ranking</a></li>
+<li><a href="vpm-04-continuousvulnerabilityremediationactivities/">VPM-04 - Continuous Vulnerability Remediation Activities</a></li>
+<li><a href="vpm-042-flawremediationwithpersonaldatapd/">VPM-04.2 - Flaw Remediation with Personal Data (PD)</a></li>
+<li><a href="vpm-05-software%26firmwarepatching/">VPM-05 - Software &amp; Firmware Patching</a></li>
+<li><a href="vpm-06-vulnerabilityscanning/">VPM-06 - Vulnerability Scanning</a></li>
+</ul>
+<h2 id="web-web-security">WEB - Web Security</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
